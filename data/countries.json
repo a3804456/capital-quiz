@@ -1,0 +1,1531 @@
+{
+  "countries": [
+    {
+      "code": "TW",
+      "name": "台灣",
+      "capital": "台北",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "158"
+    },
+    {
+      "code": "CN",
+      "name": "中國",
+      "capital": "北京",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "156"
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "capital": "東京",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "392"
+    },
+    {
+      "code": "KR",
+      "name": "南韓",
+      "capital": "首爾",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "410"
+    },
+    {
+      "code": "KP",
+      "name": "北韓",
+      "capital": "平壤",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "408"
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "capital": "新德里",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "356"
+    },
+    {
+      "code": "TH",
+      "name": "泰國",
+      "capital": "曼谷",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "764"
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "capital": "河內",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "704"
+    },
+    {
+      "code": "PH",
+      "name": "菲律賓",
+      "capital": "馬尼拉",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "608"
+    },
+    {
+      "code": "MY",
+      "name": "馬來西亞",
+      "capital": "吉隆坡",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "458"
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "capital": "新加坡",
+      "continent": "asia",
+      "difficulty": "easy",
+      "numeric": "702"
+    },
+    {
+      "code": "ID",
+      "name": "印尼",
+      "capital": "雅加達",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "360"
+    },
+    {
+      "code": "MM",
+      "name": "緬甸",
+      "capital": "奈比多",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "104"
+    },
+    {
+      "code": "KH",
+      "name": "柬埔寨",
+      "capital": "金邊",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "116"
+    },
+    {
+      "code": "LA",
+      "name": "寮國",
+      "capital": "永珍",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "418"
+    },
+    {
+      "code": "BD",
+      "name": "孟加拉",
+      "capital": "達卡",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "050"
+    },
+    {
+      "code": "PK",
+      "name": "巴基斯坦",
+      "capital": "伊斯蘭馬巴德",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "586"
+    },
+    {
+      "code": "AF",
+      "name": "阿富汗",
+      "capital": "喀布爾",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "004"
+    },
+    {
+      "code": "NP",
+      "name": "尼泊爾",
+      "capital": "加德滿都",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "524"
+    },
+    {
+      "code": "BT",
+      "name": "不丹",
+      "capital": "辛布",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "064"
+    },
+    {
+      "code": "LK",
+      "name": "斯里蘭卡",
+      "capital": "斯里賈亞瓦德納普拉科特",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "144"
+    },
+    {
+      "code": "MV",
+      "name": "馬爾地夫",
+      "capital": "馬列",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "462"
+    },
+    {
+      "code": "MN",
+      "name": "蒙古",
+      "capital": "烏蘭巴托",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "496"
+    },
+    {
+      "code": "KZ",
+      "name": "哈薩克",
+      "capital": "阿斯塔納",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "398"
+    },
+    {
+      "code": "UZ",
+      "name": "烏茲別克",
+      "capital": "塔什干",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "860"
+    },
+    {
+      "code": "TM",
+      "name": "土庫曼",
+      "capital": "阿什哈巴德",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "795"
+    },
+    {
+      "code": "TJ",
+      "name": "塔吉克",
+      "capital": "杜尚別",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "762"
+    },
+    {
+      "code": "KG",
+      "name": "吉爾吉斯",
+      "capital": "比斯凱克",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "417"
+    },
+    {
+      "code": "TL",
+      "name": "東帝汶",
+      "capital": "帝力",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "626"
+    },
+    {
+      "code": "BN",
+      "name": "汶萊",
+      "capital": "斯里巴加灣市",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "096"
+    },
+    {
+      "code": "SA",
+      "name": "沙烏地阿拉伯",
+      "capital": "利雅德",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "682"
+    },
+    {
+      "code": "AE",
+      "name": "阿聯",
+      "capital": "阿布達比",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "784"
+    },
+    {
+      "code": "IL",
+      "name": "以色列",
+      "capital": "耶路撒冷",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "376"
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "capital": "安卡拉",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "792"
+    },
+    {
+      "code": "IR",
+      "name": "伊朗",
+      "capital": "德黑蘭",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "364"
+    },
+    {
+      "code": "IQ",
+      "name": "伊拉克",
+      "capital": "巴格達",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "368"
+    },
+    {
+      "code": "SY",
+      "name": "敘利亞",
+      "capital": "大馬士革",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "760"
+    },
+    {
+      "code": "JO",
+      "name": "約旦",
+      "capital": "安曼",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "400"
+    },
+    {
+      "code": "LB",
+      "name": "黎巴嫩",
+      "capital": "貝魯特",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "422"
+    },
+    {
+      "code": "YE",
+      "name": "葉門",
+      "capital": "沙那",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "887"
+    },
+    {
+      "code": "OM",
+      "name": "阿曼",
+      "capital": "馬斯喀特",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "512"
+    },
+    {
+      "code": "QA",
+      "name": "卡達",
+      "capital": "杜哈",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "634"
+    },
+    {
+      "code": "KW",
+      "name": "科威特",
+      "capital": "科威特市",
+      "continent": "asia",
+      "difficulty": "medium",
+      "numeric": "414"
+    },
+    {
+      "code": "BH",
+      "name": "巴林",
+      "capital": "麥納瑪",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "048"
+    },
+    {
+      "code": "GE",
+      "name": "喬治亞",
+      "capital": "提比里斯",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "268"
+    },
+    {
+      "code": "AM",
+      "name": "亞美尼亞",
+      "capital": "葉里溫",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "051"
+    },
+    {
+      "code": "AZ",
+      "name": "亞塞拜然",
+      "capital": "巴庫",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "031"
+    },
+    {
+      "code": "PS",
+      "name": "巴勒斯坦",
+      "capital": "拉姆安拉",
+      "continent": "asia",
+      "difficulty": "hard",
+      "numeric": "275"
+    },
+    {
+      "code": "FR",
+      "name": "法國",
+      "capital": "巴黎",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "250"
+    },
+    {
+      "code": "DE",
+      "name": "德國",
+      "capital": "柏林",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "276"
+    },
+    {
+      "code": "GB",
+      "name": "英國",
+      "capital": "倫敦",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "826"
+    },
+    {
+      "code": "IT",
+      "name": "義大利",
+      "capital": "羅馬",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "380"
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "capital": "馬德里",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "724"
+    },
+    {
+      "code": "PT",
+      "name": "葡萄牙",
+      "capital": "里斯本",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "620"
+    },
+    {
+      "code": "NL",
+      "name": "荷蘭",
+      "capital": "阿姆斯特丹",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "528"
+    },
+    {
+      "code": "BE",
+      "name": "比利時",
+      "capital": "布魯塞爾",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "056"
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "capital": "伯恩",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "756"
+    },
+    {
+      "code": "AT",
+      "name": "奧地利",
+      "capital": "維也納",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "040"
+    },
+    {
+      "code": "SE",
+      "name": "瑞典",
+      "capital": "斯德哥爾摩",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "752"
+    },
+    {
+      "code": "NO",
+      "name": "挪威",
+      "capital": "奧斯陸",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "578"
+    },
+    {
+      "code": "DK",
+      "name": "丹麥",
+      "capital": "哥本哈根",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "208"
+    },
+    {
+      "code": "FI",
+      "name": "芬蘭",
+      "capital": "赫爾辛基",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "246"
+    },
+    {
+      "code": "IE",
+      "name": "愛爾蘭",
+      "capital": "都柏林",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "372"
+    },
+    {
+      "code": "PL",
+      "name": "波蘭",
+      "capital": "華沙",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "616"
+    },
+    {
+      "code": "CZ",
+      "name": "捷克",
+      "capital": "布拉格",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "203"
+    },
+    {
+      "code": "SK",
+      "name": "斯洛伐克",
+      "capital": "布拉提斯拉瓦",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "703"
+    },
+    {
+      "code": "HU",
+      "name": "匈牙利",
+      "capital": "布達佩斯",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "348"
+    },
+    {
+      "code": "RO",
+      "name": "羅馬尼亞",
+      "capital": "布加勒斯特",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "642"
+    },
+    {
+      "code": "BG",
+      "name": "保加利亞",
+      "capital": "索非亞",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "100"
+    },
+    {
+      "code": "GR",
+      "name": "希臘",
+      "capital": "雅典",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "300"
+    },
+    {
+      "code": "HR",
+      "name": "克羅埃西亞",
+      "capital": "札格瑞布",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "191"
+    },
+    {
+      "code": "SI",
+      "name": "斯洛維尼亞",
+      "capital": "盧比安納",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "705"
+    },
+    {
+      "code": "RS",
+      "name": "塞爾維亞",
+      "capital": "貝爾格勒",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "688"
+    },
+    {
+      "code": "BA",
+      "name": "波士尼亞",
+      "capital": "塞拉耶佛",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "070"
+    },
+    {
+      "code": "ME",
+      "name": "蒙特內哥羅",
+      "capital": "波德里查",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "499"
+    },
+    {
+      "code": "MK",
+      "name": "北馬其頓",
+      "capital": "史高比耶",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "807"
+    },
+    {
+      "code": "AL",
+      "name": "阿爾巴尼亞",
+      "capital": "地拉那",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "008"
+    },
+    {
+      "code": "XK",
+      "name": "科索沃",
+      "capital": "普里斯提納",
+      "continent": "europe",
+      "difficulty": "hard"
+    },
+    {
+      "code": "UA",
+      "name": "烏克蘭",
+      "capital": "基輔",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "804"
+    },
+    {
+      "code": "BY",
+      "name": "白俄羅斯",
+      "capital": "明斯克",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "112"
+    },
+    {
+      "code": "RU",
+      "name": "俄羅斯",
+      "capital": "莫斯科",
+      "continent": "europe",
+      "difficulty": "easy",
+      "numeric": "643"
+    },
+    {
+      "code": "MD",
+      "name": "摩爾多瓦",
+      "capital": "基希涅夫",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "498"
+    },
+    {
+      "code": "LT",
+      "name": "立陶宛",
+      "capital": "維爾紐斯",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "440"
+    },
+    {
+      "code": "LV",
+      "name": "拉脫維亞",
+      "capital": "里加",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "428"
+    },
+    {
+      "code": "EE",
+      "name": "愛沙尼亞",
+      "capital": "塔林",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "233"
+    },
+    {
+      "code": "IS",
+      "name": "冰島",
+      "capital": "雷克雅維克",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "352"
+    },
+    {
+      "code": "LU",
+      "name": "盧森堡",
+      "capital": "盧森堡市",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "442"
+    },
+    {
+      "code": "MT",
+      "name": "馬爾他",
+      "capital": "瓦萊塔",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "470"
+    },
+    {
+      "code": "CY",
+      "name": "賽普勒斯",
+      "capital": "尼柯西亞",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "196"
+    },
+    {
+      "code": "AD",
+      "name": "安道爾",
+      "capital": "老鷹城",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "020"
+    },
+    {
+      "code": "MC",
+      "name": "摩納哥",
+      "capital": "摩納哥市",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "492"
+    },
+    {
+      "code": "LI",
+      "name": "列支敦斯登",
+      "capital": "瓦都茲",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "438"
+    },
+    {
+      "code": "SM",
+      "name": "聖馬利諾",
+      "capital": "聖馬利諾市",
+      "continent": "europe",
+      "difficulty": "hard",
+      "numeric": "674"
+    },
+    {
+      "code": "VA",
+      "name": "梵蒂岡",
+      "capital": "梵蒂岡城",
+      "continent": "europe",
+      "difficulty": "medium",
+      "numeric": "336"
+    },
+    {
+      "code": "US",
+      "name": "美國",
+      "capital": "華盛頓特區",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "840"
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "capital": "渥太華",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "124"
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "capital": "墨西哥市",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "484"
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "capital": "巴西利亞",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "076"
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "capital": "布宜諾斯艾利斯",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "032"
+    },
+    {
+      "code": "CL",
+      "name": "智利",
+      "capital": "聖地牙哥",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "152"
+    },
+    {
+      "code": "CO",
+      "name": "哥倫比亞",
+      "capital": "波哥大",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "170"
+    },
+    {
+      "code": "PE",
+      "name": "秘魯",
+      "capital": "利馬",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "604"
+    },
+    {
+      "code": "VE",
+      "name": "委內瑞拉",
+      "capital": "卡拉卡斯",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "862"
+    },
+    {
+      "code": "EC",
+      "name": "厄瓜多",
+      "capital": "基多",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "218"
+    },
+    {
+      "code": "BO",
+      "name": "玻利維亞",
+      "capital": "蘇克雷",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "068"
+    },
+    {
+      "code": "PY",
+      "name": "巴拉圭",
+      "capital": "亞松森",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "600"
+    },
+    {
+      "code": "UY",
+      "name": "烏拉圭",
+      "capital": "蒙特維多",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "858"
+    },
+    {
+      "code": "GY",
+      "name": "蓋亞那",
+      "capital": "喬治城",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "328"
+    },
+    {
+      "code": "SR",
+      "name": "蘇利南",
+      "capital": "巴拉馬利波",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "740"
+    },
+    {
+      "code": "CU",
+      "name": "古巴",
+      "capital": "哈瓦那",
+      "continent": "americas",
+      "difficulty": "easy",
+      "numeric": "192"
+    },
+    {
+      "code": "JM",
+      "name": "牙買加",
+      "capital": "京斯敦",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "388"
+    },
+    {
+      "code": "HT",
+      "name": "海地",
+      "capital": "太子港",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "332"
+    },
+    {
+      "code": "DO",
+      "name": "多明尼加",
+      "capital": "聖多明哥",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "214"
+    },
+    {
+      "code": "PA",
+      "name": "巴拿馬",
+      "capital": "巴拿馬市",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "591"
+    },
+    {
+      "code": "CR",
+      "name": "哥斯大黎加",
+      "capital": "聖荷西",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "188"
+    },
+    {
+      "code": "NI",
+      "name": "尼加拉瓜",
+      "capital": "馬拿瓜",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "558"
+    },
+    {
+      "code": "HN",
+      "name": "宏都拉斯",
+      "capital": "德古斯加巴",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "340"
+    },
+    {
+      "code": "SV",
+      "name": "薩爾瓦多",
+      "capital": "聖薩爾瓦多",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "222"
+    },
+    {
+      "code": "GT",
+      "name": "瓜地馬拉",
+      "capital": "瓜地馬拉市",
+      "continent": "americas",
+      "difficulty": "medium",
+      "numeric": "320"
+    },
+    {
+      "code": "BZ",
+      "name": "貝里斯",
+      "capital": "貝爾墨潘",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "084"
+    },
+    {
+      "code": "BS",
+      "name": "巴哈馬",
+      "capital": "拿索",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "044"
+    },
+    {
+      "code": "TT",
+      "name": "千里達及托巴哥",
+      "capital": "西班牙港",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "780"
+    },
+    {
+      "code": "BB",
+      "name": "巴貝多",
+      "capital": "橋鎮",
+      "continent": "americas",
+      "difficulty": "hard",
+      "numeric": "052"
+    },
+    {
+      "code": "EG",
+      "name": "埃及",
+      "capital": "開羅",
+      "continent": "africa",
+      "difficulty": "easy",
+      "numeric": "818"
+    },
+    {
+      "code": "ZA",
+      "name": "南非",
+      "capital": "普利托利亞",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "710"
+    },
+    {
+      "code": "NG",
+      "name": "奈及利亞",
+      "capital": "阿布加",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "566"
+    },
+    {
+      "code": "KE",
+      "name": "肯亞",
+      "capital": "奈洛比",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "404"
+    },
+    {
+      "code": "ET",
+      "name": "衣索比亞",
+      "capital": "阿迪斯阿貝巴",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "231"
+    },
+    {
+      "code": "MA",
+      "name": "摩洛哥",
+      "capital": "拉巴特",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "504"
+    },
+    {
+      "code": "DZ",
+      "name": "阿爾及利亞",
+      "capital": "阿爾及爾",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "012"
+    },
+    {
+      "code": "TN",
+      "name": "突尼西亞",
+      "capital": "突尼斯市",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "788"
+    },
+    {
+      "code": "LY",
+      "name": "利比亞",
+      "capital": "的黎波里",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "434"
+    },
+    {
+      "code": "SD",
+      "name": "蘇丹",
+      "capital": "喀土穆",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "729"
+    },
+    {
+      "code": "SS",
+      "name": "南蘇丹",
+      "capital": "朱巴",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "728"
+    },
+    {
+      "code": "GH",
+      "name": "迦納",
+      "capital": "阿克拉",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "288"
+    },
+    {
+      "code": "CI",
+      "name": "象牙海岸",
+      "capital": "雅穆索戈",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "384"
+    },
+    {
+      "code": "SN",
+      "name": "塞內加爾",
+      "capital": "達卡",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "686"
+    },
+    {
+      "code": "ML",
+      "name": "馬利",
+      "capital": "巴馬科",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "466"
+    },
+    {
+      "code": "NE",
+      "name": "尼日",
+      "capital": "尼阿美",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "562"
+    },
+    {
+      "code": "TD",
+      "name": "查德",
+      "capital": "恩加美納",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "148"
+    },
+    {
+      "code": "CM",
+      "name": "喀麥隆",
+      "capital": "雅溫德",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "120"
+    },
+    {
+      "code": "CD",
+      "name": "剛果民主共和國",
+      "capital": "金夏沙",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "180"
+    },
+    {
+      "code": "CG",
+      "name": "剛果共和國",
+      "capital": "布拉薩市",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "178"
+    },
+    {
+      "code": "GA",
+      "name": "加彭",
+      "capital": "自由市",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "266"
+    },
+    {
+      "code": "AO",
+      "name": "安哥拉",
+      "capital": "羅安達",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "024"
+    },
+    {
+      "code": "ZM",
+      "name": "尚比亞",
+      "capital": "路沙卡",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "894"
+    },
+    {
+      "code": "ZW",
+      "name": "辛巴威",
+      "capital": "哈拉雷",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "716"
+    },
+    {
+      "code": "MZ",
+      "name": "莫三比克",
+      "capital": "馬布多",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "508"
+    },
+    {
+      "code": "TZ",
+      "name": "坦尚尼亞",
+      "capital": "杜篤瑪",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "834"
+    },
+    {
+      "code": "UG",
+      "name": "烏干達",
+      "capital": "康培拉",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "800"
+    },
+    {
+      "code": "RW",
+      "name": "盧安達",
+      "capital": "吉佳利",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "646"
+    },
+    {
+      "code": "BI",
+      "name": "蒲隆地",
+      "capital": "基特加",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "108"
+    },
+    {
+      "code": "SO",
+      "name": "索馬利亞",
+      "capital": "摩加迪休",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "706"
+    },
+    {
+      "code": "DJ",
+      "name": "吉布地",
+      "capital": "吉布地市",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "262"
+    },
+    {
+      "code": "ER",
+      "name": "厄利垂亞",
+      "capital": "阿斯瑪拉",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "232"
+    },
+    {
+      "code": "NA",
+      "name": "納米比亞",
+      "capital": "溫荷克",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "516"
+    },
+    {
+      "code": "BW",
+      "name": "波札那",
+      "capital": "嘉柏隆里",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "072"
+    },
+    {
+      "code": "LS",
+      "name": "賴索托",
+      "capital": "馬賽魯",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "426"
+    },
+    {
+      "code": "SZ",
+      "name": "史瓦帝尼",
+      "capital": "墨巴本",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "748"
+    },
+    {
+      "code": "MW",
+      "name": "馬拉威",
+      "capital": "里朗威",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "454"
+    },
+    {
+      "code": "MG",
+      "name": "馬達加斯加",
+      "capital": "安塔那那利佛",
+      "continent": "africa",
+      "difficulty": "medium",
+      "numeric": "450"
+    },
+    {
+      "code": "MU",
+      "name": "模里西斯",
+      "capital": "路易士港",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "480"
+    },
+    {
+      "code": "SC",
+      "name": "塞席爾",
+      "capital": "維多利亞",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "690"
+    },
+    {
+      "code": "KM",
+      "name": "葛摩",
+      "capital": "莫洛尼",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "174"
+    },
+    {
+      "code": "CV",
+      "name": "維德角",
+      "capital": "培亞",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "132"
+    },
+    {
+      "code": "ST",
+      "name": "聖多美普林西比",
+      "capital": "聖多美",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "678"
+    },
+    {
+      "code": "GQ",
+      "name": "赤道幾內亞",
+      "capital": "馬拉博",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "226"
+    },
+    {
+      "code": "GW",
+      "name": "幾內亞比索",
+      "capital": "比索",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "624"
+    },
+    {
+      "code": "GN",
+      "name": "幾內亞",
+      "capital": "科納克里",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "324"
+    },
+    {
+      "code": "SL",
+      "name": "獅子山",
+      "capital": "自由城",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "694"
+    },
+    {
+      "code": "LR",
+      "name": "賴比瑞亞",
+      "capital": "蒙羅維亞",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "430"
+    },
+    {
+      "code": "BF",
+      "name": "布吉納法索",
+      "capital": "瓦加杜古",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "854"
+    },
+    {
+      "code": "TG",
+      "name": "多哥",
+      "capital": "洛美",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "768"
+    },
+    {
+      "code": "BJ",
+      "name": "貝南",
+      "capital": "波多諾伏",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "204"
+    },
+    {
+      "code": "GM",
+      "name": "甘比亞",
+      "capital": "班竹",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "270"
+    },
+    {
+      "code": "MR",
+      "name": "茅利塔尼亞",
+      "capital": "諾克少",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "478"
+    },
+    {
+      "code": "CF",
+      "name": "中非共和國",
+      "capital": "班基",
+      "continent": "africa",
+      "difficulty": "hard",
+      "numeric": "140"
+    },
+    {
+      "code": "AU",
+      "name": "澳洲",
+      "capital": "坎培拉",
+      "continent": "oceania",
+      "difficulty": "easy",
+      "numeric": "036"
+    },
+    {
+      "code": "NZ",
+      "name": "紐西蘭",
+      "capital": "威靈頓",
+      "continent": "oceania",
+      "difficulty": "easy",
+      "numeric": "554"
+    },
+    {
+      "code": "FJ",
+      "name": "斐濟",
+      "capital": "蘇瓦",
+      "continent": "oceania",
+      "difficulty": "medium",
+      "numeric": "242"
+    },
+    {
+      "code": "PG",
+      "name": "巴布亞紐幾內亞",
+      "capital": "莫士比港",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "598"
+    },
+    {
+      "code": "SB",
+      "name": "索羅門群島",
+      "capital": "荷尼阿拉",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "090"
+    },
+    {
+      "code": "VU",
+      "name": "萬那杜",
+      "capital": "維拉港",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "548"
+    },
+    {
+      "code": "WS",
+      "name": "薩摩亞",
+      "capital": "艾比亞",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "882"
+    },
+    {
+      "code": "TO",
+      "name": "東加",
+      "capital": "努瓜婁發",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "776"
+    },
+    {
+      "code": "KI",
+      "name": "吉里巴斯",
+      "capital": "南塔拉瓦",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "296"
+    },
+    {
+      "code": "TV",
+      "name": "吐瓦魯",
+      "capital": "富納富提",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "798"
+    },
+    {
+      "code": "NR",
+      "name": "諾魯",
+      "capital": "亞倫區",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "520"
+    },
+    {
+      "code": "PW",
+      "name": "帛琉",
+      "capital": "恩吉魯穆德",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "585"
+    },
+    {
+      "code": "FM",
+      "name": "密克羅尼西亞聯邦",
+      "capital": "帕利基爾",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "583"
+    },
+    {
+      "code": "MH",
+      "name": "馬紹爾群島",
+      "capital": "馬久羅",
+      "continent": "oceania",
+      "difficulty": "hard",
+      "numeric": "584"
+    }
+  ]
+}

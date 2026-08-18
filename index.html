@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首都大挑戰</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- 首頁 -->
+  <section id="screen-home" class="screen active">
+    <h1>🌍 首都大挑戰</h1>
+    <p class="subtitle">點地圖、猜首都，練出你的世界地理感</p>
+
+    <div class="home-buttons">
+      <button id="btn-daily" class="btn btn-primary">
+        每日挑戰
+        <span id="daily-status" class="btn-sub"></span>
+      </button>
+      <button id="btn-practice" class="btn btn-secondary">自由練習</button>
+      <button id="btn-atlas" class="btn btn-ghost">世界地圖總覽</button>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-box"><span id="stat-best-score">0</span><label>最高分</label></div>
+      <div class="stat-box"><span id="stat-best-streak">0</span><label>最長連勝</label></div>
+      <div class="stat-box"><span id="stat-total">0</span><label>累積答題</label></div>
+    </div>
+  </section>
+
+  <!-- 練習模式選擇 -->
+  <section id="screen-setup" class="screen">
+    <h2>自由練習設定</h2>
+    <div class="setup-group">
+      <label>難度</label>
+      <div class="chip-row" id="difficulty-chips">
+        <button class="chip active" data-value="easy">簡單</button>
+        <button class="chip" data-value="medium">中等</button>
+        <button class="chip" data-value="hard">地獄</button>
+        <button class="chip" data-value="all">全部</button>
+      </div>
+    </div>
+    <div class="setup-group">
+      <label>地區</label>
+      <div class="chip-row" id="continent-chips">
+        <button class="chip active" data-value="all">全部</button>
+        <button class="chip" data-value="asia">亞洲</button>
+        <button class="chip" data-value="europe">歐洲</button>
+        <button class="chip" data-value="americas">美洲</button>
+        <button class="chip" data-value="africa">非洲</button>
+        <button class="chip" data-value="oceania">大洋洲</button>
+      </div>
+    </div>
+    <div class="setup-buttons">
+      <button id="btn-start-practice" class="btn btn-primary">開始練習</button>
+      <button class="btn btn-ghost btn-back" data-target="screen-home">返回</button>
+    </div>
+  </section>
+
+  <!-- 遊戲畫面 -->
+  <section id="screen-game" class="screen">
+    <div class="game-topbar">
+      <div class="progress-info">
+        <span id="q-index">1</span> / <span id="q-total">10</span>
+      </div>
+      <div class="streak-info">🔥 <span id="streak-count">0</span></div>
+      <div class="timer-info"><span id="timer-count">15</span>s</div>
+    </div>
+
+    <div id="map-container"></div>
+
+    <div class="question-box">
+      <p class="question-text">這個國家的首都是？</p>
+      <div id="choices" class="choices-grid"></div>
+    </div>
+  </section>
+
+  <!-- 結算畫面 -->
+  <section id="screen-result" class="screen">
+    <h2 id="result-title">挑戰結束！</h2>
+    <div class="result-score">
+      <div class="result-big-number"><span id="result-score">0</span> 分</div>
+      <div id="result-newrecord" class="new-record-badge">🎉 新紀錄！</div>
+    </div>
+    <div class="result-stats-row">
+      <div class="stat-box"><span id="result-correct">0</span><label>答對</label></div>
+      <div class="stat-box"><span id="result-streak">0</span><label>最佳連勝</label></div>
+    </div>
+    <div id="result-share" class="share-grid"></div>
+    <div id="result-review" class="review-list"></div>
+    <div class="setup-buttons">
+      <button id="btn-play-again" class="btn btn-primary">再玩一次</button>
+      <button class="btn btn-ghost btn-back" data-target="screen-home">回首頁</button>
+    </div>
+  </section>
+
+  <!-- 地圖總覽 -->
+  <section id="screen-atlas" class="screen">
+    <h2>世界地圖點亮進度</h2>
+    <p id="atlas-progress-text" class="subtitle">已點亮 0 / 0 個國家</p>
+    <div id="atlas-map-container"></div>
+    <div id="atlas-detail" class="atlas-detail"></div>
+    <div class="setup-buttons">
+      <button class="btn btn-ghost btn-back" data-target="screen-home">返回</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/mapRenderer.js"></script>
+<script src="js/gameEngine.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
