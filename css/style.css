@@ -159,6 +159,25 @@ h2 { text-align: center; margin-bottom: 8px; }
 .review-item .wrong-answer { color: var(--wrong); text-decoration: line-through; margin-right: 6px; }
 .review-item .right-answer { color: var(--correct); }
 
+.facts-title {
+  margin: 24px 0 10px;
+  font-size: 1rem;
+  color: var(--text-dim);
+  text-align: center;
+}
+.facts-list { display: flex; flex-direction: column; gap: 8px; }
+.fact-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+}
+.fact-card .fact-head { font-weight: 700; margin-bottom: 4px; }
+.fact-card .fact-head .fact-capital { color: var(--accent-2); font-weight: 400; }
+.fact-card .fact-body { color: var(--text-dim); line-height: 1.4; }
+.fact-card .fact-attraction { color: var(--correct); }
+
 .atlas-detail {
   text-align: center;
   min-height: 24px;

@@ -174,6 +174,19 @@
       });
     }
 
+    const factsEl = document.getElementById('result-facts');
+    factsEl.innerHTML = '';
+    session.questions.forEach(q => {
+      const c = q.country;
+      const div = document.createElement('div');
+      div.className = 'fact-card';
+      div.innerHTML = `
+        <div class="fact-head">${c.name} <span class="fact-capital">${c.capital} ${c.capitalEn}</span></div>
+        <div class="fact-body">${c.capitalIntro} <span class="fact-attraction">必訪：${c.capitalAttraction}</span></div>
+      `;
+      factsEl.appendChild(div);
+    });
+
     showScreen('screen-result');
   }
 
