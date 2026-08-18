@@ -137,6 +137,7 @@ h2 { text-align: center; margin-bottom: 8px; }
 .choice-btn.correct { background: var(--correct); color: #06281a; border-color: var(--correct); }
 .choice-btn.wrong { background: var(--wrong); color: #2b0006; border-color: var(--wrong); }
 .choice-btn:disabled { opacity: 0.7; }
+.capital-en { display: block; font-size: 0.75rem; opacity: 0.65; margin-top: 2px; font-weight: 400; }
 
 .result-score { text-align: center; margin: 16px 0; }
 .result-big-number { font-size: 2.4rem; font-weight: 800; color: var(--accent-2); }

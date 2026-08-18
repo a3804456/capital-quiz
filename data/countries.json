@@ -6,7 +6,8 @@
       "capital": "台北",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "158"
+      "numeric": "158",
+      "capitalEn": "Taipei"
     },
     {
       "code": "CN",
@@ -14,7 +15,8 @@
       "capital": "北京",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "156"
+      "numeric": "156",
+      "capitalEn": "Beijing"
     },
     {
       "code": "JP",
@@ -22,7 +24,8 @@
       "capital": "東京",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "392"
+      "numeric": "392",
+      "capitalEn": "Tokyo"
     },
     {
       "code": "KR",
@@ -30,7 +33,8 @@
       "capital": "首爾",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "410"
+      "numeric": "410",
+      "capitalEn": "Seoul"
     },
     {
       "code": "KP",
@@ -38,7 +42,8 @@
       "capital": "平壤",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "408"
+      "numeric": "408",
+      "capitalEn": "Pyongyang"
     },
     {
       "code": "IN",
@@ -46,7 +51,8 @@
       "capital": "新德里",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "356"
+      "numeric": "356",
+      "capitalEn": "New Delhi"
     },
     {
       "code": "TH",
@@ -54,7 +60,8 @@
       "capital": "曼谷",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "764"
+      "numeric": "764",
+      "capitalEn": "Bangkok"
     },
     {
       "code": "VN",
@@ -62,7 +69,8 @@
       "capital": "河內",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "704"
+      "numeric": "704",
+      "capitalEn": "Hanoi"
     },
     {
       "code": "PH",
@@ -70,7 +78,8 @@
       "capital": "馬尼拉",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "608"
+      "numeric": "608",
+      "capitalEn": "Manila"
     },
     {
       "code": "MY",
@@ -78,7 +87,8 @@
       "capital": "吉隆坡",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "458"
+      "numeric": "458",
+      "capitalEn": "Kuala Lumpur"
     },
     {
       "code": "SG",
@@ -86,7 +96,8 @@
       "capital": "新加坡",
       "continent": "asia",
       "difficulty": "easy",
-      "numeric": "702"
+      "numeric": "702",
+      "capitalEn": "Singapore"
     },
     {
       "code": "ID",
@@ -94,7 +105,8 @@
       "capital": "雅加達",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "360"
+      "numeric": "360",
+      "capitalEn": "Jakarta"
     },
     {
       "code": "MM",
@@ -102,7 +114,8 @@
       "capital": "奈比多",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "104"
+      "numeric": "104",
+      "capitalEn": "Naypyidaw"
     },
     {
       "code": "KH",
@@ -110,7 +123,8 @@
       "capital": "金邊",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "116"
+      "numeric": "116",
+      "capitalEn": "Phnom Penh"
     },
     {
       "code": "LA",
@@ -118,7 +132,8 @@
       "capital": "永珍",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "418"
+      "numeric": "418",
+      "capitalEn": "Vientiane"
     },
     {
       "code": "BD",
@@ -126,7 +141,8 @@
       "capital": "達卡",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "050"
+      "numeric": "050",
+      "capitalEn": "Dhaka"
     },
     {
       "code": "PK",
@@ -134,7 +150,8 @@
       "capital": "伊斯蘭馬巴德",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "586"
+      "numeric": "586",
+      "capitalEn": "Islamabad"
     },
     {
       "code": "AF",
@@ -142,7 +159,8 @@
       "capital": "喀布爾",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "004"
+      "numeric": "004",
+      "capitalEn": "Kabul"
     },
     {
       "code": "NP",
@@ -150,7 +168,8 @@
       "capital": "加德滿都",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "524"
+      "numeric": "524",
+      "capitalEn": "Kathmandu"
     },
     {
       "code": "BT",
@@ -158,7 +177,8 @@
       "capital": "辛布",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "064"
+      "numeric": "064",
+      "capitalEn": "Thimphu"
     },
     {
       "code": "LK",
@@ -166,7 +186,8 @@
       "capital": "斯里賈亞瓦德納普拉科特",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "144"
+      "numeric": "144",
+      "capitalEn": "Sri Jayawardenepura Kotte"
     },
     {
       "code": "MV",
@@ -174,7 +195,8 @@
       "capital": "馬列",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "462"
+      "numeric": "462",
+      "capitalEn": "Malé"
     },
     {
       "code": "MN",
@@ -182,7 +204,8 @@
       "capital": "烏蘭巴托",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "496"
+      "numeric": "496",
+      "capitalEn": "Ulaanbaatar"
     },
     {
       "code": "KZ",
@@ -190,7 +213,8 @@
       "capital": "阿斯塔納",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "398"
+      "numeric": "398",
+      "capitalEn": "Astana"
     },
     {
       "code": "UZ",
@@ -198,7 +222,8 @@
       "capital": "塔什干",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "860"
+      "numeric": "860",
+      "capitalEn": "Tashkent"
     },
     {
       "code": "TM",
@@ -206,7 +231,8 @@
       "capital": "阿什哈巴德",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "795"
+      "numeric": "795",
+      "capitalEn": "Ashgabat"
     },
     {
       "code": "TJ",
@@ -214,7 +240,8 @@
       "capital": "杜尚別",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "762"
+      "numeric": "762",
+      "capitalEn": "Dushanbe"
     },
     {
       "code": "KG",
@@ -222,7 +249,8 @@
       "capital": "比斯凱克",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "417"
+      "numeric": "417",
+      "capitalEn": "Bishkek"
     },
     {
       "code": "TL",
@@ -230,7 +258,8 @@
       "capital": "帝力",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "626"
+      "numeric": "626",
+      "capitalEn": "Dili"
     },
     {
       "code": "BN",
@@ -238,7 +267,8 @@
       "capital": "斯里巴加灣市",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "096"
+      "numeric": "096",
+      "capitalEn": "Bandar Seri Begawan"
     },
     {
       "code": "SA",
@@ -246,7 +276,8 @@
       "capital": "利雅德",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "682"
+      "numeric": "682",
+      "capitalEn": "Riyadh"
     },
     {
       "code": "AE",
@@ -254,7 +285,8 @@
       "capital": "阿布達比",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "784"
+      "numeric": "784",
+      "capitalEn": "Abu Dhabi"
     },
     {
       "code": "IL",
@@ -262,7 +294,8 @@
       "capital": "耶路撒冷",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "376"
+      "numeric": "376",
+      "capitalEn": "Jerusalem"
     },
     {
       "code": "TR",
@@ -270,7 +303,8 @@
       "capital": "安卡拉",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "792"
+      "numeric": "792",
+      "capitalEn": "Ankara"
     },
     {
       "code": "IR",
@@ -278,7 +312,8 @@
       "capital": "德黑蘭",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "364"
+      "numeric": "364",
+      "capitalEn": "Tehran"
     },
     {
       "code": "IQ",
@@ -286,7 +321,8 @@
       "capital": "巴格達",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "368"
+      "numeric": "368",
+      "capitalEn": "Baghdad"
     },
     {
       "code": "SY",
@@ -294,7 +330,8 @@
       "capital": "大馬士革",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "760"
+      "numeric": "760",
+      "capitalEn": "Damascus"
     },
     {
       "code": "JO",
@@ -302,7 +339,8 @@
       "capital": "安曼",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "400"
+      "numeric": "400",
+      "capitalEn": "Amman"
     },
     {
       "code": "LB",
@@ -310,7 +348,8 @@
       "capital": "貝魯特",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "422"
+      "numeric": "422",
+      "capitalEn": "Beirut"
     },
     {
       "code": "YE",
@@ -318,7 +357,8 @@
       "capital": "沙那",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "887"
+      "numeric": "887",
+      "capitalEn": "Sana'a"
     },
     {
       "code": "OM",
@@ -326,7 +366,8 @@
       "capital": "馬斯喀特",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "512"
+      "numeric": "512",
+      "capitalEn": "Muscat"
     },
     {
       "code": "QA",
@@ -334,7 +375,8 @@
       "capital": "杜哈",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "634"
+      "numeric": "634",
+      "capitalEn": "Doha"
     },
     {
       "code": "KW",
@@ -342,7 +384,8 @@
       "capital": "科威特市",
       "continent": "asia",
       "difficulty": "medium",
-      "numeric": "414"
+      "numeric": "414",
+      "capitalEn": "Kuwait City"
     },
     {
       "code": "BH",
@@ -350,7 +393,8 @@
       "capital": "麥納瑪",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "048"
+      "numeric": "048",
+      "capitalEn": "Manama"
     },
     {
       "code": "GE",
@@ -358,7 +402,8 @@
       "capital": "提比里斯",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "268"
+      "numeric": "268",
+      "capitalEn": "Tbilisi"
     },
     {
       "code": "AM",
@@ -366,7 +411,8 @@
       "capital": "葉里溫",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "051"
+      "numeric": "051",
+      "capitalEn": "Yerevan"
     },
     {
       "code": "AZ",
@@ -374,7 +420,8 @@
       "capital": "巴庫",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "031"
+      "numeric": "031",
+      "capitalEn": "Baku"
     },
     {
       "code": "PS",
@@ -382,7 +429,8 @@
       "capital": "拉姆安拉",
       "continent": "asia",
       "difficulty": "hard",
-      "numeric": "275"
+      "numeric": "275",
+      "capitalEn": "Ramallah"
     },
     {
       "code": "FR",
@@ -390,7 +438,8 @@
       "capital": "巴黎",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "250"
+      "numeric": "250",
+      "capitalEn": "Paris"
     },
     {
       "code": "DE",
@@ -398,7 +447,8 @@
       "capital": "柏林",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "276"
+      "numeric": "276",
+      "capitalEn": "Berlin"
     },
     {
       "code": "GB",
@@ -406,7 +456,8 @@
       "capital": "倫敦",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "826"
+      "numeric": "826",
+      "capitalEn": "London"
     },
     {
       "code": "IT",
@@ -414,7 +465,8 @@
       "capital": "羅馬",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "380"
+      "numeric": "380",
+      "capitalEn": "Rome"
     },
     {
       "code": "ES",
@@ -422,7 +474,8 @@
       "capital": "馬德里",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "724"
+      "numeric": "724",
+      "capitalEn": "Madrid"
     },
     {
       "code": "PT",
@@ -430,7 +483,8 @@
       "capital": "里斯本",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "620"
+      "numeric": "620",
+      "capitalEn": "Lisbon"
     },
     {
       "code": "NL",
@@ -438,7 +492,8 @@
       "capital": "阿姆斯特丹",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "528"
+      "numeric": "528",
+      "capitalEn": "Amsterdam"
     },
     {
       "code": "BE",
@@ -446,7 +501,8 @@
       "capital": "布魯塞爾",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "056"
+      "numeric": "056",
+      "capitalEn": "Brussels"
     },
     {
       "code": "CH",
@@ -454,7 +510,8 @@
       "capital": "伯恩",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "756"
+      "numeric": "756",
+      "capitalEn": "Bern"
     },
     {
       "code": "AT",
@@ -462,7 +519,8 @@
       "capital": "維也納",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "040"
+      "numeric": "040",
+      "capitalEn": "Vienna"
     },
     {
       "code": "SE",
@@ -470,7 +528,8 @@
       "capital": "斯德哥爾摩",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "752"
+      "numeric": "752",
+      "capitalEn": "Stockholm"
     },
     {
       "code": "NO",
@@ -478,7 +537,8 @@
       "capital": "奧斯陸",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "578"
+      "numeric": "578",
+      "capitalEn": "Oslo"
     },
     {
       "code": "DK",
@@ -486,7 +546,8 @@
       "capital": "哥本哈根",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "208"
+      "numeric": "208",
+      "capitalEn": "Copenhagen"
     },
     {
       "code": "FI",
@@ -494,7 +555,8 @@
       "capital": "赫爾辛基",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "246"
+      "numeric": "246",
+      "capitalEn": "Helsinki"
     },
     {
       "code": "IE",
@@ -502,7 +564,8 @@
       "capital": "都柏林",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "372"
+      "numeric": "372",
+      "capitalEn": "Dublin"
     },
     {
       "code": "PL",
@@ -510,7 +573,8 @@
       "capital": "華沙",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "616"
+      "numeric": "616",
+      "capitalEn": "Warsaw"
     },
     {
       "code": "CZ",
@@ -518,7 +582,8 @@
       "capital": "布拉格",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "203"
+      "numeric": "203",
+      "capitalEn": "Prague"
     },
     {
       "code": "SK",
@@ -526,7 +591,8 @@
       "capital": "布拉提斯拉瓦",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "703"
+      "numeric": "703",
+      "capitalEn": "Bratislava"
     },
     {
       "code": "HU",
@@ -534,7 +600,8 @@
       "capital": "布達佩斯",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "348"
+      "numeric": "348",
+      "capitalEn": "Budapest"
     },
     {
       "code": "RO",
@@ -542,7 +609,8 @@
       "capital": "布加勒斯特",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "642"
+      "numeric": "642",
+      "capitalEn": "Bucharest"
     },
     {
       "code": "BG",
@@ -550,7 +618,8 @@
       "capital": "索非亞",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "100"
+      "numeric": "100",
+      "capitalEn": "Sofia"
     },
     {
       "code": "GR",
@@ -558,7 +627,8 @@
       "capital": "雅典",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "300"
+      "numeric": "300",
+      "capitalEn": "Athens"
     },
     {
       "code": "HR",
@@ -566,7 +636,8 @@
       "capital": "札格瑞布",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "191"
+      "numeric": "191",
+      "capitalEn": "Zagreb"
     },
     {
       "code": "SI",
@@ -574,7 +645,8 @@
       "capital": "盧比安納",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "705"
+      "numeric": "705",
+      "capitalEn": "Ljubljana"
     },
     {
       "code": "RS",
@@ -582,7 +654,8 @@
       "capital": "貝爾格勒",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "688"
+      "numeric": "688",
+      "capitalEn": "Belgrade"
     },
     {
       "code": "BA",
@@ -590,7 +663,8 @@
       "capital": "塞拉耶佛",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "070"
+      "numeric": "070",
+      "capitalEn": "Sarajevo"
     },
     {
       "code": "ME",
@@ -598,7 +672,8 @@
       "capital": "波德里查",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "499"
+      "numeric": "499",
+      "capitalEn": "Podgorica"
     },
     {
       "code": "MK",
@@ -606,7 +681,8 @@
       "capital": "史高比耶",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "807"
+      "numeric": "807",
+      "capitalEn": "Skopje"
     },
     {
       "code": "AL",
@@ -614,14 +690,16 @@
       "capital": "地拉那",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "008"
+      "numeric": "008",
+      "capitalEn": "Tirana"
     },
     {
       "code": "XK",
       "name": "科索沃",
       "capital": "普里斯提納",
       "continent": "europe",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "capitalEn": "Pristina"
     },
     {
       "code": "UA",
@@ -629,7 +707,8 @@
       "capital": "基輔",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "804"
+      "numeric": "804",
+      "capitalEn": "Kyiv"
     },
     {
       "code": "BY",
@@ -637,7 +716,8 @@
       "capital": "明斯克",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "112"
+      "numeric": "112",
+      "capitalEn": "Minsk"
     },
     {
       "code": "RU",
@@ -645,7 +725,8 @@
       "capital": "莫斯科",
       "continent": "europe",
       "difficulty": "easy",
-      "numeric": "643"
+      "numeric": "643",
+      "capitalEn": "Moscow"
     },
     {
       "code": "MD",
@@ -653,7 +734,8 @@
       "capital": "基希涅夫",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "498"
+      "numeric": "498",
+      "capitalEn": "Chișinău"
     },
     {
       "code": "LT",
@@ -661,7 +743,8 @@
       "capital": "維爾紐斯",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "440"
+      "numeric": "440",
+      "capitalEn": "Vilnius"
     },
     {
       "code": "LV",
@@ -669,7 +752,8 @@
       "capital": "里加",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "428"
+      "numeric": "428",
+      "capitalEn": "Riga"
     },
     {
       "code": "EE",
@@ -677,7 +761,8 @@
       "capital": "塔林",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "233"
+      "numeric": "233",
+      "capitalEn": "Tallinn"
     },
     {
       "code": "IS",
@@ -685,7 +770,8 @@
       "capital": "雷克雅維克",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "352"
+      "numeric": "352",
+      "capitalEn": "Reykjavik"
     },
     {
       "code": "LU",
@@ -693,7 +779,8 @@
       "capital": "盧森堡市",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "442"
+      "numeric": "442",
+      "capitalEn": "Luxembourg"
     },
     {
       "code": "MT",
@@ -701,7 +788,8 @@
       "capital": "瓦萊塔",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "470"
+      "numeric": "470",
+      "capitalEn": "Valletta"
     },
     {
       "code": "CY",
@@ -709,7 +797,8 @@
       "capital": "尼柯西亞",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "196"
+      "numeric": "196",
+      "capitalEn": "Nicosia"
     },
     {
       "code": "AD",
@@ -717,7 +806,8 @@
       "capital": "老鷹城",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "020"
+      "numeric": "020",
+      "capitalEn": "Andorra la Vella"
     },
     {
       "code": "MC",
@@ -725,7 +815,8 @@
       "capital": "摩納哥市",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "492"
+      "numeric": "492",
+      "capitalEn": "Monaco"
     },
     {
       "code": "LI",
@@ -733,7 +824,8 @@
       "capital": "瓦都茲",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "438"
+      "numeric": "438",
+      "capitalEn": "Vaduz"
     },
     {
       "code": "SM",
@@ -741,7 +833,8 @@
       "capital": "聖馬利諾市",
       "continent": "europe",
       "difficulty": "hard",
-      "numeric": "674"
+      "numeric": "674",
+      "capitalEn": "San Marino"
     },
     {
       "code": "VA",
@@ -749,7 +842,8 @@
       "capital": "梵蒂岡城",
       "continent": "europe",
       "difficulty": "medium",
-      "numeric": "336"
+      "numeric": "336",
+      "capitalEn": "Vatican City"
     },
     {
       "code": "US",
@@ -757,7 +851,8 @@
       "capital": "華盛頓特區",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "840"
+      "numeric": "840",
+      "capitalEn": "Washington, D.C."
     },
     {
       "code": "CA",
@@ -765,7 +860,8 @@
       "capital": "渥太華",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "124"
+      "numeric": "124",
+      "capitalEn": "Ottawa"
     },
     {
       "code": "MX",
@@ -773,7 +869,8 @@
       "capital": "墨西哥市",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "484"
+      "numeric": "484",
+      "capitalEn": "Mexico City"
     },
     {
       "code": "BR",
@@ -781,7 +878,8 @@
       "capital": "巴西利亞",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "076"
+      "numeric": "076",
+      "capitalEn": "Brasília"
     },
     {
       "code": "AR",
@@ -789,7 +887,8 @@
       "capital": "布宜諾斯艾利斯",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "032"
+      "numeric": "032",
+      "capitalEn": "Buenos Aires"
     },
     {
       "code": "CL",
@@ -797,7 +896,8 @@
       "capital": "聖地牙哥",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "152"
+      "numeric": "152",
+      "capitalEn": "Santiago"
     },
     {
       "code": "CO",
@@ -805,7 +905,8 @@
       "capital": "波哥大",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "170"
+      "numeric": "170",
+      "capitalEn": "Bogotá"
     },
     {
       "code": "PE",
@@ -813,7 +914,8 @@
       "capital": "利馬",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "604"
+      "numeric": "604",
+      "capitalEn": "Lima"
     },
     {
       "code": "VE",
@@ -821,7 +923,8 @@
       "capital": "卡拉卡斯",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "862"
+      "numeric": "862",
+      "capitalEn": "Caracas"
     },
     {
       "code": "EC",
@@ -829,7 +932,8 @@
       "capital": "基多",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "218"
+      "numeric": "218",
+      "capitalEn": "Quito"
     },
     {
       "code": "BO",
@@ -837,7 +941,8 @@
       "capital": "蘇克雷",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "068"
+      "numeric": "068",
+      "capitalEn": "Sucre"
     },
     {
       "code": "PY",
@@ -845,7 +950,8 @@
       "capital": "亞松森",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "600"
+      "numeric": "600",
+      "capitalEn": "Asunción"
     },
     {
       "code": "UY",
@@ -853,7 +959,8 @@
       "capital": "蒙特維多",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "858"
+      "numeric": "858",
+      "capitalEn": "Montevideo"
     },
     {
       "code": "GY",
@@ -861,7 +968,8 @@
       "capital": "喬治城",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "328"
+      "numeric": "328",
+      "capitalEn": "Georgetown"
     },
     {
       "code": "SR",
@@ -869,7 +977,8 @@
       "capital": "巴拉馬利波",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "740"
+      "numeric": "740",
+      "capitalEn": "Paramaribo"
     },
     {
       "code": "CU",
@@ -877,7 +986,8 @@
       "capital": "哈瓦那",
       "continent": "americas",
       "difficulty": "easy",
-      "numeric": "192"
+      "numeric": "192",
+      "capitalEn": "Havana"
     },
     {
       "code": "JM",
@@ -885,7 +995,8 @@
       "capital": "京斯敦",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "388"
+      "numeric": "388",
+      "capitalEn": "Kingston"
     },
     {
       "code": "HT",
@@ -893,7 +1004,8 @@
       "capital": "太子港",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "332"
+      "numeric": "332",
+      "capitalEn": "Port-au-Prince"
     },
     {
       "code": "DO",
@@ -901,7 +1013,8 @@
       "capital": "聖多明哥",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "214"
+      "numeric": "214",
+      "capitalEn": "Santo Domingo"
     },
     {
       "code": "PA",
@@ -909,7 +1022,8 @@
       "capital": "巴拿馬市",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "591"
+      "numeric": "591",
+      "capitalEn": "Panama City"
     },
     {
       "code": "CR",
@@ -917,7 +1031,8 @@
       "capital": "聖荷西",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "188"
+      "numeric": "188",
+      "capitalEn": "San José"
     },
     {
       "code": "NI",
@@ -925,7 +1040,8 @@
       "capital": "馬拿瓜",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "558"
+      "numeric": "558",
+      "capitalEn": "Managua"
     },
     {
       "code": "HN",
@@ -933,7 +1049,8 @@
       "capital": "德古斯加巴",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "340"
+      "numeric": "340",
+      "capitalEn": "Tegucigalpa"
     },
     {
       "code": "SV",
@@ -941,7 +1058,8 @@
       "capital": "聖薩爾瓦多",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "222"
+      "numeric": "222",
+      "capitalEn": "San Salvador"
     },
     {
       "code": "GT",
@@ -949,7 +1067,8 @@
       "capital": "瓜地馬拉市",
       "continent": "americas",
       "difficulty": "medium",
-      "numeric": "320"
+      "numeric": "320",
+      "capitalEn": "Guatemala City"
     },
     {
       "code": "BZ",
@@ -957,7 +1076,8 @@
       "capital": "貝爾墨潘",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "084"
+      "numeric": "084",
+      "capitalEn": "Belmopan"
     },
     {
       "code": "BS",
@@ -965,7 +1085,8 @@
       "capital": "拿索",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "044"
+      "numeric": "044",
+      "capitalEn": "Nassau"
     },
     {
       "code": "TT",
@@ -973,7 +1094,8 @@
       "capital": "西班牙港",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "780"
+      "numeric": "780",
+      "capitalEn": "Port of Spain"
     },
     {
       "code": "BB",
@@ -981,7 +1103,8 @@
       "capital": "橋鎮",
       "continent": "americas",
       "difficulty": "hard",
-      "numeric": "052"
+      "numeric": "052",
+      "capitalEn": "Bridgetown"
     },
     {
       "code": "EG",
@@ -989,7 +1112,8 @@
       "capital": "開羅",
       "continent": "africa",
       "difficulty": "easy",
-      "numeric": "818"
+      "numeric": "818",
+      "capitalEn": "Cairo"
     },
     {
       "code": "ZA",
@@ -997,7 +1121,8 @@
       "capital": "普利托利亞",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "710"
+      "numeric": "710",
+      "capitalEn": "Pretoria"
     },
     {
       "code": "NG",
@@ -1005,7 +1130,8 @@
       "capital": "阿布加",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "566"
+      "numeric": "566",
+      "capitalEn": "Abuja"
     },
     {
       "code": "KE",
@@ -1013,7 +1139,8 @@
       "capital": "奈洛比",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "404"
+      "numeric": "404",
+      "capitalEn": "Nairobi"
     },
     {
       "code": "ET",
@@ -1021,7 +1148,8 @@
       "capital": "阿迪斯阿貝巴",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "231"
+      "numeric": "231",
+      "capitalEn": "Addis Ababa"
     },
     {
       "code": "MA",
@@ -1029,7 +1157,8 @@
       "capital": "拉巴特",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "504"
+      "numeric": "504",
+      "capitalEn": "Rabat"
     },
     {
       "code": "DZ",
@@ -1037,7 +1166,8 @@
       "capital": "阿爾及爾",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "012"
+      "numeric": "012",
+      "capitalEn": "Algiers"
     },
     {
       "code": "TN",
@@ -1045,7 +1175,8 @@
       "capital": "突尼斯市",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "788"
+      "numeric": "788",
+      "capitalEn": "Tunis"
     },
     {
       "code": "LY",
@@ -1053,7 +1184,8 @@
       "capital": "的黎波里",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "434"
+      "numeric": "434",
+      "capitalEn": "Tripoli"
     },
     {
       "code": "SD",
@@ -1061,7 +1193,8 @@
       "capital": "喀土穆",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "729"
+      "numeric": "729",
+      "capitalEn": "Khartoum"
     },
     {
       "code": "SS",
@@ -1069,7 +1202,8 @@
       "capital": "朱巴",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "728"
+      "numeric": "728",
+      "capitalEn": "Juba"
     },
     {
       "code": "GH",
@@ -1077,7 +1211,8 @@
       "capital": "阿克拉",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "288"
+      "numeric": "288",
+      "capitalEn": "Accra"
     },
     {
       "code": "CI",
@@ -1085,7 +1220,8 @@
       "capital": "雅穆索戈",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "384"
+      "numeric": "384",
+      "capitalEn": "Yamoussoukro"
     },
     {
       "code": "SN",
@@ -1093,7 +1229,8 @@
       "capital": "達卡",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "686"
+      "numeric": "686",
+      "capitalEn": "Dakar"
     },
     {
       "code": "ML",
@@ -1101,7 +1238,8 @@
       "capital": "巴馬科",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "466"
+      "numeric": "466",
+      "capitalEn": "Bamako"
     },
     {
       "code": "NE",
@@ -1109,7 +1247,8 @@
       "capital": "尼阿美",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "562"
+      "numeric": "562",
+      "capitalEn": "Niamey"
     },
     {
       "code": "TD",
@@ -1117,7 +1256,8 @@
       "capital": "恩加美納",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "148"
+      "numeric": "148",
+      "capitalEn": "N'Djamena"
     },
     {
       "code": "CM",
@@ -1125,7 +1265,8 @@
       "capital": "雅溫德",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "120"
+      "numeric": "120",
+      "capitalEn": "Yaoundé"
     },
     {
       "code": "CD",
@@ -1133,7 +1274,8 @@
       "capital": "金夏沙",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "180"
+      "numeric": "180",
+      "capitalEn": "Kinshasa"
     },
     {
       "code": "CG",
@@ -1141,7 +1283,8 @@
       "capital": "布拉薩市",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "178"
+      "numeric": "178",
+      "capitalEn": "Brazzaville"
     },
     {
       "code": "GA",
@@ -1149,7 +1292,8 @@
       "capital": "自由市",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "266"
+      "numeric": "266",
+      "capitalEn": "Libreville"
     },
     {
       "code": "AO",
@@ -1157,7 +1301,8 @@
       "capital": "羅安達",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "024"
+      "numeric": "024",
+      "capitalEn": "Luanda"
     },
     {
       "code": "ZM",
@@ -1165,7 +1310,8 @@
       "capital": "路沙卡",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "894"
+      "numeric": "894",
+      "capitalEn": "Lusaka"
     },
     {
       "code": "ZW",
@@ -1173,7 +1319,8 @@
       "capital": "哈拉雷",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "716"
+      "numeric": "716",
+      "capitalEn": "Harare"
     },
     {
       "code": "MZ",
@@ -1181,7 +1328,8 @@
       "capital": "馬布多",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "508"
+      "numeric": "508",
+      "capitalEn": "Maputo"
     },
     {
       "code": "TZ",
@@ -1189,7 +1337,8 @@
       "capital": "杜篤瑪",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "834"
+      "numeric": "834",
+      "capitalEn": "Dodoma"
     },
     {
       "code": "UG",
@@ -1197,7 +1346,8 @@
       "capital": "康培拉",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "800"
+      "numeric": "800",
+      "capitalEn": "Kampala"
     },
     {
       "code": "RW",
@@ -1205,7 +1355,8 @@
       "capital": "吉佳利",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "646"
+      "numeric": "646",
+      "capitalEn": "Kigali"
     },
     {
       "code": "BI",
@@ -1213,7 +1364,8 @@
       "capital": "基特加",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "108"
+      "numeric": "108",
+      "capitalEn": "Gitega"
     },
     {
       "code": "SO",
@@ -1221,7 +1373,8 @@
       "capital": "摩加迪休",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "706"
+      "numeric": "706",
+      "capitalEn": "Mogadishu"
     },
     {
       "code": "DJ",
@@ -1229,7 +1382,8 @@
       "capital": "吉布地市",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "262"
+      "numeric": "262",
+      "capitalEn": "Djibouti City"
     },
     {
       "code": "ER",
@@ -1237,7 +1391,8 @@
       "capital": "阿斯瑪拉",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "232"
+      "numeric": "232",
+      "capitalEn": "Asmara"
     },
     {
       "code": "NA",
@@ -1245,7 +1400,8 @@
       "capital": "溫荷克",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "516"
+      "numeric": "516",
+      "capitalEn": "Windhoek"
     },
     {
       "code": "BW",
@@ -1253,7 +1409,8 @@
       "capital": "嘉柏隆里",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "072"
+      "numeric": "072",
+      "capitalEn": "Gaborone"
     },
     {
       "code": "LS",
@@ -1261,7 +1418,8 @@
       "capital": "馬賽魯",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "426"
+      "numeric": "426",
+      "capitalEn": "Maseru"
     },
     {
       "code": "SZ",
@@ -1269,7 +1427,8 @@
       "capital": "墨巴本",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "748"
+      "numeric": "748",
+      "capitalEn": "Mbabane"
     },
     {
       "code": "MW",
@@ -1277,7 +1436,8 @@
       "capital": "里朗威",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "454"
+      "numeric": "454",
+      "capitalEn": "Lilongwe"
     },
     {
       "code": "MG",
@@ -1285,7 +1445,8 @@
       "capital": "安塔那那利佛",
       "continent": "africa",
       "difficulty": "medium",
-      "numeric": "450"
+      "numeric": "450",
+      "capitalEn": "Antananarivo"
     },
     {
       "code": "MU",
@@ -1293,7 +1454,8 @@
       "capital": "路易士港",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "480"
+      "numeric": "480",
+      "capitalEn": "Port Louis"
     },
     {
       "code": "SC",
@@ -1301,7 +1463,8 @@
       "capital": "維多利亞",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "690"
+      "numeric": "690",
+      "capitalEn": "Victoria"
     },
     {
       "code": "KM",
@@ -1309,7 +1472,8 @@
       "capital": "莫洛尼",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "174"
+      "numeric": "174",
+      "capitalEn": "Moroni"
     },
     {
       "code": "CV",
@@ -1317,7 +1481,8 @@
       "capital": "培亞",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "132"
+      "numeric": "132",
+      "capitalEn": "Praia"
     },
     {
       "code": "ST",
@@ -1325,7 +1490,8 @@
       "capital": "聖多美",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "678"
+      "numeric": "678",
+      "capitalEn": "São Tomé"
     },
     {
       "code": "GQ",
@@ -1333,7 +1499,8 @@
       "capital": "馬拉博",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "226"
+      "numeric": "226",
+      "capitalEn": "Malabo"
     },
     {
       "code": "GW",
@@ -1341,7 +1508,8 @@
       "capital": "比索",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "624"
+      "numeric": "624",
+      "capitalEn": "Bissau"
     },
     {
       "code": "GN",
@@ -1349,7 +1517,8 @@
       "capital": "科納克里",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "324"
+      "numeric": "324",
+      "capitalEn": "Conakry"
     },
     {
       "code": "SL",
@@ -1357,7 +1526,8 @@
       "capital": "自由城",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "694"
+      "numeric": "694",
+      "capitalEn": "Freetown"
     },
     {
       "code": "LR",
@@ -1365,7 +1535,8 @@
       "capital": "蒙羅維亞",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "430"
+      "numeric": "430",
+      "capitalEn": "Monrovia"
     },
     {
       "code": "BF",
@@ -1373,7 +1544,8 @@
       "capital": "瓦加杜古",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "854"
+      "numeric": "854",
+      "capitalEn": "Ouagadougou"
     },
     {
       "code": "TG",
@@ -1381,7 +1553,8 @@
       "capital": "洛美",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "768"
+      "numeric": "768",
+      "capitalEn": "Lomé"
     },
     {
       "code": "BJ",
@@ -1389,7 +1562,8 @@
       "capital": "波多諾伏",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "204"
+      "numeric": "204",
+      "capitalEn": "Porto-Novo"
     },
     {
       "code": "GM",
@@ -1397,7 +1571,8 @@
       "capital": "班竹",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "270"
+      "numeric": "270",
+      "capitalEn": "Banjul"
     },
     {
       "code": "MR",
@@ -1405,7 +1580,8 @@
       "capital": "諾克少",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "478"
+      "numeric": "478",
+      "capitalEn": "Nouakchott"
     },
     {
       "code": "CF",
@@ -1413,7 +1589,8 @@
       "capital": "班基",
       "continent": "africa",
       "difficulty": "hard",
-      "numeric": "140"
+      "numeric": "140",
+      "capitalEn": "Bangui"
     },
     {
       "code": "AU",
@@ -1421,7 +1598,8 @@
       "capital": "坎培拉",
       "continent": "oceania",
       "difficulty": "easy",
-      "numeric": "036"
+      "numeric": "036",
+      "capitalEn": "Canberra"
     },
     {
       "code": "NZ",
@@ -1429,7 +1607,8 @@
       "capital": "威靈頓",
       "continent": "oceania",
       "difficulty": "easy",
-      "numeric": "554"
+      "numeric": "554",
+      "capitalEn": "Wellington"
     },
     {
       "code": "FJ",
@@ -1437,7 +1616,8 @@
       "capital": "蘇瓦",
       "continent": "oceania",
       "difficulty": "medium",
-      "numeric": "242"
+      "numeric": "242",
+      "capitalEn": "Suva"
     },
     {
       "code": "PG",
@@ -1445,7 +1625,8 @@
       "capital": "莫士比港",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "598"
+      "numeric": "598",
+      "capitalEn": "Port Moresby"
     },
     {
       "code": "SB",
@@ -1453,7 +1634,8 @@
       "capital": "荷尼阿拉",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "090"
+      "numeric": "090",
+      "capitalEn": "Honiara"
     },
     {
       "code": "VU",
@@ -1461,7 +1643,8 @@
       "capital": "維拉港",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "548"
+      "numeric": "548",
+      "capitalEn": "Port Vila"
     },
     {
       "code": "WS",
@@ -1469,7 +1652,8 @@
       "capital": "艾比亞",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "882"
+      "numeric": "882",
+      "capitalEn": "Apia"
     },
     {
       "code": "TO",
@@ -1477,7 +1661,8 @@
       "capital": "努瓜婁發",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "776"
+      "numeric": "776",
+      "capitalEn": "Nuku'alofa"
     },
     {
       "code": "KI",
@@ -1485,7 +1670,8 @@
       "capital": "南塔拉瓦",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "296"
+      "numeric": "296",
+      "capitalEn": "South Tarawa"
     },
     {
       "code": "TV",
@@ -1493,7 +1679,8 @@
       "capital": "富納富提",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "798"
+      "numeric": "798",
+      "capitalEn": "Funafuti"
     },
     {
       "code": "NR",
@@ -1501,7 +1688,8 @@
       "capital": "亞倫區",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "520"
+      "numeric": "520",
+      "capitalEn": "Yaren"
     },
     {
       "code": "PW",
@@ -1509,7 +1697,8 @@
       "capital": "恩吉魯穆德",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "585"
+      "numeric": "585",
+      "capitalEn": "Ngerulmud"
     },
     {
       "code": "FM",
@@ -1517,7 +1706,8 @@
       "capital": "帕利基爾",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "583"
+      "numeric": "583",
+      "capitalEn": "Palikir"
     },
     {
       "code": "MH",
@@ -1525,7 +1715,8 @@
       "capital": "馬久羅",
       "continent": "oceania",
       "difficulty": "hard",
-      "numeric": "584"
+      "numeric": "584",
+      "capitalEn": "Majuro"
     }
   ]
 }

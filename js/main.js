@@ -52,6 +52,9 @@
       timeLeft: TIME_PER_Q,
       isDaily
     };
+    Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
+    Storage.save(progress);
+
     document.getElementById('q-total').textContent = questions.length;
     showScreen('screen-game');
     nextQuestion();
@@ -65,6 +68,7 @@
     }
     document.getElementById('q-index').textContent = session.index + 1;
     document.getElementById('streak-count').textContent = session.streak;
+    session.answered = false;
 
     const q = session.questions[session.index];
     gameMap.clearFlash();
@@ -78,11 +82,12 @@
 
     const choicesEl = document.getElementById('choices');
     choicesEl.innerHTML = '';
-    q.choices.forEach(capital => {
+    q.choices.forEach(choice => {
       const btn = document.createElement('button');
       btn.className = 'choice-btn';
-      btn.textContent = capital;
-      btn.addEventListener('click', () => handleAnswer(capital, btn));
+      btn.innerHTML = `${choice.capital}<span class="capital-en">${choice.capitalEn}</span>`;
+      btn.dataset.capital = choice.capital;
+      btn.addEventListener('click', () => handleAnswer(choice.capital, btn));
       choicesEl.appendChild(btn);
     });
 
@@ -99,13 +104,15 @@
   }
 
   function handleAnswer(chosenCapital, btnEl) {
+    if (session.answered) return;
+    session.answered = true;
     clearInterval(session.timerId);
     const q = session.questions[session.index];
     const isCorrect = chosenCapital === q.country.capital;
 
     document.querySelectorAll('.choice-btn').forEach(b => {
       b.disabled = true;
-      if (b.textContent === q.country.capital) b.classList.add('correct');
+      if (b.dataset.capital === q.country.capital) b.classList.add('correct');
       else if (b === btnEl) b.classList.add('wrong');
     });
 
@@ -121,7 +128,12 @@
       session.shareEmojis.push('🟩');
     } else {
       session.streak = 0;
-      session.wrongList.push({ name: q.country.name, correct: q.country.capital, chosen: chosenCapital || '（超時）' });
+      const chosenChoice = q.choices.find(c => c.capital === chosenCapital);
+      session.wrongList.push({
+        name: q.country.name,
+        correct: `${q.country.capital} ${q.country.capitalEn}`,
+        chosen: chosenChoice ? `${chosenChoice.capital} ${chosenChoice.capitalEn}` : '（超時）'
+      });
       session.shareEmojis.push('🟥');
     }
 
@@ -226,7 +238,7 @@
     document.getElementById('btn-start-practice').addEventListener('click', () => {
       const difficulty = getActiveChip('difficulty-chips');
       const continent = getActiveChip('continent-chips');
-      const questions = GameEngine.buildPracticeQuestions({ difficulty, continent }, 10);
+      const questions = GameEngine.buildPracticeQuestions({ difficulty, continent }, 10, new Set(progress.recentlyPlayed));
       if (!questions.length) {
         alert('這個篩選條件下沒有題目，換個組合試試！');
         return;
@@ -241,7 +253,8 @@
       } else {
         const questions = GameEngine.buildPracticeQuestions(
           { difficulty: getActiveChip('difficulty-chips'), continent: getActiveChip('continent-chips') },
-          10
+          10,
+          new Set(progress.recentlyPlayed)
         );
         startSession(questions, false);
       }

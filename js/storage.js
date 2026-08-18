@@ -1,12 +1,15 @@
 const Storage = (() => {
   const KEY = 'capitalQuiz_progress';
 
+  const RECENT_LIMIT = 40;
+
   function defaultProgress() {
     return {
       bestScore: 0,
       bestStreak: 0,
       totalPlayed: 0,
       countryStats: {},
+      recentlyPlayed: [],
       dailyChallenge: { lastPlayedDate: null, todayScore: null, history: [] }
     };
   }
@@ -35,10 +38,16 @@ const Storage = (() => {
     progress.totalPlayed += 1;
   }
 
+  function markRecentlyPlayed(progress, countryCodes) {
+    const deduped = countryCodes.filter((code, i) => countryCodes.indexOf(code) === i);
+    const remaining = progress.recentlyPlayed.filter(code => !deduped.includes(code));
+    progress.recentlyPlayed = deduped.concat(remaining).slice(0, RECENT_LIMIT);
+  }
+
   function todayStr() {
     const d = new Date();
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   }
 
-  return { load, save, recordAnswer, todayStr };
+  return { load, save, recordAnswer, markRecentlyPlayed, todayStr };
 })();

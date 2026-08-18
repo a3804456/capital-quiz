@@ -41,21 +41,28 @@ const GameEngine = (() => {
     });
   }
 
-  function buildQuestions(pool, count, rng = Math.random) {
-    const picked = shuffle(pool, rng).slice(0, Math.min(count, pool.length));
+  function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set()) {
+    // avoid repeating recently-played countries first; only fall back to them
+    // once the "fresh" pool has been exhausted, so practice rounds cycle
+    // through the roster instead of resurfacing the same handful every time.
+    const fresh = pool.filter(c => !recentCodes.has(c.code));
+    const stale = pool.filter(c => recentCodes.has(c.code));
+    const ordered = shuffle(fresh, rng).concat(shuffle(stale, rng));
+    const picked = ordered.slice(0, Math.min(count, pool.length));
     return picked.map(country => {
       const distractors = shuffle(
         allCountries.filter(c => c.code !== country.code && c.capital !== country.capital),
         rng
       ).slice(0, 3);
-      const choices = shuffle([country, ...distractors], rng).map(c => c.capital);
+      const choices = shuffle([country, ...distractors], rng)
+        .map(c => ({ capital: c.capital, capitalEn: c.capitalEn }));
       return { country, choices };
     });
   }
 
-  function buildPracticeQuestions(options, count = 10) {
+  function buildPracticeQuestions(options, count = 10, recentCodes = new Set()) {
     const pool = filterPool(options);
-    return buildQuestions(pool, count);
+    return buildQuestions(pool, count, Math.random, recentCodes);
   }
 
   function buildDailyQuestions(count = 10) {
