@@ -182,7 +182,7 @@
       div.className = 'fact-card';
       div.innerHTML = `
         <div class="fact-head">${c.name} <span class="fact-capital">${c.capital} ${c.capitalEn}</span></div>
-        <div class="fact-body">${c.capitalIntro} <span class="fact-attraction">必訪：${c.capitalAttraction}</span></div>
+        <div class="fact-body">${c.capitalIntro}</div>
       `;
       factsEl.appendChild(div);
     });

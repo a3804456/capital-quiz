@@ -8,8 +8,7 @@
       "difficulty": "easy",
       "numeric": "158",
       "capitalEn": "Taipei",
-      "capitalIntro": "台灣的政治經濟中心，融合傳統與現代的城市。",
-      "capitalAttraction": "台北101"
+      "capitalIntro": "台北自17世紀清代開始發展，因盆地地形長期是北台灣的行政與商業核心，1949年後更成為中華民國政府所在地。城市裡老城區的廟宇與日治時期建築，和信義區的摩天大樓形成強烈對比。台北101曾在2004至2010年間是世界第一高樓，至今仍是城市天際線的地標。"
     },
     {
       "code": "CN",
@@ -19,8 +18,7 @@
       "difficulty": "easy",
       "numeric": "156",
       "capitalEn": "Beijing",
-      "capitalIntro": "中國首都，擁有數百年帝制歷史的政治文化核心。",
-      "capitalAttraction": "故宮"
+      "capitalIntro": "北京作為元、明、清三朝首都，累積了近八百年的帝王都城歷史，紫禁城便是這段歷史最完整的見證。城市以環狀道路向外擴張，胡同與四合院是老北京生活的縮影。2008年北京主辦夏季奧運，2022年又成為史上首座同時舉辦夏季與冬季奧運的城市。"
     },
     {
       "code": "JP",
@@ -30,8 +28,7 @@
       "difficulty": "easy",
       "numeric": "392",
       "capitalEn": "Tokyo",
-      "capitalIntro": "日本最大都會，傳統神社與摩天大樓並存。",
-      "capitalAttraction": "淺草寺"
+      "capitalIntro": "東京原名江戶，1868年明治維新後改名並成為日本首都，如今是全球人口最多的都會區之一。城市巧妙地把淺草寺這樣的古老神社，和澀谷、新宿的霓虹街景放在同一張地圖上。東京地鐵網絡極其密集，每天運送超過千萬人次通勤。"
     },
     {
       "code": "KR",
@@ -41,8 +38,7 @@
       "difficulty": "easy",
       "numeric": "410",
       "capitalEn": "Seoul",
-      "capitalIntro": "南韓首都，古老王宮與科技潮流交織的城市。",
-      "capitalAttraction": "景福宮"
+      "capitalIntro": "首爾沿漢江而建，作為朝鮮王朝五百年的都城，景福宮等五大宮殿至今仍保存完好。這座城市在韓戰後歷經快速工業化，如今是流行文化與科技產業的輸出重鎮。首爾也是全球網速最快的城市之一，數位基礎建設相當發達。"
     },
     {
       "code": "KP",
@@ -52,8 +48,7 @@
       "difficulty": "easy",
       "numeric": "408",
       "capitalEn": "Pyongyang",
-      "capitalIntro": "北韓首都，以宏偉的紀念建築聞名。",
-      "capitalAttraction": "主體思想塔"
+      "capitalIntro": "平壤在1953年韓戰後幾乎全城重建，因此擁有整齊劃一的社會主義式規劃街道與大型紀念性建築。主體思想塔、金日成廣場等地標展現濃厚的政治象徵意義。城市人口受到嚴格管制，僅特定身分者能在此居住。"
     },
     {
       "code": "IN",
@@ -63,8 +58,7 @@
       "difficulty": "easy",
       "numeric": "356",
       "capitalEn": "New Delhi",
-      "capitalIntro": "印度首都，殖民建築與古蹟並存的政治中心。",
-      "capitalAttraction": "印度門"
+      "capitalIntro": "新德里是1911年英國殖民政府為取代加爾各答而規劃興建的新首都，出自英國建築師勒琴斯之手。與隔壁擁有數百年歷史的舊德里相比，新德里街道寬闊、建築氣派，是典型的殖民時期規劃城市。印度門便是紀念一戰陣亡士兵而建的地標拱門。"
     },
     {
       "code": "TH",
@@ -74,8 +68,7 @@
       "difficulty": "easy",
       "numeric": "764",
       "capitalEn": "Bangkok",
-      "capitalIntro": "泰國首都，金碧輝煌的寺廟與熱鬧夜市共存。",
-      "capitalAttraction": "大皇宮"
+      "capitalIntro": "曼谷泰文全名長達167個字母，是金氏世界紀錄中最長的城市名稱。這座水都以昭披耶河為軸線發展，運河曾是主要交通方式，如今仍能搭船穿梭市區。大皇宮與玉佛寺展現泰式建築的華麗風格，也是泰國王室的重要象徵。"
     },
     {
       "code": "VN",
@@ -85,8 +78,7 @@
       "difficulty": "easy",
       "numeric": "704",
       "capitalEn": "Hanoi",
-      "capitalIntro": "越南首都，保留法式殖民建築的千年古城。",
-      "capitalAttraction": "還劍湖"
+      "capitalIntro": "河內建城已超過千年，「河內」意指「河流之內」，因城市被紅河環繞而得名。法國殖民時期留下的林蔭大道與洋樓，讓舊城區帶有濃厚的歐式風情。還劍湖傳說中曾有神龜收回寶劍，是市民日常散步的中心地標。"
     },
     {
       "code": "PH",
@@ -96,8 +88,7 @@
       "difficulty": "easy",
       "numeric": "608",
       "capitalEn": "Manila",
-      "capitalIntro": "菲律賓首都，西班牙殖民古蹟林立的港灣城市。",
-      "capitalAttraction": "王城區"
+      "capitalIntro": "馬尼拉灣畔的王城區保留大量西班牙殖民時期城牆與教堂，是東南亞少見完整的歐式古城。這座城市經歷三百多年西班牙統治與近半世紀美國統治，文化融合痕跡明顯。馬尼拉都會區也是全球人口密度最高的城市之一。"
     },
     {
       "code": "MY",
@@ -107,8 +98,7 @@
       "difficulty": "easy",
       "numeric": "458",
       "capitalEn": "Kuala Lumpur",
-      "capitalIntro": "馬來西亞首都，雙子星塔象徵現代化天際線。",
-      "capitalAttraction": "雙峰塔"
+      "capitalIntro": "吉隆坡原意為「泥濘河口」，19世紀因錫礦開採而崛起為城鎮，如今是東南亞重要金融中心。雙峰塔在1998至2004年間曾是世界最高建築，至今仍是全球最高的雙塔建築。城市融合馬來、華人、印度三大族群文化，市容多元。"
     },
     {
       "code": "SG",
@@ -118,8 +108,7 @@
       "difficulty": "easy",
       "numeric": "702",
       "capitalEn": "Singapore",
-      "capitalIntro": "城市即國家，花園城市與金融中心。",
-      "capitalAttraction": "濱海灣花園"
+      "capitalIntro": "新加坡是全球少數的城市國家之一，國土面積不到台北市的三倍卻擁有高度發展的經濟體。這座島國曾是重要的轉口貿易港，如今更以嚴謹法治與花園城市規劃聞名。濱海灣花園的超級樹景觀，展現這座城市對綠化科技的投入。"
     },
     {
       "code": "ID",
@@ -129,8 +118,7 @@
       "difficulty": "medium",
       "numeric": "360",
       "capitalEn": "Jakarta",
-      "capitalIntro": "印尼首都，東南亞人口最多的超級都會。",
-      "capitalAttraction": "獨立紀念塔"
+      "capitalIntro": "雅加達是東南亞人口最多的都會區，長年面臨嚴重地層下陷問題，部分地區每年下沉超過十公分。印尼政府因此決定將首都遷往婆羅洲的努山塔拉，雅加達未來將轉型為經濟商業中心。獨立紀念塔是紀念印尼脫離荷蘭殖民的重要地標。"
     },
     {
       "code": "MM",
@@ -140,8 +128,7 @@
       "difficulty": "hard",
       "numeric": "104",
       "capitalEn": "Naypyidaw",
-      "capitalIntro": "緬甸新首都，2005年才遷都於此的行政新城。",
-      "capitalAttraction": "烏帕塔薩地大金塔"
+      "capitalIntro": "奈比多在2005年由軍政府突然宣布為新首都，取代原本的仰光，「奈比多」意為「王者之都」。這座城市街道異常寬闊，據傳部分道路設計可供軍機起降。因規劃過於超前於實際人口，城市至今仍顯得相當空曠。"
     },
     {
       "code": "KH",
@@ -151,8 +138,7 @@
       "difficulty": "medium",
       "numeric": "116",
       "capitalEn": "Phnom Penh",
-      "capitalIntro": "柬埔寨首都，湄公河畔的皇家古城。",
-      "capitalAttraction": "皇宮"
+      "capitalIntro": "金邊坐落於湄公河、洞里薩河與巴薩河三河交會處，曾在1975至1979年赤柬統治期間幾乎被強制淨空。如今城市已重新繁榮，皇宮與國家博物館展現高棉王國的建築美學。夜晚河畔散步是當地人重要的休閒活動。"
     },
     {
       "code": "LA",
@@ -162,8 +148,7 @@
       "difficulty": "hard",
       "numeric": "418",
       "capitalEn": "Vientiane",
-      "capitalIntro": "寮國首都，湄公河畔悠閒的佛教古都。",
-      "capitalAttraction": "塔鑾寺"
+      "capitalIntro": "永珍是湄公河畔一座步調緩慢的城市，「永珍」在寮語中意為「檀香木之城」。塔鑾寺鍍金佛塔是寮國的精神象徵，也印在國徽之上。相較於東南亞其他首都，永珍幾乎沒有摩天大樓，保留濃厚的傳統佛教氛圍。"
     },
     {
       "code": "BD",
@@ -173,8 +158,7 @@
       "difficulty": "medium",
       "numeric": "050",
       "capitalEn": "Dhaka",
-      "capitalIntro": "孟加拉首都，人口密集的南亞河港大城。",
-      "capitalAttraction": "粉紅宮"
+      "capitalIntro": "達卡是全球人口密度最高的城市之一，也是南亞主要的成衣製造重鎮，「快時尚」產業鏈多數成衣皆產自此地。粉紅宮是蒙兀兒時期建築的代表作，見證這座城市數百年的統治更迭。城市交通壅塞問題相當知名，人力車是常見的代步工具。"
     },
     {
       "code": "PK",
@@ -184,8 +168,7 @@
       "difficulty": "medium",
       "numeric": "586",
       "capitalEn": "Islamabad",
-      "capitalIntro": "巴基斯坦規劃首都，現代化的行政新城。",
-      "capitalAttraction": "費薩爾清真寺"
+      "capitalIntro": "伊斯蘭馬巴德是1960年代由巴基斯坦政府在喜馬拉雅山腳下規劃興建的行政新城，取代原首都喀拉蚩。城市依網格系統分區規劃，綠地覆蓋率在南亞城市中相當突出。費薩爾清真寺曾是世界最大清真寺，外型設計如同貝都因帳篷。"
     },
     {
       "code": "AF",
@@ -195,8 +178,7 @@
       "difficulty": "medium",
       "numeric": "004",
       "capitalEn": "Kabul",
-      "capitalIntro": "阿富汗首都，絲路古道上的山谷城市。",
-      "capitalAttraction": "巴布爾花園"
+      "capitalIntro": "喀布爾位於興都庫什山脈間的谷地，自古是絲路商隊往來中亞與南亞的重要驛站。這座城市歷經數十年戰亂，許多歷史建築遭到破壞。巴布爾花園是蒙兀兒帝國開國君主巴布爾的長眠之地，也是市民難得的綠地空間。"
     },
     {
       "code": "NP",
@@ -206,8 +188,7 @@
       "difficulty": "medium",
       "numeric": "524",
       "capitalEn": "Kathmandu",
-      "capitalIntro": "尼泊爾首都，喜馬拉雅山腳下的古老王城。",
-      "capitalAttraction": "杜巴廣場"
+      "capitalIntro": "加德滿都坐落於喜馬拉雅山南麓的河谷盆地，是通往聖母峰等高山的門戶城市。杜巴廣場群聚了大量尼瓦爾建築風格的寺廟與宮殿，被列為世界文化遺產。2015年大地震曾嚴重損毀城內多處古蹟，目前多數已修復。"
     },
     {
       "code": "BT",
@@ -217,8 +198,7 @@
       "difficulty": "hard",
       "numeric": "064",
       "capitalEn": "Thimphu",
-      "capitalIntro": "不丹首都，喜馬拉雅山谷中的傳統城鎮。",
-      "capitalAttraction": "扎西確宗堡"
+      "capitalIntro": "廷布是全球極少數沒有紅綠燈的首都之一，交通指揮改由警察在路口手動指揮。這座喜馬拉雅山谷城市奉行「國民幸福總值」發展理念，優先考量環境與文化保存。扎西確宗堡同時是政府機關與佛教寺院所在地。"
     },
     {
       "code": "LK",
@@ -228,8 +208,7 @@
       "difficulty": "hard",
       "numeric": "144",
       "capitalEn": "Sri Jayawardenepura Kotte",
-      "capitalIntro": "斯里蘭卡行政首都，位於可倫坡近郊的新城。",
-      "capitalAttraction": "克拉尼亞拉賈瑪哈寺"
+      "capitalIntro": "斯里賈亞瓦德納普拉科特於1985年取代可倫坡成為斯里蘭卡法定首都，但多數政府機關與商業活動仍集中在可倫坡。這座城市名稱冗長，當地人多半直接簡稱為「科特」。城市周邊仍保有濕地生態，鄰近的可倫坡則是實質的經濟中心。"
     },
     {
       "code": "MV",
@@ -239,8 +218,7 @@
       "difficulty": "hard",
       "numeric": "462",
       "capitalEn": "Malé",
-      "capitalIntro": "馬爾地夫首都，印度洋上的珊瑚島都市。",
-      "capitalAttraction": "胡拉勒清真寺"
+      "capitalIntro": "馬列是全球面積最小的首都之一，整座島嶼幾乎被建築物填滿，人口密度極高。由於馬爾地夫地勢低平，馬列近年積極填海造陸，並在鄰近興建人工島嶼因應海平面上升威脅。胡拉勒清真寺的金色圓頂是城市重要地標。"
     },
     {
       "code": "MN",
@@ -250,8 +228,7 @@
       "difficulty": "medium",
       "numeric": "496",
       "capitalEn": "Ulaanbaatar",
-      "capitalIntro": "蒙古首都，草原之國的現代化中心。",
-      "capitalAttraction": "甘丹寺"
+      "capitalIntro": "烏蘭巴托意為「紅色英雄之城」，是全球海拔最高的首都之一，冬季氣溫可降至零下三十度以下，是全世界最冷的首都。城市周邊仍有大量傳統蒙古包聚落，遊牧與都市生活在此並存。甘丹寺保存了蒙古最大的室內佛像。"
     },
     {
       "code": "KZ",
@@ -261,8 +238,7 @@
       "difficulty": "hard",
       "numeric": "398",
       "capitalEn": "Astana",
-      "capitalIntro": "哈薩克新首都，草原上崛起的未來感城市。",
-      "capitalAttraction": "可汗夏特帳篷型商場"
+      "capitalIntro": "阿斯塔納原名阿克莫拉，1997年成為哈薩克首都後歷經數次更名，並由建築師黑川紀章操刀城市規劃，融合未來感建築與草原景觀。可汗夏特是一座巨大帳篷造型的購物中心，象徵哈薩克游牧文化與現代商業的結合。這座城市冬季酷寒，夏季卻異常炎熱，溫差極大。"
     },
     {
       "code": "UZ",
@@ -272,8 +248,7 @@
       "difficulty": "hard",
       "numeric": "860",
       "capitalEn": "Tashkent",
-      "capitalIntro": "烏茲別克首都，絲路重鎮之一的中亞大城。",
-      "capitalAttraction": "帖木兒廣場"
+      "capitalIntro": "塔什干意為「石頭之城」，曾是絲路上重要的貿易與文化樞紐，1966年一場大地震幾乎夷平全城，之後以蘇聯式規劃重建。城市因此擁有寬闊筆直的林蔭大道與眾多蘇聯時期地鐵站，部分車站裝飾華麗如同地下宮殿。帖木兒廣場紀念中亞歷史上著名的征服者帖木兒。"
     },
     {
       "code": "TM",
@@ -283,8 +258,7 @@
       "difficulty": "hard",
       "numeric": "795",
       "capitalEn": "Ashgabat",
-      "capitalIntro": "土庫曼首都，以大量白色大理石建築聞名。",
-      "capitalAttraction": "獨立紀念碑"
+      "capitalIntro": "阿什哈巴德因大量使用白色大理石建材，被金氏世界紀錄認證為「全球白色大理石建築密度最高的城市」。這座城市地處卡拉庫姆沙漠邊緣，政府投入鉅資打造氣派的紀念性建築與噴泉廣場。獨立紀念碑的巨大金色雕像是城市天際線的焦點。"
     },
     {
       "code": "TJ",
@@ -294,8 +268,7 @@
       "difficulty": "hard",
       "numeric": "762",
       "capitalEn": "Dushanbe",
-      "capitalIntro": "塔吉克首都，帕米爾高原下的中亞城市。",
-      "capitalAttraction": "魯達基公園"
+      "capitalIntro": "杜尚別在塔吉克語中意為「星期一」，因當地過去每逢星期一會在此舉辦市集而得名。這座城市位於瓦爾佐布河谷，四周被帕米爾高原的群山環繞，景色壯麗。魯達基公園以塔吉克著名詩人魯達基命名，是市民休閒散步的去處。"
     },
     {
       "code": "KG",
@@ -305,8 +278,7 @@
       "difficulty": "hard",
       "numeric": "417",
       "capitalEn": "Bishkek",
-      "capitalIntro": "吉爾吉斯首都，天山山脈環繞的中亞古城。",
-      "capitalAttraction": "阿拉圖廣場"
+      "capitalIntro": "比斯凱克坐落於天山山脈北麓，蘇聯時期曾名為伏龍芝，紀念一位出身當地的紅軍將領。城市街道以整齊的方格棋盤式規劃，並種植大量白楊與胡桃樹遮蔭。阿拉圖廣場是重要集會場所，可遠眺終年積雪的天山群峰。"
     },
     {
       "code": "TL",
@@ -316,8 +288,7 @@
       "difficulty": "hard",
       "numeric": "626",
       "capitalEn": "Dili",
-      "capitalIntro": "東帝汶首都，臨海的年輕國家首都。",
-      "capitalAttraction": "基督像"
+      "capitalIntro": "帝力是東帝汶這個21世紀最年輕獨立國家之一的首都，2002年才正式脫離印尼獨立建國。城市面向帝汶海，戰爭與獨立運動的歷史痕跡隨處可見。巨大的基督像矗立於半島高處，俯瞰整座濱海城市。"
     },
     {
       "code": "BN",
@@ -327,8 +298,7 @@
       "difficulty": "hard",
       "numeric": "096",
       "capitalEn": "Bandar Seri Begawan",
-      "capitalIntro": "汶萊首都，水上人家與金色清真寺共存。",
-      "capitalAttraction": "奧瑪爾阿里賽福鼎清真寺"
+      "capitalIntro": "斯里巴加灣市水上人家「甘榜艾爾」已有數百年歷史，居民世代在水上高腳屋生活，被稱為「東方威尼斯」。汶萊靠石油與天然氣致富，奧瑪爾阿里賽福鼎清真寺的金色圓頂在陽光下格外耀眼。城市步調悠閒，禁止販售酒精飲品。"
     },
     {
       "code": "SA",
@@ -338,8 +308,7 @@
       "difficulty": "medium",
       "numeric": "682",
       "capitalEn": "Riyadh",
-      "capitalIntro": "沙烏地阿拉伯首都，阿拉伯半島的政治核心。",
-      "capitalAttraction": "王國中心塔"
+      "capitalIntro": "利雅德意為「花園之地」，坐落於阿拉伯半島中央的內志高原，是沙烏地阿拉伯政治與金融核心。近年政府積極推動「2030願景」轉型計畫，王國中心塔等摩天大樓象徵城市快速現代化。傳統的迪拉廣場則保留了老利雅德的市集風貌。"
     },
     {
       "code": "AE",
@@ -349,8 +318,7 @@
       "difficulty": "medium",
       "numeric": "784",
       "capitalEn": "Abu Dhabi",
-      "capitalIntro": "阿聯首都，石油致富的波斯灣文化古城。",
-      "capitalAttraction": "謝赫扎耶德大清真寺"
+      "capitalIntro": "阿布達比雖不如杜拜知名，卻是阿拉伯聯合大公國的政治首都與石油財富核心，主權基金規模位居全球前列。謝赫扎耶德大清真寺可同時容納四萬多名信眾，是全球最大清真寺之一。城市近年積極發展文化產業，羅浮宮阿布達比分館便座落於此。"
     },
     {
       "code": "IL",
@@ -360,8 +328,7 @@
       "difficulty": "medium",
       "numeric": "376",
       "capitalEn": "Jerusalem",
-      "capitalIntro": "以色列宣稱首都，三大宗教的聖城。",
-      "capitalAttraction": "哭牆"
+      "capitalIntro": "耶路撒冷是猶太教、基督宗教與伊斯蘭教共同的聖城，舊城區內的哭牆、聖墓教堂與圓頂清真寺相距不過數百公尺。這座城市的主權歸屬長期存在國際爭議，多數國家的使館仍設於特拉維夫。耶路撒冷舊城已有三千年以上的建城歷史。"
     },
     {
       "code": "TR",
@@ -371,8 +338,7 @@
       "difficulty": "medium",
       "numeric": "792",
       "capitalEn": "Ankara",
-      "capitalIntro": "土耳其首都，安納托利亞高原上的現代化城市。",
-      "capitalAttraction": "安卡拉城堡"
+      "capitalIntro": "安卡拉自1923年土耳其共和國成立後取代伊斯坦堡成為首都，凱末爾希望藉此象徵新國家的世俗化與現代化。城市地處安納托利亞高原，氣候乾燥且四季分明。安卡拉城堡俯瞰全城，是這座城市少數保留的古代遺跡之一。"
     },
     {
       "code": "IR",
@@ -382,8 +348,7 @@
       "difficulty": "medium",
       "numeric": "364",
       "capitalEn": "Tehran",
-      "capitalIntro": "伊朗首都，德黑蘭山腳下的波斯大都會。",
-      "capitalAttraction": "自由紀念塔"
+      "capitalIntro": "德黑蘭位於厄爾布爾士山脈南麓，是伊朗人口最多的城市，也是1979年伊斯蘭革命的爆發地。城市海拔落差大，北區地勢較高、氣候涼爽，是富裕階層聚居地。自由紀念塔融合伊朗古代與現代建築語彙，是城市的重要象徵。"
     },
     {
       "code": "IQ",
@@ -393,8 +358,7 @@
       "difficulty": "medium",
       "numeric": "368",
       "capitalEn": "Baghdad",
-      "capitalIntro": "伊拉克首都，兩河文明搖籃上的古老城市。",
-      "capitalAttraction": "巴格達塔"
+      "capitalIntro": "巴格達建城於西元8世紀阿拔斯王朝時期，曾是伊斯蘭黃金時代的學術與文化中心，「智慧宮」在此匯聚了當時世界各地的典籍。這座底格里斯河畔古城歷經多次戰亂，許多歷史遺跡遭受損毀。巴格達塔是現代城市重建後的重要地標。"
     },
     {
       "code": "SY",
@@ -404,8 +368,7 @@
       "difficulty": "medium",
       "numeric": "760",
       "capitalEn": "Damascus",
-      "capitalIntro": "敘利亞首都，世界上持續有人居住最久的城市之一。",
-      "capitalAttraction": "倭馬亞清真寺"
+      "capitalIntro": "大馬士革據信是世界上持續有人居住最久的城市之一，歷史可追溯至西元前數千年。倭馬亞清真寺興建於西元八世紀，是伊斯蘭建築史上的重要里程碑。這座古城因近年戰亂遭受嚴重破壞，許多古蹟正在修復中。"
     },
     {
       "code": "JO",
@@ -415,8 +378,7 @@
       "difficulty": "medium",
       "numeric": "400",
       "capitalEn": "Amman",
-      "capitalIntro": "約旦首都，七座山丘上的中東古城。",
-      "capitalAttraction": "安曼城堡"
+      "capitalIntro": "安曼建於七座山丘之上，因此又有「七丘之城」的稱號，城市依山勢層層堆疊而建。安曼城堡山保存了羅馬、拜占庭與伍麥亞王朝的遺跡，訴說這座城市數千年的多元統治歷史。現代安曼則是中東地區相對穩定、外資青睞的商業中心。"
     },
     {
       "code": "LB",
@@ -426,8 +388,7 @@
       "difficulty": "medium",
       "numeric": "422",
       "capitalEn": "Beirut",
-      "capitalIntro": "黎巴嫩首都，地中海畔曾有「中東巴黎」之稱。",
-      "capitalAttraction": "鴿子岩"
+      "capitalIntro": "貝魯特地中海畔的優越位置，讓這座城市在20世紀中期曾享有「中東小巴黎」的美譽，是區域內金融與文化重鎮。長年內戰與2020年的港口大爆炸讓城市遭受重創，但貝魯特人展現出強韌的重建力。鴿子岩是這座濱海城市最具代表性的自然地標。"
     },
     {
       "code": "YE",
@@ -437,8 +398,7 @@
       "difficulty": "hard",
       "numeric": "887",
       "capitalEn": "Sana'a",
-      "capitalIntro": "葉門首都，擁有獨特土磚高樓建築的古城。",
-      "capitalAttraction": "薩那老城"
+      "capitalIntro": "沙那老城以獨特的土磚多層高樓建築聞名，部分建築歷史超過千年，被列為世界文化遺產。這座城市海拔超過兩千兩百公尺，是全球海拔最高的首都之一。長年戰亂使沙那的古蹟保存面臨嚴峻挑戰。"
     },
     {
       "code": "OM",
@@ -448,8 +408,7 @@
       "difficulty": "hard",
       "numeric": "512",
       "capitalEn": "Muscat",
-      "capitalIntro": "阿曼首都，阿拉伯半島東岸的港口古城。",
-      "capitalAttraction": "蘇丹卡布斯大清真寺"
+      "capitalIntro": "馬斯喀特依山面海而建，城市規劃嚴格限制建築高度與招牌色彩，維持統一的白色系市容。蘇丹卡布斯大清真寺是阿曼最大清真寺，其手工編織地毯曾是全球最大的單片地毯之一。這座城市的港口自古便是印度洋貿易的重要據點。"
     },
     {
       "code": "QA",
@@ -459,8 +418,7 @@
       "difficulty": "medium",
       "numeric": "634",
       "capitalEn": "Doha",
-      "capitalIntro": "卡達首都，波斯灣畔快速崛起的現代化城市。",
-      "capitalAttraction": "伊斯蘭藝術博物館"
+      "capitalIntro": "杜哈在過去二十年間迅速從漁村與採珠港口，蛻變為波斯灣畔天際線最搶眼的城市之一。伊斯蘭藝術博物館由知名建築師貝聿銘設計，收藏橫跨伊斯蘭世界千年的珍貴藝術品。2022年世界盃足球賽在此舉辦，是首個主辦世足賽的中東國家。"
     },
     {
       "code": "KW",
@@ -470,8 +428,7 @@
       "difficulty": "medium",
       "numeric": "414",
       "capitalEn": "Kuwait City",
-      "capitalIntro": "科威特首都，波斯灣畔的石油富國都會。",
-      "capitalAttraction": "科威特塔"
+      "capitalIntro": "科威特市坐落於波斯灣頂端，長期是海灣地區重要的貿易與珍珠採集港口。科威特塔的三座水塔造型融合傳統與現代設計，是城市最具代表性的地標。1990年波斯灣戰爭曾重創這座城市，如今已恢復繁榮的石油經濟。"
     },
     {
       "code": "BH",
@@ -481,8 +438,7 @@
       "difficulty": "hard",
       "numeric": "048",
       "capitalEn": "Manama",
-      "capitalIntro": "巴林首都，波斯灣中島國的金融中心。",
-      "capitalAttraction": "巴林堡"
+      "capitalIntro": "麥納瑪坐落於巴林島北端，自古便是波斯灣珍珠貿易的重要港口，「巴林」在阿拉伯語中意為「兩海之間」。巴林堡遺址層層疊疊記錄了超過四千年的人類居住史，被列為世界文化遺產。這座城市如今是海灣地區重要的金融中心之一。"
     },
     {
       "code": "GE",
@@ -492,8 +448,7 @@
       "difficulty": "hard",
       "numeric": "268",
       "capitalEn": "Tbilisi",
-      "capitalIntro": "喬治亞首都，高加索山區的古老王城。",
-      "capitalAttraction": "納里卡拉城堡"
+      "capitalIntro": "提比里斯坐落於庫拉河谷，因當地溫泉而得名，「提比里斯」在喬治亞語中意為「溫暖之地」。納里卡拉城堡俯瞰全城，訴說這座城市歷經波斯、鄂圖曼與俄羅斯統治的複雜歷史。舊城區的硫磺浴場至今仍是遊客體驗傳統的熱門去處。"
     },
     {
       "code": "AM",
@@ -503,8 +458,7 @@
       "difficulty": "hard",
       "numeric": "051",
       "capitalEn": "Yerevan",
-      "capitalIntro": "亞美尼亞首都，可遠眺聖經名山亞拉拉特山。",
-      "capitalAttraction": "共和廣場"
+      "capitalIntro": "葉里溫已有超過兩千八百年歷史，比羅馬還古老，是全球持續有人居住的城市中歷史最悠久者之一。從市區可遠眺聖經中著名的亞拉拉特山，儘管該山如今位於土耳其境內，仍是亞美尼亞人重要的精神象徵。共和廣場的粉紅色凝灰岩建築是城市代表性景觀。"
     },
     {
       "code": "AZ",
@@ -514,8 +468,7 @@
       "difficulty": "hard",
       "numeric": "031",
       "capitalEn": "Baku",
-      "capitalIntro": "亞塞拜然首都，裡海畔擁有火焰塔的石油之城。",
-      "capitalAttraction": "火焰塔"
+      "capitalIntro": "巴庫位於裡海西岸，因蘊藏豐富石油資源，19世紀末曾是全球石油產業的重鎮之一。火焰塔的三座建築外型模擬火焰，呼應亞塞拜然「火之國度」的別稱，因當地天然氣自古便會自然燃燒。舊城區的城牆與宮殿見證絲路貿易的繁榮歷史。"
     },
     {
       "code": "PS",
@@ -525,8 +478,7 @@
       "difficulty": "hard",
       "numeric": "275",
       "capitalEn": "Ramallah",
-      "capitalIntro": "巴勒斯坦行政中心，約旦河西岸的文化重鎮。",
-      "capitalAttraction": "拉姆安拉市中心"
+      "capitalIntro": "拉姆安拉位於約旦河西岸中部高地，是巴勒斯坦自治政府的實際行政中心，儘管巴勒斯坦法定首都為耶路撒冷。這座城市海拔較高，氣候涼爽，過去曾是基督徒聚居的度假勝地。如今拉姆安拉是巴勒斯坦文化、教育與商業活動的重要據點。"
     },
     {
       "code": "FR",
@@ -536,8 +488,7 @@
       "difficulty": "easy",
       "numeric": "250",
       "capitalEn": "Paris",
-      "capitalIntro": "法國首都，浪漫與藝術之都。",
-      "capitalAttraction": "艾菲爾鐵塔"
+      "capitalIntro": "巴黎自羅馬時期便是塞納河畔的重要聚落，歷經數百年演變成為今日的浪漫之都與世界時尚中心。艾菲爾鐵塔在1889年萬國博覽會落成時曾引發爭議，如今卻是全球最具辨識度的城市地標之一。羅浮宮、香榭麗舍大道等景點，讓巴黎每年吸引數千萬遊客造訪。"
     },
     {
       "code": "DE",
@@ -547,8 +498,7 @@
       "difficulty": "easy",
       "numeric": "276",
       "capitalEn": "Berlin",
-      "capitalIntro": "德國首都，冷戰歷史與現代創意並存的城市。",
-      "capitalAttraction": "布蘭登堡門"
+      "capitalIntro": "柏林在冷戰期間因柏林圍牆一分為二，象徵東西方意識形態的對峙，1989年圍牆倒塌成為德國統一的重要轉捩點。如今這座城市以豐富的當代藝術、音樂與新創產業聞名，吸引大量年輕創作者移居於此。布蘭登堡門原本是普魯士王國的城門，如今是德國統一的象徵。"
     },
     {
       "code": "GB",
@@ -558,8 +508,7 @@
       "difficulty": "easy",
       "numeric": "826",
       "capitalEn": "London",
-      "capitalIntro": "英國首都，皇室傳統與國際金融中心。",
-      "capitalAttraction": "大笨鐘"
+      "capitalIntro": "倫敦沿泰晤士河發展超過兩千年，從羅馬時期的軍事據點逐漸成長為大英帝國的權力核心與全球金融中心之一。大笨鐘的鐘聲每整點響起，是英國國會大廈最著名的聲音標誌。這座城市族群與文化極為多元，是全球博物館與劇院密度最高的城市之一。"
     },
     {
       "code": "IT",
@@ -569,8 +518,7 @@
       "difficulty": "easy",
       "numeric": "380",
       "capitalEn": "Rome",
-      "capitalIntro": "義大利首都，古羅馬帝國的永恆之城。",
-      "capitalAttraction": "羅馬競技場"
+      "capitalIntro": "羅馬有「永恆之城」之稱，作為古羅馬帝國的首都，其歷史深深形塑了西方文明的法律、建築與語言。羅馬競技場曾可容納超過五萬名觀眾觀看角鬥士競技，是古羅馬工程技術的代表作。梵蒂岡城國就位於羅馬市區之內，是全球最小的獨立主權國家。"
     },
     {
       "code": "ES",
@@ -580,8 +528,7 @@
       "difficulty": "easy",
       "numeric": "724",
       "capitalEn": "Madrid",
-      "capitalIntro": "西班牙首都，伊比利半島中心的藝術之城。",
-      "capitalAttraction": "普拉多博物館"
+      "capitalIntro": "馬德里地處伊比利半島中央高原，海拔超過六百五十公尺，是歐洲海拔最高的首都之一。普拉多博物館收藏戈雅、委拉斯奎茲等西班牙大師的經典畫作，是全球重要藝術殿堂之一。這座城市的夜生活文化相當活躍，居民習慣深夜才用晚餐。"
     },
     {
       "code": "PT",
@@ -591,8 +538,7 @@
       "difficulty": "easy",
       "numeric": "620",
       "capitalEn": "Lisbon",
-      "capitalIntro": "葡萄牙首都，大航海時代的起點港都。",
-      "capitalAttraction": "貝倫塔"
+      "capitalIntro": "里斯本坐落於特茹河出海口，是大航海時代葡萄牙探險家啟航前往世界各地的起點港都。貝倫塔曾是守衛河口的防禦要塞，如今是紀念大航海時代的重要地標。這座城市依山丘而建，隨處可見以磁磚拼貼裝飾的傳統建築立面。"
     },
     {
       "code": "NL",
@@ -602,8 +548,7 @@
       "difficulty": "easy",
       "numeric": "528",
       "capitalEn": "Amsterdam",
-      "capitalIntro": "荷蘭首都，運河交織的自由開放之城。",
-      "capitalAttraction": "安妮之家"
+      "capitalIntro": "阿姆斯特丹以縱橫交錯的運河聞名，運河沿岸的十七世紀商人宅邸已被列為世界文化遺產。這座城市自古便以貿易與思想自由著稱，也是安妮·法蘭克躲藏並寫下日記的地方。如今阿姆斯特丹以自行車友善的城市規劃聞名，市區單車數量甚至超過居民人口。"
     },
     {
       "code": "BE",
@@ -613,8 +558,7 @@
       "difficulty": "easy",
       "numeric": "056",
       "capitalEn": "Brussels",
-      "capitalIntro": "比利時首都，歐盟總部所在的多元文化城市。",
-      "capitalAttraction": "原子球塔"
+      "capitalIntro": "布魯塞爾同時是比利時首都與歐盟總部所在地，市內眾多機構建築讓這座城市有「歐洲首都」之稱。原子球塔為1958年世界博覽會而建，放大一億六千五百萬倍的鐵原子晶體造型相當獨特。這座城市也以巧克力、鬆餅與啤酒文化聞名於世。"
     },
     {
       "code": "CH",
@@ -624,8 +568,7 @@
       "difficulty": "medium",
       "numeric": "756",
       "capitalEn": "Bern",
-      "capitalIntro": "瑞士首都，熊為城市象徵的中世紀古城。",
-      "capitalAttraction": "聯邦國會大廈"
+      "capitalIntro": "伯恩舊城區完整保留中世紀街道格局與砂岩建築，被列為世界文化遺產，城市名稱據傳源自德語的「熊」。聯邦國會大廈是瑞士聯邦政府所在地，展現這個永久中立國的政治穩定形象。儘管伯恩是首都，蘇黎世才是瑞士人口最多、經濟最活躍的城市。"
     },
     {
       "code": "AT",
@@ -635,8 +578,7 @@
       "difficulty": "easy",
       "numeric": "040",
       "capitalEn": "Vienna",
-      "capitalIntro": "奧地利首都，古典音樂之都。",
-      "capitalAttraction": "美泉宮"
+      "capitalIntro": "維也納自哈布斯堡王朝時期便是歐洲音樂與藝術的重鎮，莫札特、貝多芬、舒伯特等音樂大師都曾在此生活創作。美泉宮曾是哈布斯堡王室的夏宮，華麗程度可比擬凡爾賽宮。這座城市至今仍以古典音樂會與咖啡館文化聞名於世。"
     },
     {
       "code": "SE",
@@ -646,8 +588,7 @@
       "difficulty": "easy",
       "numeric": "752",
       "capitalEn": "Stockholm",
-      "capitalIntro": "瑞典首都，由14座島嶼組成的北歐水都。",
-      "capitalAttraction": "老城區"
+      "capitalIntro": "斯德哥爾摩由十四座島嶼與眾多橋樑串連而成，因此有「北方威尼斯」之稱。老城區蓋美斯坦保留中世紀狹窄石板巷弄，是這座城市歷史最悠久的區域。每年諾貝爾獎頒獎典禮都在斯德哥爾摩音樂廳舉行，是全球矚目的年度盛事。"
     },
     {
       "code": "NO",
@@ -657,8 +598,7 @@
       "difficulty": "easy",
       "numeric": "578",
       "capitalEn": "Oslo",
-      "capitalIntro": "挪威首都，峽灣環繞的北歐宜居城市。",
-      "capitalAttraction": "維格蘭雕塑公園"
+      "capitalIntro": "奧斯陸周圍環繞著峽灣與森林，是全球宜居城市排名中經常名列前茅的首都之一。維格蘭雕塑公園展示挪威雕塑家維格蘭畢生創作的兩百多座人體雕像，主題探討人生百態。這座城市也積極推動電動車普及，是全球電動車比例最高的城市之一。"
     },
     {
       "code": "DK",
@@ -668,8 +608,7 @@
       "difficulty": "easy",
       "numeric": "208",
       "capitalEn": "Copenhagen",
-      "capitalIntro": "丹麥首都，以人魚公主雕像聞名的童話城市。",
-      "capitalAttraction": "小美人魚雕像"
+      "capitalIntro": "哥本哈根以人魚公主雕像聞名，這座根據安徒生童話創作的小型銅像已成為城市象徵，儘管其尺寸經常讓遊客感到意外地小巧。這座城市長年在全球宜居城市與自行車友善城市評比中名列前茅。蒂沃利花園是全球歷史第二悠久的遊樂園，啟發了迪士尼樂園的設計理念。"
     },
     {
       "code": "FI",
@@ -679,8 +618,7 @@
       "difficulty": "easy",
       "numeric": "246",
       "capitalEn": "Helsinki",
-      "capitalIntro": "芬蘭首都，波羅的海畔的設計之都。",
-      "capitalAttraction": "岩石教堂"
+      "capitalIntro": "赫爾辛基面向波羅的海，城市規劃與建築設計深受俄羅斯統治時期影響，市中心的新古典主義建築群相當壯觀。岩石教堂直接在花崗岩岩層中鑿建而成，自然採光效果獨特，是芬蘭現代建築的代表作。這座城市也是全球設計產業的重鎮，每年舉辦赫爾辛基設計週。"
     },
     {
       "code": "IE",
@@ -690,8 +628,7 @@
       "difficulty": "easy",
       "numeric": "372",
       "capitalEn": "Dublin",
-      "capitalIntro": "愛爾蘭首都，利菲河畔的文學與酒吧之城。",
-      "capitalAttraction": "聖三一學院"
+      "capitalIntro": "都柏林沿利菲河發展，是愛爾蘭政治與文化核心，孕育了喬伊斯、王爾德等多位重量級文學家。聖三一學院創立於1592年，是愛爾蘭歷史最悠久的大學，館藏中世紀手抄本《凱爾經》是重要文化資產。城市裡的酒吧文化也是都柏林生活不可或缺的一部分。"
     },
     {
       "code": "PL",
@@ -701,8 +638,7 @@
       "difficulty": "medium",
       "numeric": "616",
       "capitalEn": "Warsaw",
-      "capitalIntro": "波蘭首都，二戰後重建的堅韌之城。",
-      "capitalAttraction": "華沙老城廣場"
+      "capitalIntro": "華沙在二戰期間遭德軍幾乎夷為平地，戰後波蘭人依照戰前繪畫與照片，一磚一瓦重建老城區，這份堅韌讓華沙老城被列為世界文化遺產。華沙老城廣場周邊的彩色房屋，如今很難想像曾是一片廢墟。這座城市也是蕭邦的出生地，市內處處可見紀念這位音樂家的地標。"
     },
     {
       "code": "CZ",
@@ -712,8 +648,7 @@
       "difficulty": "medium",
       "numeric": "203",
       "capitalEn": "Prague",
-      "capitalIntro": "捷克首都，「百塔之城」的中歐古都。",
-      "capitalAttraction": "查理大橋"
+      "capitalIntro": "布拉格因城內眾多尖塔教堂，有「百塔之城」的美稱，舊城區保存了完整的哥德式與巴洛克式建築群。查理大橋橫跨伏爾塔瓦河，橋上三十座巴洛克雕像每尊都有各自的故事。這座城市在二戰與冷戰期間幸運地未遭嚴重轟炸，因此保留了中歐最完整的歷史城區之一。"
     },
     {
       "code": "SK",
@@ -723,8 +658,7 @@
       "difficulty": "hard",
       "numeric": "703",
       "capitalEn": "Bratislava",
-      "capitalIntro": "斯洛伐克首都，多瑙河畔的中歐小城。",
-      "capitalAttraction": "布拉提斯拉瓦城堡"
+      "capitalIntro": "布拉提斯拉瓦位於多瑙河畔，地理位置特殊，是全球唯一與兩個國家首都（維也納、布達佩斯）距離不到一百公里的首都。布拉提斯拉瓦城堡俯瞰全城與多瑙河，白色城牆在夜晚燈光下相當醒目。這座城市規模不大，步行即可走遍多數historic景點。"
     },
     {
       "code": "HU",
@@ -734,8 +668,7 @@
       "difficulty": "medium",
       "numeric": "348",
       "capitalEn": "Budapest",
-      "capitalIntro": "匈牙利首都，多瑙河畔的溫泉之都。",
-      "capitalAttraction": "國會大廈"
+      "capitalIntro": "布達佩斯由多瑙河兩岸的布達與佩斯合併而成，1873年正式統一為一座城市。國會大廈是全球最大的國會建築之一，哥德復興式尖頂倒映在多瑙河面上構成經典畫面。這座城市擁有超過百座溫泉浴場，泡溫泉是當地人重要的日常休閒。"
     },
     {
       "code": "RO",
@@ -745,8 +678,7 @@
       "difficulty": "medium",
       "numeric": "642",
       "capitalEn": "Bucharest",
-      "capitalIntro": "羅馬尼亞首都，曾有「小巴黎」之稱的東歐城市。",
-      "capitalAttraction": "人民宮"
+      "capitalIntro": "布加勒斯特在二十世紀初期因優雅的林蔭大道與新古典建築，曾被稱為「小巴黎」。人民宮是全球最重的建築物之一，由獨裁者希奧塞古下令興建，內部房間數量超過一千間。這座城市歷經共產時期的大規模都市改造，新舊建築風格交錯並存。"
     },
     {
       "code": "BG",
@@ -756,8 +688,7 @@
       "difficulty": "medium",
       "numeric": "100",
       "capitalEn": "Sofia",
-      "capitalIntro": "保加利亞首都，巴爾幹半島上的古老城市。",
-      "capitalAttraction": "亞歷山大涅夫斯基教堂"
+      "capitalIntro": "索非亞是歐洲歷史最悠久的首都之一，城市歷史可追溯至七千年前的新石器時代聚落。亞歷山大涅夫斯基教堂是巴爾幹半島最大的東正教堂之一，金色圓頂在陽光下十分耀眼。這座城市背靠維托沙山，市民假日經常上山健行或滑雪。"
     },
     {
       "code": "GR",
@@ -767,8 +698,7 @@
       "difficulty": "easy",
       "numeric": "300",
       "capitalEn": "Athens",
-      "capitalIntro": "希臘首都，西方文明的發源地。",
-      "capitalAttraction": "帕德嫩神廟"
+      "capitalIntro": "雅典是西方民主制度與哲學思想的發源地，蘇格拉底、柏拉圖等哲人都曾在此活動講學。帕德嫩神廟矗立於衛城之上，是古希臘建築藝術的巔峰之作，歷經兩千五百年風霜依然屹立。1896年首屆現代奧林匹克運動會便是在雅典舉行。"
     },
     {
       "code": "HR",
@@ -778,8 +708,7 @@
       "difficulty": "medium",
       "numeric": "191",
       "capitalEn": "Zagreb",
-      "capitalIntro": "克羅埃西亞首都，中歐風情的巴爾幹城市。",
-      "capitalAttraction": "聖馬可教堂"
+      "capitalIntro": "札格瑞布由上城與下城兩部分組成，上城保留中世紀街道與教堂，下城則是十九世紀奧匈帝國時期規劃的方格街區。聖馬可教堂的彩色瓦片屋頂拼出克羅埃西亞與札格瑞布的徽章圖案，相當醒目。這座城市規模適中，市集文化與咖啡館生活相當興盛。"
     },
     {
       "code": "SI",
@@ -789,8 +718,7 @@
       "difficulty": "hard",
       "numeric": "705",
       "capitalEn": "Ljubljana",
-      "capitalIntro": "斯洛維尼亞首都，龍為城市象徵的中歐小城。",
-      "capitalAttraction": "盧比安納城堡"
+      "capitalIntro": "盧比安納以龍為城市象徵，傳說古希臘英雄伊阿宋曾在此屠龍，龍的圖騰因此出現在城市徽章與橋樑雕像上。盧比安納城堡俯瞰整座城市，可搭乘纜車輕鬆抵達。這座城市以高比例的自行車與行人徒步區聞名，曾獲選歐洲綠色首都。"
     },
     {
       "code": "RS",
@@ -800,8 +728,7 @@
       "difficulty": "medium",
       "numeric": "688",
       "capitalEn": "Belgrade",
-      "capitalIntro": "塞爾維亞首都，兩河交匯的巴爾幹古城。",
-      "capitalAttraction": "卡萊梅格丹城堡"
+      "capitalIntro": "貝爾格勒坐落於薩瓦河與多瑙河交會處，「貝爾格勒」意為「白色城市」，因古代城牆多以白色石灰岩建造而得名。卡萊梅格丹城堡見證這座城市歷經羅馬、拜占庭、鄂圖曼與奧匈帝國等多次統治更迭。這座城市的夜生活文化相當活躍，河畔的漂浮夜店是當地特色。"
     },
     {
       "code": "BA",
@@ -811,8 +738,7 @@
       "difficulty": "medium",
       "numeric": "070",
       "capitalEn": "Sarajevo",
-      "capitalIntro": "波士尼亞首都，東西文化交會的巴爾幹古城。",
-      "capitalAttraction": "拉丁橋"
+      "capitalIntro": "塞拉耶佛因1914年奧匈帝國皇儲在此遇刺，直接引爆第一次世界大戰，成為近代史上重要的轉捩點城市。拉丁橋正是當年刺殺事件發生的地點，如今已成為歷史景點。這座城市融合天主教、東正教、伊斯蘭教等多元宗教建築，被稱為「歐洲耶路撒冷」。"
     },
     {
       "code": "ME",
@@ -822,8 +748,7 @@
       "difficulty": "hard",
       "numeric": "499",
       "capitalEn": "Podgorica",
-      "capitalIntro": "蒙特內哥羅首都，山區中的小巧首都。",
-      "capitalAttraction": "彼得羅維奇皇宮"
+      "capitalIntro": "波德里查坐落於摩拉查河谷，是蒙特內哥羅這個山地小國的行政中心，四周被群山環繞，景色壯麗。彼得羅維奇皇宮曾是蒙特內哥羅王室居所，如今作為博物館對外開放。這座城市規模不大，鄰近的科托爾灣則是蒙特內哥羅最知名的觀光勝地。"
     },
     {
       "code": "MK",
@@ -833,8 +758,7 @@
       "difficulty": "hard",
       "numeric": "807",
       "capitalEn": "Skopje",
-      "capitalIntro": "北馬其頓首都，瓦爾達河畔的巴爾幹城市。",
-      "capitalAttraction": "石橋"
+      "capitalIntro": "史高比耶因瓦爾達河貫穿市區而分為新舊兩城，石橋連接兩岸已有超過五百年歷史。這座城市在1963年曾遭遇強烈地震重創，之後以現代化風格重建市中心。近年政府推動大規模紀念性建築工程，為城市增添許多新古典風格的雕像與噴泉。"
     },
     {
       "code": "AL",
@@ -844,8 +768,7 @@
       "difficulty": "hard",
       "numeric": "008",
       "capitalEn": "Tirana",
-      "capitalIntro": "阿爾巴尼亞首都，色彩繽紛建築林立的巴爾幹城市。",
-      "capitalAttraction": "史坎德培廣場"
+      "capitalIntro": "地拉那近年以色彩繽紛的建築立面聞名，這項改造計畫源自曾任市長的藝術家埃迪·拉瑪，希望為共產時期遺留的灰暗街景注入活力。史坎德培廣場以阿爾巴尼亞民族英雄史坎德培命名，是城市重要的集會空間。這座城市背倚達伊蒂山，登山健行是熱門的假日活動。"
     },
     {
       "code": "XK",
@@ -854,8 +777,7 @@
       "continent": "europe",
       "difficulty": "hard",
       "capitalEn": "Pristina",
-      "capitalIntro": "科索沃首都，年輕國家的行政中心。",
-      "capitalAttraction": "牛頓雕像大道"
+      "capitalIntro": "普里斯提納是科索沃這個2008年才宣布獨立的年輕國家首都，其主權地位至今仍未獲得所有聯合國會員國承認。城市裡矗立著感謝美國支持科索沃獨立的比爾柯林頓雕像，反映當地特殊的地緣政治歷史。這座城市人口結構年輕，是巴爾幹半島平均年齡最低的首都之一。"
     },
     {
       "code": "UA",
@@ -865,8 +787,7 @@
       "difficulty": "medium",
       "numeric": "804",
       "capitalEn": "Kyiv",
-      "capitalIntro": "烏克蘭首都，第聶伯河畔的東斯拉夫古都。",
-      "capitalAttraction": "聖索菲亞大教堂"
+      "capitalIntro": "基輔已有超過一千五百年歷史，是東斯拉夫文明的搖籃，被視為俄羅斯、烏克蘭、白俄羅斯共同的文化發源地。聖索菲亞大教堂興建於11世紀，以精美的馬賽克鑲嵌畫聞名，被列為世界文化遺產。這座第聶伯河畔古城近年在戰火中展現出強烈的民族韌性。"
     },
     {
       "code": "BY",
@@ -876,8 +797,7 @@
       "difficulty": "medium",
       "numeric": "112",
       "capitalEn": "Minsk",
-      "capitalIntro": "白俄羅斯首都，蘇聯式規劃的東歐城市。",
-      "capitalAttraction": "獨立廣場"
+      "capitalIntro": "明斯克在二戰期間遭到嚴重摧毀，戰後以蘇聯式規劃全面重建，因此擁有寬闊筆直的大道與整齊劃一的建築立面。獨立廣場是全歐洲面積最大的城市廣場之一，也是重要的政治集會場所。這座城市保留大量蘇聯時期紀念碑，呈現獨特的社會主義美學風格。"
     },
     {
       "code": "RU",
@@ -887,8 +807,7 @@
       "difficulty": "easy",
       "numeric": "643",
       "capitalEn": "Moscow",
-      "capitalIntro": "俄羅斯首都，紅場與克里姆林宮所在的政治中心。",
-      "capitalAttraction": "紅場"
+      "capitalIntro": "莫斯科以紅場與克里姆林宮為核心，數百年來一直是俄羅斯政治權力的象徵中心。聖瓦西里主教座堂色彩繽紛的洋蔥頂造型，是這座城市最具辨識度的地標之一。莫斯科地鐵不僅是交通工具，許多車站更以華麗壁畫與雕塑裝飾，被譽為「地下的人民宮殿」。"
     },
     {
       "code": "MD",
@@ -898,8 +817,7 @@
       "difficulty": "hard",
       "numeric": "498",
       "capitalEn": "Chișinău",
-      "capitalIntro": "摩爾多瓦首都，以葡萄酒產業聞名的東歐城市。",
-      "capitalAttraction": "凱旋門"
+      "capitalIntro": "基希涅夫是東歐重要的葡萄酒產區中心，摩爾多瓦地下酒窖網絡綿延數十公里，部分酒莊藏酒量創下金氏世界紀錄。凱旋門紀念摩爾多瓦擺脫鄂圖曼統治的歷史，是市中心重要地標。這座城市規模不大，公園與林蔭道占地比例相當高。"
     },
     {
       "code": "LT",
@@ -909,8 +827,7 @@
       "difficulty": "hard",
       "numeric": "440",
       "capitalEn": "Vilnius",
-      "capitalIntro": "立陶宛首都，保有中世紀舊城的波羅的海城市。",
-      "capitalAttraction": "維爾紐斯大教堂"
+      "capitalIntro": "維爾紐斯舊城區是東歐面積最大的巴洛克式古城之一，被列為世界文化遺產，狹窄石板巷弄間教堂林立。維爾紐斯大教堂矗立於城市中心的大教堂廣場，是立陶宛重要的宗教與歷史地標。這座城市也孕育出獨立藝術特區「對岸共和國」，帶有濃厚的波希米亞氣息。"
     },
     {
       "code": "LV",
@@ -920,8 +837,7 @@
       "difficulty": "hard",
       "numeric": "428",
       "capitalEn": "Riga",
-      "capitalIntro": "拉脫維亞首都，新藝術建築林立的波羅的海港城。",
-      "capitalAttraction": "里加大教堂"
+      "capitalIntro": "里加是波羅的海三國中規模最大的城市，舊城區擁有數量驚人的新藝術風格建築，被列為世界文化遺產。里加大教堂的管風琴曾是全球最大的管風琴之一，音樂傳統深厚。這座港口城市自漢薩同盟時期便是波羅的海重要的貿易樞紐。"
     },
     {
       "code": "EE",
@@ -931,8 +847,7 @@
       "difficulty": "hard",
       "numeric": "233",
       "capitalEn": "Tallinn",
-      "capitalIntro": "愛沙尼亞首都，數位化程度極高的波羅的海古城。",
-      "capitalAttraction": "塔林舊城"
+      "capitalIntro": "塔林舊城完整保留中世紀城牆與塔樓，鵝卵石街道兩旁盡是尖頂房屋，是波羅的海保存最完好的中世紀古城之一。這座城市同時也是數位科技先驅，Skype便是由愛沙尼亞團隊在此開發，政府服務高度數位化。塔林舊城被列為世界文化遺產，每年吸引大量遊客造訪。"
     },
     {
       "code": "IS",
@@ -942,8 +857,7 @@
       "difficulty": "medium",
       "numeric": "352",
       "capitalEn": "Reykjavik",
-      "capitalIntro": "冰島首都，全球最北的國家首都。",
-      "capitalAttraction": "哈爾格林姆教堂"
+      "capitalIntro": "雷克雅維克是全球最北的國家首都，也是全球最乾淨的城市之一，市內供暖多仰賴地熱能源。哈爾格林姆教堂外型模擬冰島玄武岩柱狀節理的自然景觀，是城市天際線的焦點。這座城市規模不大，卻擁有活躍的音樂與藝術創作能量。"
     },
     {
       "code": "LU",
@@ -953,8 +867,7 @@
       "difficulty": "medium",
       "numeric": "442",
       "capitalEn": "Luxembourg",
-      "capitalIntro": "盧森堡首都，峽谷環繞的金融小國都會。",
-      "capitalAttraction": "憲法廣場"
+      "capitalIntro": "盧森堡市建於陡峭峽谷之上，舊城堡遺跡與現代化歐盟機構建築在同一座城市裡並存。這座城市是全球重要的金融中心之一，人均GDP長年位居世界前列。憲法廣場可俯瞰佩特羅斯河谷，是欣賞城市地形的最佳地點。"
     },
     {
       "code": "MT",
@@ -964,8 +877,7 @@
       "difficulty": "hard",
       "numeric": "470",
       "capitalEn": "Valletta",
-      "capitalIntro": "馬爾他首都，地中海防禦工事聞名的古城。",
-      "capitalAttraction": "聖若望副主教座堂"
+      "capitalIntro": "瓦萊塔由醫院騎士團於16世紀規劃興建，是全球規劃最完整的文藝復興堡壘城市之一，整座舊城被列為世界文化遺產。聖若望副主教座堂內部裝飾極盡奢華，卡拉瓦喬的名畫《施洗約翰斬首》便收藏於此。這座城市規模雖小，卻擁有極高密度的歷史古蹟。"
     },
     {
       "code": "CY",
@@ -975,8 +887,7 @@
       "difficulty": "hard",
       "numeric": "196",
       "capitalEn": "Nicosia",
-      "capitalIntro": "賽普勒斯首都，地中海島國的分裂之都。",
-      "capitalAttraction": "威尼斯城牆"
+      "capitalIntro": "尼柯西亞是全球唯一被聯合國緩衝區分隔為南北兩部分的首都，威尼斯城牆自16世紀留存至今，如今橫跨在分裂的邊界線上。這座城市南部由賽普勒斯共和國管轄，北部則由土耳其裔賽普勒斯人控制，象徵著島上長期未解的政治分裂。舊城區內的市集與咖啡館，仍保有地中海城市的悠閒步調。"
     },
     {
       "code": "AD",
@@ -986,8 +897,7 @@
       "difficulty": "hard",
       "numeric": "020",
       "capitalEn": "Andorra la Vella",
-      "capitalIntro": "安道爾首都，庇里牛斯山中的免稅小城。",
-      "capitalAttraction": "安道爾教區博物館"
+      "capitalIntro": "安道爾教區博物館所在的安道爾城，坐落於庇里牛斯山海拔超過一千公尺的谷地，是全歐洲海拔最高的首都之一。這個免稅小國以滑雪產業與購物觀光聞名，吸引大量法國與西班牙遊客造訪。城市規模小巧，步行即可穿越整個市中心。"
     },
     {
       "code": "MC",
@@ -997,8 +907,7 @@
       "difficulty": "hard",
       "numeric": "492",
       "capitalEn": "Monaco",
-      "capitalIntro": "摩納哥首都，地中海畔的賭場與豪華之都。",
-      "capitalAttraction": "蒙地卡羅賭場"
+      "capitalIntro": "蒙地卡羅賭場自1863年開幕以來，便是摩納哥公國奢華形象的代名詞，吸引全球富豪與名流造訪。摩納哥是全球人口密度最高的主權國家之一，土地稀缺使這座城市持續向地中海填海造陸。摩納哥大賽車每年在城市街道上舉行，是F1賽事中最具挑戰性的賽道之一。"
     },
     {
       "code": "LI",
@@ -1008,8 +917,7 @@
       "difficulty": "hard",
       "numeric": "438",
       "capitalEn": "Vaduz",
-      "capitalIntro": "列支敦斯登首都，阿爾卑斯山下的迷你首都。",
-      "capitalAttraction": "瓦都茲城堡"
+      "capitalIntro": "瓦都茲城堡矗立於山丘之上，至今仍是列支敦斯登王室的實際居所，這個阿爾卑斯山小國因此成為少數仍由君主實際居住治理的國家之一。瓦都茲市中心規模迷你，全國人口不到四萬人，是全球最小首都之一。這個國家以私人銀行業與郵票收藏聞名於世。"
     },
     {
       "code": "SM",
@@ -1019,8 +927,7 @@
       "difficulty": "hard",
       "numeric": "674",
       "capitalEn": "San Marino",
-      "capitalIntro": "聖馬利諾首都，山頂上的古老共和國都城。",
-      "capitalAttraction": "瓜伊塔堡壘"
+      "capitalIntro": "聖馬利諾建於海拔七百多公尺的蒂塔諾山頂，被公認是全球現存最古老的共和國，建國歷史可追溯至西元301年。瓜伊塔堡壘是三座防禦塔樓中最古老的一座，登頂可俯瞰整個亞平寧山脈與亞得里亞海。這座城市完整被義大利領土環繞，是全球僅存的內陸微型國家之一。"
     },
     {
       "code": "VA",
@@ -1030,8 +937,7 @@
       "difficulty": "medium",
       "numeric": "336",
       "capitalEn": "Vatican City",
-      "capitalIntro": "梵蒂岡，天主教會的中心，全球最小主權國。",
-      "capitalAttraction": "聖彼得大教堂"
+      "capitalIntro": "梵蒂岡城國是全球面積最小的主權國家，整座國家面積僅約0.44平方公里，卻是全球十多億天主教徒的信仰中心。聖彼得大教堂的圓頂由米開朗基羅設計，是文藝復興建築的巔峰之作，教堂內收藏著他的名作《聖殤》。梵蒂岡博物館收藏的西斯汀禮拜堂天花板壁畫，同樣出自米開朗基羅之手，是全球藝術愛好者朝聖之地。"
     },
     {
       "code": "US",
@@ -1041,8 +947,7 @@
       "difficulty": "easy",
       "numeric": "840",
       "capitalEn": "Washington, D.C.",
-      "capitalIntro": "美國首都，白宮與國會大廈所在的政治中心。",
-      "capitalAttraction": "林肯紀念堂"
+      "capitalIntro": "華盛頓特區並不隸屬美國任何一州，而是專為聯邦政府設立的特別行政區，由法國建築師朗方規劃寬闊的放射狀街道。林肯紀念堂是馬丁路德金恩發表〈我有一個夢〉演說的地點，見證美國民權運動的重要時刻。國會大廈、白宮等建築群，構成了這座城市獨特的政治象徵地景。"
     },
     {
       "code": "CA",
@@ -1052,8 +957,7 @@
       "difficulty": "easy",
       "numeric": "124",
       "capitalEn": "Ottawa",
-      "capitalIntro": "加拿大首都，渥太華河畔的雙語城市。",
-      "capitalAttraction": "國會山莊"
+      "capitalIntro": "渥太華位於安大略省與魁北克省交界，1857年由英國維多利亞女王選定為加拿大首都，考量之一是其相對安全的內陸位置。國會山莊融合哥德復興式建築風格，是加拿大重要的政治地標。這座城市冬季會將里多運河結凍成全球最長的天然溜冰場，是當地一大特色。"
     },
     {
       "code": "MX",
@@ -1063,8 +967,7 @@
       "difficulty": "easy",
       "numeric": "484",
       "capitalEn": "Mexico City",
-      "capitalIntro": "墨西哥首都，阿茲特克古文明遺址上的超級都會。",
-      "capitalAttraction": "憲法廣場"
+      "capitalIntro": "墨西哥市建於阿茲特克帝國古都特諾奇提特蘭的遺址之上，該城原本座落於湖泊中央的人工島嶼上。憲法廣場周邊保留西班牙殖民時期的主教座堂與國家宮，宮內牆上繪有里維拉描繪墨西哥歷史的巨幅壁畫。這座城市因建於古湖床上，長年面臨地層下陷問題。"
     },
     {
       "code": "BR",
@@ -1074,8 +977,7 @@
       "difficulty": "easy",
       "numeric": "076",
       "capitalEn": "Brasília",
-      "capitalIntro": "巴西計劃首都，現代主義建築規劃的行政新城。",
-      "capitalAttraction": "巴西國會大廈"
+      "capitalIntro": "巴西利亞是1960年代由建築師尼邁耶與都市規劃師科斯塔聯手打造的計畫城市，取代里約熱內盧成為新首都，象徵巴西向內陸開發的企圖心。整座城市從空中俯瞰呈飛機造型，巴西國會大廈的碗狀與半球形屋頂設計相當前衛。這座城市因獨特的現代主義城市規劃，被列為世界文化遺產。"
     },
     {
       "code": "AR",
@@ -1085,8 +987,7 @@
       "difficulty": "easy",
       "numeric": "032",
       "capitalEn": "Buenos Aires",
-      "capitalIntro": "阿根廷首都，探戈發源的南美大城。",
-      "capitalAttraction": "七月九日大道"
+      "capitalIntro": "布宜諾斯艾利斯是探戈舞的發源地，市內許多街角至今仍能看見即興演出的探戈舞者。七月九日大道寬達十二個車道，是全球最寬闊的道路之一，紀念阿根廷獨立建國之日。這座城市擁有濃厚的歐洲移民色彩，建築風格深受義大利與西班牙影響，因此有「南美洲巴黎」之稱。"
     },
     {
       "code": "CL",
@@ -1096,8 +997,7 @@
       "difficulty": "medium",
       "numeric": "152",
       "capitalEn": "Santiago",
-      "capitalIntro": "智利首都，安地斯山脈環繞的南美城市。",
-      "capitalAttraction": "武器廣場"
+      "capitalIntro": "聖地牙哥坐落於安地斯山脈與海岸山脈之間的谷地，晴朗天氣時從市區便能眺望終年積雪的高山。武器廣場是這座城市的歷史核心，周邊環繞著主教座堂與市政廳等殖民時期建築。這座城市近年積極發展釀酒與科技新創產業，是南美洲重要的經濟中心之一。"
     },
     {
       "code": "CO",
@@ -1107,8 +1007,7 @@
       "difficulty": "medium",
       "numeric": "170",
       "capitalEn": "Bogotá",
-      "capitalIntro": "哥倫比亞首都，安地斯高原上的南美大城。",
-      "capitalAttraction": "波利瓦爾廣場"
+      "capitalIntro": "波哥大位於安地斯山脈東科迪勒拉山脈的高原盆地，海拔超過兩千六百公尺，是全球海拔最高的首都之一。波利瓦爾廣場紀念南美獨立運動領袖西蒙玻利瓦，周邊聚集國會大廈與主教座堂等重要建築。這座城市擁有全球最大的自行車專用道網絡之一，每週日會封閉主要道路供市民運動使用。"
     },
     {
       "code": "PE",
@@ -1118,8 +1017,7 @@
       "difficulty": "medium",
       "numeric": "604",
       "capitalEn": "Lima",
-      "capitalIntro": "秘魯首都，太平洋岸的印加帝國舊都近郊。",
-      "capitalAttraction": "利馬主廣場"
+      "capitalIntro": "利馬濱臨太平洋，是西班牙殖民時期南美洲總督府所在地，舊城區保留大量巴洛克式建築，被列為世界文化遺產。利馬主廣場周邊環繞主教座堂與總統府，是這座城市的歷史心臟地帶。這座城市的美食文化聞名全球，秘魯菜融合原住民、西班牙、非洲與亞洲移民的多元風味。"
     },
     {
       "code": "VE",
@@ -1129,8 +1027,7 @@
       "difficulty": "medium",
       "numeric": "862",
       "capitalEn": "Caracas",
-      "capitalIntro": "委內瑞拉首都，加勒比海畔的石油都市。",
-      "capitalAttraction": "玻利瓦爾廣場"
+      "capitalIntro": "卡拉卡斯坐落於安地斯山脈支脈間的谷地，四周高山環繞，市區與加勒比海港口需經隧道穿越山脈連接。玻利瓦爾廣場紀念在此出生的南美獨立英雄西蒙玻利瓦，是城市的歷史核心。這座城市擁有全球數一數二的高犯罪率，近年也因經濟危機面臨嚴峻挑戰。"
     },
     {
       "code": "EC",
@@ -1140,8 +1037,7 @@
       "difficulty": "medium",
       "numeric": "218",
       "capitalEn": "Quito",
-      "capitalIntro": "厄瓜多首都，赤道線經過的安地斯古城。",
-      "capitalAttraction": "基多舊城"
+      "capitalIntro": "基多坐落於赤道線與安地斯山脈交會處，是全球海拔第二高的首都，四周被活火山環繞。舊城區保存了南美洲規模最大、最完整的西班牙殖民時期建築群，被列為世界文化遺產首批名單之一。城市北郊設有赤道紀念碑，遊客可在此體驗雙腳分別踩在南北半球的趣味經驗。"
     },
     {
       "code": "BO",
@@ -1151,8 +1047,7 @@
       "difficulty": "hard",
       "numeric": "068",
       "capitalEn": "Sucre",
-      "capitalIntro": "玻利維亞憲法首都，殖民時期銀礦重鎮。",
-      "capitalAttraction": "自由之家博物館"
+      "capitalIntro": "蘇克雷是玻利維亞的憲法首都，殖民時期曾是西班牙在南美洲重要的銀礦貿易與行政中心，白色建築林立因此有「白城」之稱。自由之家博物館是玻利維亞獨立宣言簽署地，見證這個國家脫離西班牙統治的歷史時刻。實際上玻利維亞的政府機關多設於拉巴斯，形成兩個首都並存的特殊制度。"
     },
     {
       "code": "PY",
@@ -1162,8 +1057,7 @@
       "difficulty": "hard",
       "numeric": "600",
       "capitalEn": "Asunción",
-      "capitalIntro": "巴拉圭首都，巴拉圭河畔的南美古城。",
-      "capitalAttraction": "萬神殿"
+      "capitalIntro": "亞松森坐落於巴拉圭河畔，是南美洲歷史最悠久的城市之一，西班牙殖民者曾以此為據點向外拓展整個拉布拉他河流域。萬神殿仿照巴黎榮軍院設計，安葬巴拉圭重要的歷史人物與無名戰士。這座城市步調悠閒，仍保留不少殖民時期的低矮建築。"
     },
     {
       "code": "UY",
@@ -1173,8 +1067,7 @@
       "difficulty": "medium",
       "numeric": "858",
       "capitalEn": "Montevideo",
-      "capitalIntro": "烏拉圭首都，拉布拉他河口的悠閒港都。",
-      "capitalAttraction": "獨立廣場"
+      "capitalIntro": "蒙特維多濱臨拉布拉他河出海口，是南美洲少數以高度社會福利與政治穩定聞名的首都。獨立廣場矗立著民族英雄阿蒂加斯的騎馬雕像，廣場地下設有紀念他的陵墓。這座城市的濱海步道長達二十多公里，是市民日常運動與社交的重要場域。"
     },
     {
       "code": "GY",
@@ -1184,8 +1077,7 @@
       "difficulty": "hard",
       "numeric": "328",
       "capitalEn": "Georgetown",
-      "capitalIntro": "蓋亞那首都，南美洲唯一的英語系國家首都。",
-      "capitalAttraction": "聖喬治大教堂"
+      "capitalIntro": "喬治城是南美洲唯一以英語為官方語言國家的首都，城市規劃與建築風格深受英國殖民歷史影響。聖喬治大教堂是全球最高的木造教堂建築之一，展現當地精湛的木工技藝。這座城市地勢低於海平面，仰賴荷蘭殖民時期建造的堤防與運河系統防止淹水。"
     },
     {
       "code": "SR",
@@ -1195,8 +1087,7 @@
       "difficulty": "hard",
       "numeric": "740",
       "capitalEn": "Paramaribo",
-      "capitalIntro": "蘇利南首都，融合多元文化的南美港城。",
-      "capitalAttraction": "蘇利南河畔木造建築"
+      "capitalIntro": "巴拉馬利波是南美洲文化最多元的城市之一，融合荷蘭、印度、印尼爪哇、非洲與原住民等多重族裔文化。市中心的荷蘭殖民時期木造建築群被列為世界文化遺產，展現獨特的熱帶殖民建築風格。這座城市沿蘇利南河而建，河岸景觀是當地重要的休閒去處。"
     },
     {
       "code": "CU",
@@ -1206,8 +1097,7 @@
       "difficulty": "easy",
       "numeric": "192",
       "capitalEn": "Havana",
-      "capitalIntro": "古巴首都，加勒比海畔的復古老爺車之都。",
-      "capitalAttraction": "哈瓦那舊城"
+      "capitalIntro": "哈瓦那舊城保留大量西班牙殖民時期的巴洛克與新古典建築，被列為世界文化遺產，街頭穿梭的復古老爺車更為城市增添時光倒流之感。這座城市因古巴長年的經濟封鎖，意外保存了大量1950年代美國汽車，成為獨特的觀光賣點。哈瓦那也是海明威長年居住寫作之地，多部經典作品在此完成。"
     },
     {
       "code": "JM",
@@ -1217,8 +1107,7 @@
       "difficulty": "medium",
       "numeric": "388",
       "capitalEn": "Kingston",
-      "capitalIntro": "牙買加首都，雷鬼樂發源的加勒比港都。",
-      "capitalAttraction": "波哥華丁莊園"
+      "capitalIntro": "京斯敦擁有全球數一數二深邃的天然港灣，自殖民時期便是加勒比海重要的貿易與海軍據點。這座城市是雷鬼樂與巴布馬利的故鄉，波哥華丁莊園如今已改建為紀念他的博物館。牙買加的短跑運動員文化同樣享譽全球，多位奧運金牌選手皆出自此地。"
     },
     {
       "code": "HT",
@@ -1228,8 +1117,7 @@
       "difficulty": "medium",
       "numeric": "332",
       "capitalEn": "Port-au-Prince",
-      "capitalIntro": "海地首都，加勒比海畔歷史悠久的港都。",
-      "capitalAttraction": "無名英雄廣場"
+      "capitalIntro": "太子港坐落於加勒比海畔，海地在1804年於此建國，成為全球第一個由奴隸起義成功建立的黑人共和國。無名英雄廣場紀念這段獨立建國的歷史，是市民重要的集會空間。這座城市歷經多次強震與颶風侵襲，重建之路一直相當艱辛。"
     },
     {
       "code": "DO",
@@ -1239,8 +1127,7 @@
       "difficulty": "medium",
       "numeric": "214",
       "capitalEn": "Santo Domingo",
-      "capitalIntro": "多明尼加首都，新大陸最古老的歐洲殖民城市。",
-      "capitalAttraction": "殖民區"
+      "capitalIntro": "聖多明哥的殖民區是新大陸最古老的歐洲殖民城市核心，哥倫布之子曾在此興建總督府，整區被列為世界文化遺產首批名單之一。這座城市保留了美洲最古老的主教座堂、城堡與街道，見證西班牙殖民美洲的起點。如今聖多明哥也是加勒比海地區重要的觀光與商業中心。"
     },
     {
       "code": "PA",
@@ -1250,8 +1137,7 @@
       "difficulty": "medium",
       "numeric": "591",
       "capitalEn": "Panama City",
-      "capitalIntro": "巴拿馬首都，連接兩大洋運河旁的金融中心。",
-      "capitalAttraction": "巴拿馬運河"
+      "capitalIntro": "巴拿馬市因鄰近連接大西洋與太平洋的巴拿馬運河，成為全球海運貿易的關鍵樞紐，運河每年為國家帶來可觀的通行費收入。這座城市天際線林立著現代摩天大樓，是中美洲少見的高樓密集城市。舊城區與新城區形成強烈對比，訴說這座城市數百年的發展軌跡。"
     },
     {
       "code": "CR",
@@ -1261,8 +1147,7 @@
       "difficulty": "medium",
       "numeric": "188",
       "capitalEn": "San José",
-      "capitalIntro": "哥斯大黎加首都，中美洲生態之國的核心城市。",
-      "capitalAttraction": "國家劇院"
+      "capitalIntro": "聖荷西座落於中美洲的中央谷地，哥斯大黎加自1948年起便廢除常備軍隊，將資源投入教育與生態保育，成為中美洲少見的和平穩定國家。國家劇院是這座城市最具代表性的建築，內部裝飾媲美歐洲歌劇院。哥斯大黎加以豐富的生物多樣性聞名，生態旅遊是重要經濟支柱。"
     },
     {
       "code": "NI",
@@ -1272,8 +1157,7 @@
       "difficulty": "medium",
       "numeric": "558",
       "capitalEn": "Managua",
-      "capitalIntro": "尼加拉瓜首都，火山湖畔的中美洲城市。",
-      "capitalAttraction": "馬拿瓜大教堂"
+      "capitalIntro": "馬拿瓜濱臨馬拿瓜湖，1972年一場大地震幾乎摧毀整座城市中心，至今市容仍留有當年重建的痕跡。馬拿瓜大教堂便是地震後留下的著名遺跡之一，外觀特殊的建築設計據傳具備更強的抗震能力。這座城市周邊分布多座火山湖，地熱資源相當豐富。"
     },
     {
       "code": "HN",
@@ -1283,8 +1167,7 @@
       "difficulty": "hard",
       "numeric": "340",
       "capitalEn": "Tegucigalpa",
-      "capitalIntro": "宏都拉斯首都，山谷中的中美洲城市。",
-      "capitalAttraction": "中央公園"
+      "capitalIntro": "德古斯加巴地處山谷之中，「德古斯加巴」在原住民語言中意為「銀色山丘」，反映當地曾是重要的銀礦開採地。這座城市地形起伏，街道依山勢蜿蜒而建，市容與周邊多座中美洲首都截然不同。中央公園周邊保留不少西班牙殖民時期建築。"
     },
     {
       "code": "SV",
@@ -1294,8 +1177,7 @@
       "difficulty": "hard",
       "numeric": "222",
       "capitalEn": "San Salvador",
-      "capitalIntro": "薩爾瓦多首都，中美洲人口最密集的城市之一。",
-      "capitalAttraction": "薩爾瓦多大教堂"
+      "capitalIntro": "聖薩爾瓦多坐落於中美洲火山帶上，周邊環繞多座活火山，地震與火山活動頻繁形塑了這座城市的發展歷史。薩爾瓦多大教堂是市中心重要地標，見證這個國家從內戰走向和平的歷程。這座城市近年積極推動治安改革，城市風貌逐漸轉型。"
     },
     {
       "code": "GT",
@@ -1305,8 +1187,7 @@
       "difficulty": "medium",
       "numeric": "320",
       "capitalEn": "Guatemala City",
-      "capitalIntro": "瓜地馬拉首都，馬雅文明古國的現代首都。",
-      "capitalAttraction": "憲法廣場"
+      "capitalIntro": "瓜地馬拉市坐落於中美洲高原，是馬雅文明古國的現代繼承者，鄰近仍保留多處馬雅遺址。憲法廣場周邊環繞國家宮與主教座堂，是這座城市重要的歷史核心。瓜地馬拉是中美洲人口最多的國家，市集文化與原住民編織工藝相當豐富。"
     },
     {
       "code": "BZ",
@@ -1316,8 +1197,7 @@
       "difficulty": "hard",
       "numeric": "084",
       "capitalEn": "Belmopan",
-      "capitalIntro": "貝里斯首都，颶風後重建的中美洲小城。",
-      "capitalAttraction": "貝爾墨潘國會大樓"
+      "capitalIntro": "貝爾墨潘是1970年因首都伯利茲市遭颶風重創而興建的規劃新城，是中美洲人口規模最小的首都之一。貝里斯國會大樓融合馬雅建築元素與現代設計，是這座年輕城市的重要地標。這個國家以英語為官方語言，也是中美洲唯一曾為英國殖民地的國家。"
     },
     {
       "code": "BS",
@@ -1327,8 +1207,7 @@
       "difficulty": "hard",
       "numeric": "044",
       "capitalEn": "Nassau",
-      "capitalIntro": "巴哈馬首都，加勒比海度假勝地的港都。",
-      "capitalAttraction": "女王階梯"
+      "capitalIntro": "拿索坐落於新普羅維登斯島，過去曾是加勒比海知名的海盜據點，如今轉型為郵輪觀光重鎮。女王階梯共有六十六級階梯，由奴隸手工鑿刻而成，見證當地殖民歷史的艱辛一頁。這座城市每年接待數百萬郵輪遊客，觀光業是巴哈馬最重要的經濟支柱。"
     },
     {
       "code": "TT",
@@ -1338,8 +1217,7 @@
       "difficulty": "hard",
       "numeric": "780",
       "capitalEn": "Port of Spain",
-      "capitalIntro": "千里達及托巴哥首都，加勒比海南端的港城。",
-      "capitalAttraction": "女皇公園"
+      "capitalIntro": "西班牙港坐落於加勒比海南端，鄰近委內瑞拉，是加勒比海地區重要的石油與天然氣產業中心。這座城市以年度嘉年華聞名，色彩繽紛的遊行與加勒比鋼鼓音樂吸引全球遊客。女皇公園是市區重要的綠地空間，周邊環繞維多利亞式建築。"
     },
     {
       "code": "BB",
@@ -1349,8 +1227,7 @@
       "difficulty": "hard",
       "numeric": "052",
       "capitalEn": "Bridgetown",
-      "capitalIntro": "巴貝多首都，加勒比海東部的殖民港城。",
-      "capitalAttraction": "英雄廣場"
+      "capitalIntro": "橋鎮是加勒比海歷史最悠久的英國殖民城市之一，舊城與其駐防區被列為世界文化遺產。英雄廣場周邊保留議會大廈等殖民時期建築，見證巴貝多長達三百多年的英國統治歷史。這座島國也是知名歌手蕾哈娜的故鄉。"
     },
     {
       "code": "EG",
@@ -1360,8 +1237,7 @@
       "difficulty": "easy",
       "numeric": "818",
       "capitalEn": "Cairo",
-      "capitalIntro": "埃及首都，尼羅河畔千年古文明的門戶。",
-      "capitalAttraction": "吉薩金字塔"
+      "capitalIntro": "開羅緊鄰尼羅河，是非洲人口最多的城市之一，「開羅」在阿拉伯語中意為「勝利者之城」。鄰近的吉薩金字塔群已有超過四千五百年歷史，胡夫金字塔曾是人類已知最高建築達三千八百多年。這座城市匯集了古埃及、伊斯蘭與現代文明的多層歷史痕跡，博物館與清真寺數量驚人。"
     },
     {
       "code": "ZA",
@@ -1371,8 +1247,7 @@
       "difficulty": "medium",
       "numeric": "710",
       "capitalEn": "Pretoria",
-      "capitalIntro": "南非行政首都，彩虹之國的政治中心。",
-      "capitalAttraction": "聯合大廈"
+      "capitalIntro": "普利托利亞是南非三個首都之一，負責行政功能，另有開普敦負責立法、布隆方丹負責司法，這種三權分立的首都制度相當罕見。這座城市每年十月藍花楹盛開，滿城紫色花海讓普利托利亞有「紫色之城」的美稱。聯合大廈是南非政府行政中心，曼德拉曾在此宣誓就任總統。"
     },
     {
       "code": "NG",
@@ -1382,8 +1257,7 @@
       "difficulty": "medium",
       "numeric": "566",
       "capitalEn": "Abuja",
-      "capitalIntro": "奈及利亞計劃首都，1991年遷都建成的行政新城。",
-      "capitalAttraction": "阿布加國家清真寺"
+      "capitalIntro": "阿布加是1991年取代拉哥斯成為新首都的規劃城市，選址考量之一是希望降低單一族群對首都的主導性，位置更居國土中央。阿布加國家清真寺與國家基督教中心分別代表奈及利亞兩大宗教信仰，相距不遠，象徵宗教共存。這座城市街道寬闊整齊，與人口稠密的拉哥斯形成強烈對比。"
     },
     {
       "code": "KE",
@@ -1393,8 +1267,7 @@
       "difficulty": "medium",
       "numeric": "404",
       "capitalEn": "Nairobi",
-      "capitalIntro": "肯亞首都，東非最大的商業與野生動物門戶城市。",
-      "capitalAttraction": "奈洛比國家公園"
+      "capitalIntro": "奈洛比原意為「清涼之水」，源自馬賽語對當地一條河流的稱呼，19世紀末因鐵路建設而興起為城鎮。奈洛比國家公園是全球少數與首都市區直接相鄰的野生動物保護區，遊客能在城市天際線背景下觀賞獅子與長頸鹿。這座城市如今是東非重要的科技與金融中心，有「矽草原」之稱。"
     },
     {
       "code": "ET",
@@ -1404,8 +1277,7 @@
       "difficulty": "medium",
       "numeric": "231",
       "capitalEn": "Addis Ababa",
-      "capitalIntro": "衣索比亞首都，非洲聯盟總部所在的高原城市。",
-      "capitalAttraction": "三一大教堂"
+      "capitalIntro": "阿迪斯阿貝巴意為「新鮮花朵」，海拔超過兩千三百公尺，是全球海拔最高的首都之一，氣候因此相對涼爽宜人。這座城市是非洲聯盟總部所在地，經常被稱為「非洲的政治首都」。三一大教堂安葬多位衣索比亞皇室成員，是這座城市重要的宗教與歷史地標。"
     },
     {
       "code": "MA",
@@ -1415,8 +1287,7 @@
       "difficulty": "medium",
       "numeric": "504",
       "capitalEn": "Rabat",
-      "capitalIntro": "摩洛哥首都，大西洋岸的皇家古城。",
-      "capitalAttraction": "哈桑塔"
+      "capitalIntro": "拉巴特濱臨大西洋，是摩洛哥的行政首都，舊城區與哈桑塔等歷史建築被列為世界文化遺產。哈桑塔原計畫建造全球最大清真寺的宣禮塔，因12世紀君主過世而未完工，如今僅存塔身矗立於海濱。這座城市步調相對悠閒，與商業重鎮卡薩布蘭卡形成對比。"
     },
     {
       "code": "DZ",
@@ -1426,8 +1297,7 @@
       "difficulty": "medium",
       "numeric": "012",
       "capitalEn": "Algiers",
-      "capitalIntro": "阿爾及利亞首都，地中海南岸的白色之城。",
-      "capitalAttraction": "烈士紀念碑"
+      "capitalIntro": "阿爾及爾依山面海而建，白色建築層層堆疊的景觀讓這座城市有「白色之城」的美稱。烈士紀念碑紀念阿爾及利亞爭取獨立過程中犧牲的烈士，是這座城市重要的地標。舊城區卡斯巴保留鄂圖曼時期的迷宮式街巷，被列為世界文化遺產。"
     },
     {
       "code": "TN",
@@ -1437,8 +1307,7 @@
       "difficulty": "medium",
       "numeric": "788",
       "capitalEn": "Tunis",
-      "capitalIntro": "突尼西亞首都，迦太基古文明遺址旁的地中海城市。",
-      "capitalAttraction": "突尼斯麥地那舊城"
+      "capitalIntro": "突尼斯緊鄰古迦太基文明遺址，這座城市因此承載了腓尼基、羅馬、阿拉伯等多重文明的歷史層積。突尼斯麥地那舊城保留完整的伊斯蘭傳統市集與清真寺群，被列為世界文化遺產首批名單之一。這座城市也是2010年阿拉伯之春運動的發源地，深刻影響整個中東北非地區的政治局勢。"
     },
     {
       "code": "LY",
@@ -1448,8 +1317,7 @@
       "difficulty": "medium",
       "numeric": "434",
       "capitalEn": "Tripoli",
-      "capitalIntro": "利比亞首都，地中海岸的北非古城。",
-      "capitalAttraction": "紅堡"
+      "capitalIntro": "的黎波里濱臨地中海，「的黎波里」意為「三座城市」，源自古代腓尼基人在此建立的三個聚落。紅堡是這座城市最重要的歷史地標，歷經腓尼基、羅馬、鄂圖曼等多個時期的擴建。近年利比亞政局動盪，這座古城的觀光發展也受到相當程度的影響。"
     },
     {
       "code": "SD",
@@ -1459,8 +1327,7 @@
       "difficulty": "medium",
       "numeric": "729",
       "capitalEn": "Khartoum",
-      "capitalIntro": "蘇丹首都，藍白尼羅河交匯處的城市。",
-      "capitalAttraction": "蘇丹國家博物館"
+      "capitalIntro": "喀土穆坐落於青尼羅河與白尼羅河交會處，兩條河流在此匯聚成尼羅河主流後繼續北流入海，形成獨特的地理景觀。蘇丹國家博物館收藏了大量努比亞古文明文物，訴說這片土地悠久的歷史。這座城市近年因國內衝突面臨嚴峻的人道挑戰。"
     },
     {
       "code": "SS",
@@ -1470,8 +1337,7 @@
       "difficulty": "hard",
       "numeric": "728",
       "capitalEn": "Juba",
-      "capitalIntro": "南蘇丹首都，世界最年輕國家的首都。",
-      "capitalAttraction": "白尼羅河畔"
+      "capitalIntro": "朱巴坐落於白尼羅河畔，是2011年南蘇丹脫離蘇丹獨立後建立的新國家首都，是全球最年輕國家的行政中心之一。這座城市基礎建設仍在發展階段，許多道路與建築尚待完善。白尼羅河是當地重要的交通與生活水源。"
     },
     {
       "code": "GH",
@@ -1481,8 +1347,7 @@
       "difficulty": "medium",
       "numeric": "288",
       "capitalEn": "Accra",
-      "capitalIntro": "迦納首都，西非黃金海岸的港口城市。",
-      "capitalAttraction": "獨立廣場"
+      "capitalIntro": "阿克拉濱臨幾內亞灣，曾是西非奴隸貿易的重要港口，如今轉型為西非相對穩定的民主典範城市。獨立廣場紀念迦納在1957年成為撒哈拉以南非洲第一個脫離殖民統治獨立的國家。這座城市也是非洲重要的可可豆貿易與加工中心。"
     },
     {
       "code": "CI",
@@ -1492,8 +1357,7 @@
       "difficulty": "hard",
       "numeric": "384",
       "capitalEn": "Yamoussoukro",
-      "capitalIntro": "象牙海岸官方首都，擁有世界最大教堂之一。",
-      "capitalAttraction": "和平聖母大教堂"
+      "capitalIntro": "亞穆索戈是象牙海岸官方首都，以已故總統家鄉命名，市內興建了全球最大教堂之一的和平聖母大教堂，規模甚至超越梵蒂岡聖彼得大教堂。儘管是法定首都，多數政府機關與經濟活動仍集中在阿必尚。這座城市近年積極發展基礎建設，希望名符其實成為國家中心。"
     },
     {
       "code": "SN",
@@ -1503,8 +1367,7 @@
       "difficulty": "hard",
       "numeric": "686",
       "capitalEn": "Dakar",
-      "capitalIntro": "塞內加爾首都，西非最西端的港口城市。",
-      "capitalAttraction": "非洲文藝復興紀念碑"
+      "capitalIntro": "達卡濱臨大西洋，位於非洲大陸最西端，是連接歐洲與美洲航線的重要港口城市。非洲文藝復興紀念碑高達五十多公尺，是非洲大陸最高的雕像，象徵非洲擺脫殖民歷史邁向復興。這座城市也是達卡拉力賽最初的終點站，賽事因此得名。"
     },
     {
       "code": "ML",
@@ -1514,8 +1377,7 @@
       "difficulty": "hard",
       "numeric": "466",
       "capitalEn": "Bamako",
-      "capitalIntro": "馬利首都，尼日河畔的西非古城。",
-      "capitalAttraction": "巴馬科大清真寺"
+      "capitalIntro": "巴馬科坐落於尼日河畔，是西非重要的內陸貿易城市，鄰近廷巴克圖等歷史悠久的伊斯蘭學術重鎮。巴馬科大清真寺是這座城市重要的宗教地標，展現西非蘇丹式建築風格。這座城市的音樂文化相當豐富，孕育出多位享譽國際的非洲音樂家。"
     },
     {
       "code": "NE",
@@ -1525,8 +1387,7 @@
       "difficulty": "hard",
       "numeric": "562",
       "capitalEn": "Niamey",
-      "capitalIntro": "尼日首都，尼日河畔的西非古城。",
-      "capitalAttraction": "大清真寺"
+      "capitalIntro": "尼阿美坐落於尼日河畔，是撒哈拉沙漠邊緣的西非城市，氣候炎熱乾燥，是全球最熱的首都之一。大清真寺是市內重要的宗教與建築地標，展現伊斯蘭與當地傳統風格的融合。這座城市近年面臨氣候變遷帶來的沙漠化挑戰。"
     },
     {
       "code": "TD",
@@ -1536,8 +1397,7 @@
       "difficulty": "hard",
       "numeric": "148",
       "capitalEn": "N'Djamena",
-      "capitalIntro": "查德首都，撒哈拉沙漠邊緣的中非城市。",
-      "capitalAttraction": "恩加美納大清真寺"
+      "capitalIntro": "恩加美納坐落於查理河與洛貢河交會處，是中非撒哈拉沙漠邊緣的重要城市，氣候炎熱乾燥。恩加美納大清真寺是這座城市的重要地標，展現當地伊斯蘭建築特色。這座城市因地處內陸且基礎建設有限，發展步調相對緩慢。"
     },
     {
       "code": "CM",
@@ -1547,8 +1407,7 @@
       "difficulty": "hard",
       "numeric": "120",
       "capitalEn": "Yaoundé",
-      "capitalIntro": "喀麥隆首都，山丘之城的中非行政中心。",
-      "capitalAttraction": "統一紀念碑"
+      "capitalIntro": "雅溫德建於七座山丘之間，地勢起伏，氣候較沿海城市涼爽宜人，是喀麥隆的政治行政中心。統一紀念碑紀念1961年英屬與法屬喀麥隆合併統一的歷史時刻。這座城市與經濟重鎮杜阿拉分工，共同構成喀麥隆的雙核心發展格局。"
     },
     {
       "code": "CD",
@@ -1558,8 +1417,7 @@
       "difficulty": "medium",
       "numeric": "180",
       "capitalEn": "Kinshasa",
-      "capitalIntro": "剛果民主共和國首都，剛果河畔的中非大城。",
-      "capitalAttraction": "剛果河畔"
+      "capitalIntro": "金夏沙隔剛果河與剛果共和國首都布拉薩市相望，是全球唯二兩個首都僅一河之隔的特殊案例，兩城市可謂全球最近的鄰居首都。這座城市是非洲人口最多的城市之一，也是法語人口最多的城市，甚至超過巴黎。剛果河在此形成湍急的利文斯頓瀑布，阻斷了河運直通大西洋的可能。"
     },
     {
       "code": "CG",
@@ -1569,8 +1427,7 @@
       "difficulty": "hard",
       "numeric": "178",
       "capitalEn": "Brazzaville",
-      "capitalIntro": "剛果共和國首都，與金夏沙隔河相望的雙子城市。",
-      "capitalAttraction": "巴薩海灘"
+      "capitalIntro": "布拉薩市與剛果民主共和國首都金夏沙隔剛果河相望，兩座城市能在天氣晴朗時互相眺望對岸天際線。這座城市以探險家布拉薩命名，他在19世紀代表法國與當地部落簽訂條約建立殖民據點。剛果河畔的巴薩海灘是當地居民重要的休閒去處。"
     },
     {
       "code": "GA",
@@ -1580,8 +1437,7 @@
       "difficulty": "hard",
       "numeric": "266",
       "capitalEn": "Libreville",
-      "capitalIntro": "加彭首都，赤道雨林旁的港口城市。",
-      "capitalAttraction": "聖米歇爾大教堂"
+      "capitalIntro": "自由市濱臨大西洋，城市名稱源自19世紀獲釋奴隸在此重新安家立業的歷史。加彭因石油與森林資源豐富，人均所得在撒哈拉以南非洲相對較高。聖米歇爾大教堂融合傳統與現代設計，是這座城市重要的宗教地標。"
     },
     {
       "code": "AO",
@@ -1591,8 +1447,7 @@
       "difficulty": "medium",
       "numeric": "024",
       "capitalEn": "Luanda",
-      "capitalIntro": "安哥拉首都，大西洋岸的石油港都。",
-      "capitalAttraction": "西亞迪迪堡"
+      "capitalIntro": "羅安達濱臨大西洋，是非洲人口成長最快速的城市之一，安哥拉豐富的石油資源帶動這座城市快速的都市開發。西亞迪迪堡曾是葡萄牙殖民統治的軍事要塞，如今是俯瞰城市與海灣的重要景點。這座城市生活成本曾一度名列全球最高的城市之一。"
     },
     {
       "code": "ZM",
@@ -1602,8 +1457,7 @@
       "difficulty": "hard",
       "numeric": "894",
       "capitalEn": "Lusaka",
-      "capitalIntro": "尚比亞首都，非洲高原上的商業中心。",
-      "capitalAttraction": "路沙卡國家博物館"
+      "capitalIntro": "路沙卡坐落於尚比亞高原，海拔超過一千二百公尺，氣候相對溫和，是東南非重要的交通與商業樞紐。路沙卡國家博物館展示尚比亞的歷史文物與當代藝術。這座城市周邊農業發達，是尚比亞重要的糧食供應腹地。"
     },
     {
       "code": "ZW",
@@ -1613,8 +1467,7 @@
       "difficulty": "medium",
       "numeric": "716",
       "capitalEn": "Harare",
-      "capitalIntro": "辛巴威首都，非洲高原上的花園城市。",
-      "capitalAttraction": "國家英雄墓"
+      "capitalIntro": "哈拉雷海拔約一千四百多公尺，殖民時期曾因林蔭大道與花園景觀被稱為「非洲花園城市」。國家英雄墓安葬辛巴威獨立運動的重要領袖，是這座城市重要的紀念地標。這座城市近年經歷嚴重的通貨膨脹危機，但城市規劃仍保留昔日花園城市的骨架。"
     },
     {
       "code": "MZ",
@@ -1624,8 +1477,7 @@
       "difficulty": "hard",
       "numeric": "508",
       "capitalEn": "Maputo",
-      "capitalIntro": "莫三比克首都，印度洋岸的葡語港都。",
-      "capitalAttraction": "馬布多城堡"
+      "capitalIntro": "馬布多濱臨印度洋，曾在葡萄牙殖民時期以「洛倫索馬貴斯」之名，享有「非洲小巴黎」的美譽。馬布多城堡是這座城市現存最古老的建築之一，見證葡萄牙殖民歷史。這座城市近年積極重建海濱大道與商業區，逐步恢復昔日的港都風華。"
     },
     {
       "code": "TZ",
@@ -1635,8 +1487,7 @@
       "difficulty": "hard",
       "numeric": "834",
       "capitalEn": "Dodoma",
-      "capitalIntro": "坦尚尼亞法定首都，取代三蘭港成為新政治中心。",
-      "capitalAttraction": "多篤瑪國會大廈"
+      "capitalIntro": "多篤瑪坐落於坦尚尼亞中部高原，2019年政府正式將首都行政功能自三蘭港遷至此地，希望帶動內陸地區發展。多篤瑪國會大廈是這座新興首都最重要的政治建築。相較於仍是經濟中心的三蘭港，多篤瑪的城市基礎建設仍在逐步完善中。"
     },
     {
       "code": "UG",
@@ -1646,8 +1497,7 @@
       "difficulty": "medium",
       "numeric": "800",
       "capitalEn": "Kampala",
-      "capitalIntro": "烏干達首都，維多利亞湖畔的東非城市。",
-      "capitalAttraction": "卡蘇比皇陵"
+      "capitalIntro": "康培拉建於七座山丘之上，鄰近維多利亞湖，是東非重要的區域性商業與文化中心。卡蘇比皇陵安葬布干達王國歷代國王，被列為世界文化遺產，展現當地傳統茅草建築工藝。這座城市氣候溫和，因海拔較高而免於典型的熱帶酷熱。"
     },
     {
       "code": "RW",
@@ -1657,8 +1507,7 @@
       "difficulty": "hard",
       "numeric": "646",
       "capitalEn": "Kigali",
-      "capitalIntro": "盧安達首都，千丘之國潔淨有序的中非城市。",
-      "capitalAttraction": "基加利種族滅絕紀念館"
+      "capitalIntro": "基加利以整潔有序聞名，是非洲少數禁用塑膠袋且街道異常乾淨的城市，每月最後一個星期六全民參與社區清潔日。基加利種族滅絕紀念館記錄1994年盧安達大屠殺的歷史，超過二十五萬名罹難者安葬於此，提醒世人記取教訓。這座城市近年積極發展會展與科技產業，被視為非洲治理典範之一。"
     },
     {
       "code": "BI",
@@ -1668,8 +1517,7 @@
       "difficulty": "hard",
       "numeric": "108",
       "capitalEn": "Gitega",
-      "capitalIntro": "蒲隆地首都，坦干伊喀湖畔的新首都。",
-      "capitalAttraction": "基特加獨立紀念碑"
+      "capitalIntro": "基特加取代布松布拉成為蒲隆地新首都，是政府為平衡區域發展所做的政策決定。基特加獨立紀念碑紀念蒲隆地脫離比利時殖民統治的歷史。這座城市地處蒲隆地地理中心的高原地帶，基礎建設仍在逐步發展中。"
     },
     {
       "code": "SO",
@@ -1679,8 +1527,7 @@
       "difficulty": "medium",
       "numeric": "706",
       "capitalEn": "Mogadishu",
-      "capitalIntro": "索馬利亞首都，印度洋岸的東非港城。",
-      "capitalAttraction": "摩加迪休大教堂遺址"
+      "capitalIntro": "摩加迪休濱臨印度洋，曾是東非重要的貿易港口，享有「印度洋白珍珠」的美譽，如今因長年內戰面臨重建挑戰。摩加迪休大教堂建於義大利殖民時期，如今僅存斷垣殘壁，訴說這座城市歷經的動盪歲月。這座城市近年局勢逐漸趨於穩定，重建工作持續進行中。"
     },
     {
       "code": "DJ",
@@ -1690,8 +1537,7 @@
       "difficulty": "hard",
       "numeric": "262",
       "capitalEn": "Djibouti City",
-      "capitalIntro": "吉布地首都，紅海與亞丁灣交匯的港口要地。",
-      "capitalAttraction": "哈馬維中央清真寺"
+      "capitalIntro": "吉布地市坐落於紅海與亞丁灣交會的戰略要衝，扼守全球最繁忙的航運通道之一，因此吸引多國在此設立海外軍事基地。哈馬維中央清真寺是這座城市重要的宗教地標。這座城市氣候炎熱乾燥，是全球氣溫最高的城市之一。"
     },
     {
       "code": "ER",
@@ -1701,8 +1547,7 @@
       "difficulty": "hard",
       "numeric": "232",
       "capitalEn": "Asmara",
-      "capitalIntro": "厄利垂亞首都，義大利殖民建築林立的高原城市。",
-      "capitalAttraction": "阿斯瑪拉大教堂"
+      "capitalIntro": "阿斯瑪拉海拔超過兩千三百公尺，義大利殖民時期留下大量裝飾藝術風格建築，因此有「非洲小羅馬」之稱，整座城市被列為世界文化遺產。阿斯瑪拉大教堂是這座城市重要的地標建築，融合義大利與非洲建築元素。這座城市步調悠閒，咖啡館文化深受義大利殖民歷史影響。"
     },
     {
       "code": "NA",
@@ -1712,8 +1557,7 @@
       "difficulty": "hard",
       "numeric": "516",
       "capitalEn": "Windhoek",
-      "capitalIntro": "納米比亞首都，德國殖民風格的南非城市。",
-      "capitalAttraction": "基督堡教堂"
+      "capitalIntro": "溫荷克坐落於納米比高原，德國殖民時期留下大量歐式建築，因此城市風貌帶有濃厚的德國色彩。基督堡教堂是這座城市最具代表性的地標，融合新哥德式與新羅曼式建築風格。這座城市海拔超過一千六百公尺，氣候乾燥但相對溫和宜人。"
     },
     {
       "code": "BW",
@@ -1723,8 +1567,7 @@
       "difficulty": "hard",
       "numeric": "072",
       "capitalEn": "Gaborone",
-      "capitalIntro": "波札那首都，鑽石之國的行政中心。",
-      "capitalAttraction": "三酋長紀念碑"
+      "capitalIntro": "嘉柏隆里是波札那這個非洲鑽石大國的行政中心，城市因鑽石產業帶動的經濟成長而快速發展。三酋長紀念碑紀念19世紀三位酋長遠赴倫敦爭取英國保護免受南非兼併的歷史事件。這座城市治理相對穩定，波札那也是非洲少數長期維持民主體制的國家。"
     },
     {
       "code": "LS",
@@ -1734,8 +1577,7 @@
       "difficulty": "hard",
       "numeric": "426",
       "capitalEn": "Maseru",
-      "capitalIntro": "賴索托首都，非洲最高首都之一，四周皆山地。",
-      "capitalAttraction": "王后II世體育場"
+      "capitalIntro": "馬賽魯坐落於賴索托這個「非洲天空王國」，整個國家海拔皆超過一千四百公尺，是全球唯一國土完全位於高海拔地區的國家。王后II世體育場是這座城市重要的公共集會場所。賴索托完全被南非領土環繞，是全球僅存的內飛地國家之一。"
     },
     {
       "code": "SZ",
@@ -1745,8 +1587,7 @@
       "difficulty": "hard",
       "numeric": "748",
       "capitalEn": "Mbabane",
-      "capitalIntro": "史瓦帝尼首都，非洲僅存君主國的行政中心。",
-      "capitalAttraction": "史瓦帝尼國家博物館"
+      "capitalIntro": "墨巴本坐落於山谷之間，是史瓦帝尼這個非洲僅存的君主專制國家行政中心。史瓦帝尼國家博物館展示當地傳統文化與王室歷史。這座城市規模不大，鄰近的洛班巴則是王室儀式活動的重要舉辦地。"
     },
     {
       "code": "MW",
@@ -1756,8 +1597,7 @@
       "difficulty": "hard",
       "numeric": "454",
       "capitalEn": "Lilongwe",
-      "capitalIntro": "馬拉威首都，非洲高原上的四大城區行政中心。",
-      "capitalAttraction": "馬拉威國會大廈"
+      "capitalIntro": "里朗威取代松巴成為馬拉威首都，城市依行政功能分區規劃，是非洲較晚發展的規劃城市之一。馬拉威國會大廈是這座城市重要的政治建築。這座城市周邊農業發達，菸草是馬拉威重要的出口經濟作物。"
     },
     {
       "code": "MG",
@@ -1767,8 +1607,7 @@
       "difficulty": "medium",
       "numeric": "450",
       "capitalEn": "Antananarivo",
-      "capitalIntro": "馬達加斯加首都，高原上的多元文化古城。",
-      "capitalAttraction": "安達菲亞拉查那皇宮"
+      "capitalIntro": "安塔那那利佛建於高地之上，「安塔那那利佛」意為「千人之城」，據傳源自古代守衛此地的千名士兵。安達菲亞拉查那皇宮曾是馬達加斯加王國的權力中心，可俯瞰整座城市。這座島國因長期地理隔絕，孕育出全球獨一無二的動植物生態，狐猴便是其中代表。"
     },
     {
       "code": "MU",
@@ -1778,8 +1617,7 @@
       "difficulty": "hard",
       "numeric": "480",
       "capitalEn": "Port Louis",
-      "capitalIntro": "模里西斯首都，印度洋島國的港口首都。",
-      "capitalAttraction": "香普德馬斯廣場"
+      "capitalIntro": "路易士港濱臨印度洋，是模里西斯這個度假島國的商業與行政中心，融合印度、非洲、歐洲與華人多元族裔文化。香普德馬斯廣場是這座城市歷史悠久的市集廣場。已滅絕的渡渡鳥便是模里西斯特有物種，如今成為這座島國的象徵符號。"
     },
     {
       "code": "SC",
@@ -1789,8 +1627,7 @@
       "difficulty": "hard",
       "numeric": "690",
       "capitalEn": "Victoria",
-      "capitalIntro": "塞席爾首都，印度洋上最小的國家首都之一。",
-      "capitalAttraction": "維多利亞鐘樓"
+      "capitalIntro": "維多利亞是印度洋島國塞席爾的首都，也是全球人口最少的首都之一，整座城市僅有數萬居民。維多利亞鐘樓仿造倫敦大笨鐘縮小建造，是這座城市的地標建築。塞席爾以清澈海水與花崗岩海灘聞名，是全球知名的度假勝地。"
     },
     {
       "code": "KM",
@@ -1800,8 +1637,7 @@
       "difficulty": "hard",
       "numeric": "174",
       "capitalEn": "Moroni",
-      "capitalIntro": "葛摩首都，印度洋火山群島上的古城。",
-      "capitalAttraction": "巴達尼大清真寺"
+      "capitalIntro": "莫洛尼坐落於印度洋火山島大葛摩島上，鄰近活火山卡爾塔拉火山，地質活動頻繁。巴達尼大清真寺是這座城市重要的宗教地標，展現斯瓦希里與阿拉伯建築風格融合。葛摩群島以生產伊蘭伊蘭精油聞名，是全球重要的香水原料產地之一。"
     },
     {
       "code": "CV",
@@ -1811,8 +1647,7 @@
       "difficulty": "hard",
       "numeric": "132",
       "capitalEn": "Praia",
-      "capitalIntro": "維德角首都，大西洋火山島上的港都。",
-      "capitalAttraction": "普拉亞高原舊城區"
+      "capitalIntro": "普拉亞坐落於大西洋火山島聖地牙哥島上，是維德角這個群島國家的行政與商業中心。普拉亞高原舊城區保留葡萄牙殖民時期的街道格局。維德角以摩爾納音樂聞名，這種融合非洲與葡萄牙元素的音樂類型訴說著島民離散與思鄉的情感。"
     },
     {
       "code": "ST",
@@ -1822,8 +1657,7 @@
       "difficulty": "hard",
       "numeric": "678",
       "capitalEn": "São Tomé",
-      "capitalIntro": "聖多美普林西比首都，幾內亞灣火山島上的港城。",
-      "capitalAttraction": "聖塞巴斯蒂安要塞"
+      "capitalIntro": "聖多美坐落於幾內亞灣的火山島上，曾是葡萄牙殖民時期重要的可可與咖啡種植中心。聖塞巴斯蒂安要塞如今改建為博物館，展示這座島國的殖民歷史。這個國家是非洲人口第二少的主權國家，島上生物多樣性豐富，擁有多種特有物種。"
     },
     {
       "code": "GQ",
@@ -1833,8 +1667,7 @@
       "difficulty": "hard",
       "numeric": "226",
       "capitalEn": "Malabo",
-      "capitalIntro": "赤道幾內亞首都，幾內亞灣島嶼上的石油港都。",
-      "capitalAttraction": "馬拉博大教堂"
+      "capitalIntro": "馬拉博坐落於比奧科島的火山地形上，是赤道幾內亞這個西非產油國的首都，儘管國土主體位於非洲大陸。馬拉博大教堂是這座城市重要的宗教地標。這個國家因石油出口而人均所得偏高，但財富分配不均問題相當顯著。"
     },
     {
       "code": "GW",
@@ -1844,8 +1677,7 @@
       "difficulty": "hard",
       "numeric": "624",
       "capitalEn": "Bissau",
-      "capitalIntro": "幾內亞比索首都，大西洋岸的西非港城。",
-      "capitalAttraction": "阿米卡凱布拉爾紀念廣場"
+      "capitalIntro": "比索濱臨大西洋，是幾內亞比索這個西非小國的港口首都，曾是葡萄牙殖民時期重要的奴隸貿易據點。阿米卡凱布拉爾紀念廣場紀念這位帶領國家爭取獨立的重要領袖。這座城市政局長年不穩，數次發生軍事政變，發展面臨挑戰。"
     },
     {
       "code": "GN",
@@ -1855,8 +1687,7 @@
       "difficulty": "hard",
       "numeric": "324",
       "capitalEn": "Conakry",
-      "capitalIntro": "幾內亞首都，大西洋岸的西非港口城市。",
-      "capitalAttraction": "大清真寺"
+      "capitalIntro": "科納克里坐落於大西洋岸的半島地形上，是幾內亞這個西非礦產大國的港口首都，蘊藏全球最大的鋁土礦儲量之一。大清真寺是西非規模最大的清真寺之一，展現當地伊斯蘭建築特色。這座城市的港口設施是幾內亞礦產出口的重要樞紐。"
     },
     {
       "code": "SL",
@@ -1866,8 +1697,7 @@
       "difficulty": "hard",
       "numeric": "694",
       "capitalEn": "Freetown",
-      "capitalIntro": "獅子山首都，天然良港聞名的西非城市。",
-      "capitalAttraction": "棉花樹"
+      "capitalIntro": "自由城建於18世紀末，由英國廢奴主義者安置獲釋奴隸而建立，城市名稱直接反映這段解放歷史。棉花樹是市中心的重要地標，據傳最早一批獲釋奴隸曾在樹下集會慶祝自由。這座城市天然良港自古便是西非重要的貿易據點。"
     },
     {
       "code": "LR",
@@ -1877,8 +1707,7 @@
       "difficulty": "hard",
       "numeric": "430",
       "capitalEn": "Monrovia",
-      "capitalIntro": "賴比瑞亞首都，由美國解放奴隸建立的西非城市。",
-      "capitalAttraction": "普羅維登斯島"
+      "capitalIntro": "蒙羅維亞以美國總統門羅命名，是19世紀由美國解放奴隸返回非洲建立的殖民地首都，這段獨特歷史讓賴比瑞亞成為非洲第一個共和國。普羅維登斯島是最早一批解放奴隸登陸建立聚居地的地點，具有重要歷史意義。這座城市的建築與制度深受美國文化影響。"
     },
     {
       "code": "BF",
@@ -1888,8 +1717,7 @@
       "difficulty": "hard",
       "numeric": "854",
       "capitalEn": "Ouagadougou",
-      "capitalIntro": "布吉納法索首都，西非內陸的商貿重鎮。",
-      "capitalAttraction": "瓦加杜古大清真寺"
+      "capitalIntro": "瓦加杜古是西非內陸重要的商貿與文化重鎮，泛非電影電視節每兩年在此舉辦，是非洲規模最大的影展之一。瓦加杜古大清真寺以傳統蘇丹式土磚建築工法建造，展現西非獨特的建築美學。這座城市地處薩赫爾地帶，氣候乾燥，近年面臨氣候變遷帶來的嚴峻挑戰。"
     },
     {
       "code": "TG",
@@ -1899,8 +1727,7 @@
       "difficulty": "hard",
       "numeric": "768",
       "capitalEn": "Lomé",
-      "capitalIntro": "多哥首都，西非幾內亞灣岸的港口城市。",
-      "capitalAttraction": "獨立廣場"
+      "capitalIntro": "洛美濱臨幾內亞灣，是多哥這個狹長西非國家的港口首都，也是西非重要的自由貿易與轉口貿易中心。獨立廣場紀念多哥脫離殖民統治的歷史時刻。這座城市的海灘與市集融合傳統非洲文化與現代商業活動。"
     },
     {
       "code": "BJ",
@@ -1910,8 +1737,7 @@
       "difficulty": "hard",
       "numeric": "204",
       "capitalEn": "Porto-Novo",
-      "capitalIntro": "貝南憲法首都，西非奴隸貿易史的重要港城。",
-      "capitalAttraction": "波多諾伏皇宮博物館"
+      "capitalIntro": "波多諾伏是貝南的憲法首都，這個名稱源自葡萄牙語「新港」，反映其作為歷史港口城市的起源，儘管實際政府機關多設於經濟重鎮科多努。波多諾伏皇宮博物館展示貝南王國的歷史文物與王室文化。這座城市是伏都教發源地之一，傳統信仰文化至今仍相當興盛。"
     },
     {
       "code": "GM",
@@ -1921,8 +1747,7 @@
       "difficulty": "hard",
       "numeric": "270",
       "capitalEn": "Banjul",
-      "capitalIntro": "甘比亞首都，甘比亞河口的西非小島城市。",
-      "capitalAttraction": "阿爾卡里巴要塞"
+      "capitalIntro": "班竹坐落於甘比亞河口的小島上，是全球規模最小的首都之一，甘比亞更是非洲大陸最小的國家，國土沿甘比亞河兩岸狹長分布。阿爾卡里巴要塞曾是控制河口貿易與監視奴隸船隻的軍事據點。這座城市規模雖小，卻是西非重要的河口貿易門戶。"
     },
     {
       "code": "MR",
@@ -1932,8 +1757,7 @@
       "difficulty": "hard",
       "numeric": "478",
       "capitalEn": "Nouakchott",
-      "capitalIntro": "茅利塔尼亞首都，撒哈拉沙漠邊緣的西非城市。",
-      "capitalAttraction": "諾克少大清真寺"
+      "capitalIntro": "諾克少坐落於撒哈拉沙漠邊緣，是1957年為取代殖民港口城市聖路易而興建的規劃新城，如今是茅利塔尼亞的行政與商業中心。諾克少大清真寺是這座城市重要的宗教地標，展現摩爾式建築風格。這座城市長年面臨沙漠化與沙塵侵襲的環境挑戰。"
     },
     {
       "code": "CF",
@@ -1943,8 +1767,7 @@
       "difficulty": "hard",
       "numeric": "140",
       "capitalEn": "Bangui",
-      "capitalIntro": "中非共和國首都，烏班吉河畔的中非城市。",
-      "capitalAttraction": "巴頌哥大教堂"
+      "capitalIntro": "班基坐落於烏班吉河畔，是中非共和國這個內陸國家的港口首都，河運是連結外界的重要交通方式。巴頌哥大教堂是這座城市重要的天主教地標。這個國家蘊藏豐富的鑽石與黃金礦藏，但長年政局不穩阻礙了資源開發的經濟效益。"
     },
     {
       "code": "AU",
@@ -1954,8 +1777,7 @@
       "difficulty": "easy",
       "numeric": "036",
       "capitalEn": "Canberra",
-      "capitalIntro": "澳洲規劃首都，介於雪梨與墨爾本間的花園城市。",
-      "capitalAttraction": "澳洲戰爭紀念館"
+      "capitalIntro": "坎培拉是1908年為平衡雪梨與墨爾本兩大城市的首都之爭，特別選址規劃興建的花園城市，由美國建築師沃爾特·格里芬設計。這座城市以人工湖伯利格里芬湖為中心對稱規劃，綠地覆蓋率相當高。澳洲戰爭紀念館詳實記錄澳洲參與歷次戰爭的歷史，是全國重要的紀念場所。"
     },
     {
       "code": "NZ",
@@ -1965,8 +1787,7 @@
       "difficulty": "easy",
       "numeric": "554",
       "capitalEn": "Wellington",
-      "capitalIntro": "紐西蘭首都，港灣環繞的南半球文化之都。",
-      "capitalAttraction": "蒂帕帕博物館"
+      "capitalIntro": "威靈頓地處紐西蘭南北兩島之間的庫克海峽出入口，強風是這座港灣城市的知名特色，因此有「風城」之稱。蒂帕帕博物館以互動式展覽呈現紐西蘭的自然生態與毛利文化，是全國最受歡迎的博物館之一。這座城市也是知名電影《魔戒》系列特效製作公司的所在地，孕育蓬勃的影視產業。"
     },
     {
       "code": "FJ",
@@ -1976,8 +1797,7 @@
       "difficulty": "medium",
       "numeric": "242",
       "capitalEn": "Suva",
-      "capitalIntro": "斐濟首都，南太平洋群島國家的港口城市。",
-      "capitalAttraction": "蘇瓦市場"
+      "capitalIntro": "蘇瓦坐落於維提島東南岸，是南太平洋島嶼國家中規模最大的城市之一，也是區域性的外交與商業中心。蘇瓦市場販售各式熱帶水果與海鮮，是體驗當地生活的重要去處。這座城市融合原住民斐濟文化與印度裔移民文化，族群構成相當多元。"
     },
     {
       "code": "PG",
@@ -1987,8 +1807,7 @@
       "difficulty": "hard",
       "numeric": "598",
       "capitalEn": "Port Moresby",
-      "capitalIntro": "巴布亞紐幾內亞首都，南太平洋大島上的港城。",
-      "capitalAttraction": "國會大廈"
+      "capitalIntro": "莫士比港濱臨珊瑚海，是巴布亞紐幾內亞這個語言最多元國家的首都，全國使用語言數量超過八百種。國會大廈融合當地傳統建築元素與現代設計。這座城市周邊地形崎嶇，境內多數地區仍保有相對原始的部落生活型態。"
     },
     {
       "code": "SB",
@@ -1998,8 +1817,7 @@
       "difficulty": "hard",
       "numeric": "090",
       "capitalEn": "Honiara",
-      "capitalIntro": "索羅門群島首都，二戰太平洋戰場遺跡所在地。",
-      "capitalAttraction": "美國紀念碑"
+      "capitalIntro": "荷尼阿拉在二戰期間是瓜達康納爾島戰役的重要戰場，美日兩軍曾在此激戰數月，如今城市周邊仍留有大量戰爭遺跡。美國紀念碑紀念這場太平洋戰爭的關鍵戰役。這座城市是索羅門群島的政治與商業中心，周邊海域以豐富的珊瑚礁生態聞名。"
     },
     {
       "code": "VU",
@@ -2009,8 +1827,7 @@
       "difficulty": "hard",
       "numeric": "548",
       "capitalEn": "Port Vila",
-      "capitalIntro": "萬那杜首都，南太平洋火山群島的港口城市。",
-      "capitalAttraction": "維拉港市場"
+      "capitalIntro": "維拉港坐落於南太平洋火山群島埃法特島上，融合美拉尼西亞原住民文化與英法共管殖民時期的雙重歷史遺產。維拉港市場是當地重要的傳統市集，販售各式熱帶農產品。這個國家鄰近多座活火山，也是全球自然災害風險評估中經常名列前茅的國家。"
     },
     {
       "code": "WS",
@@ -2020,8 +1837,7 @@
       "difficulty": "hard",
       "numeric": "882",
       "capitalEn": "Apia",
-      "capitalIntro": "薩摩亞首都，南太平洋玻里尼西亞文化之城。",
-      "capitalAttraction": "獨立紀念碑"
+      "capitalIntro": "阿皮亞是薩摩亞這個玻里尼西亞文化重要發源地的首都，作家史蒂文生晚年曾定居於此，並安葬在附近山丘上。獨立紀念碑紀念薩摩亞在1962年成為太平洋島國中最早獨立建國的國家之一。這座城市保留濃厚的傳統玻里尼西亞社會結構與酋長制度文化。"
     },
     {
       "code": "TO",
@@ -2031,8 +1847,7 @@
       "difficulty": "hard",
       "numeric": "776",
       "capitalEn": "Nuku'alofa",
-      "capitalIntro": "東加首都，太平洋君主國的港口城市。",
-      "capitalAttraction": "皇宮"
+      "capitalIntro": "努瓜婁發是東加這個太平洋君主立憲國的首都，東加是太平洋島國中少數從未被外國殖民統治的國家。皇宮是東加國王的正式官邸，維多利亞式木造建築相當典雅。這座城市保留濃厚的玻里尼西亞王室文化傳統，儀式與禮儀相當講究。"
     },
     {
       "code": "KI",
@@ -2042,8 +1857,7 @@
       "difficulty": "hard",
       "numeric": "296",
       "capitalEn": "South Tarawa",
-      "capitalIntro": "吉里巴斯首都，散布多座環礁的太平洋首都。",
-      "capitalAttraction": "貝蒂奧戰役遺址"
+      "capitalIntro": "南塔拉瓦坐落於吉里巴斯的環礁地形上，這個國家由分散在太平洋廣大海域的三十三座環礁組成，是地球上跨越國際換日線最多的國家。貝蒂奧戰役遺址紀念二戰期間美日兩軍在此爆發的慘烈戰鬥。這個國家因海拔極低，是全球最早面臨氣候變遷海平面上升威脅的國家之一。"
     },
     {
       "code": "TV",
@@ -2053,8 +1867,7 @@
       "difficulty": "hard",
       "numeric": "798",
       "capitalEn": "Funafuti",
-      "capitalIntro": "吐瓦魯首都，世界最小國家首都之一，深受海平面上升威脅。",
-      "capitalAttraction": "富納富提環礁"
+      "capitalIntro": "富納富提是吐瓦魯這個全球第二小主權國家的首都，整個環礁最高點海拔僅約四點五公尺，被視為氣候變遷海平面上升的前線指標國家。這座城市的機場跑道平時也作為居民運動與集會的公共空間使用。吐瓦魯積極在國際場合倡議氣候議題，呼籲全球正視島嶼國家面臨的生存危機。"
     },
     {
       "code": "NR",
@@ -2064,8 +1877,7 @@
       "difficulty": "hard",
       "numeric": "520",
       "capitalEn": "Yaren",
-      "capitalIntro": "諾魯首都，全球最小島國的行政區。",
-      "capitalAttraction": "諾魯國會大廈"
+      "capitalIntro": "亞倫區是諾魯這個全球面積最小島國的行政中心，整個國家僅約二十一平方公里，沒有正式劃分的首都城市，政府機關集中於此區域。諾魯國會大廈是這個國家最重要的政治建築。這個國家過去曾因磷酸鹽礦藏而致富，如今礦藏枯竭，經濟轉型面臨挑戰。"
     },
     {
       "code": "PW",
@@ -2075,8 +1887,7 @@
       "difficulty": "hard",
       "numeric": "585",
       "capitalEn": "Ngerulmud",
-      "capitalIntro": "帛琉首都，太平洋珊瑚礁島上的新規劃首都。",
-      "capitalAttraction": "帛琉國會大廈"
+      "capitalIntro": "恩吉魯穆德是2006年取代柯羅爾成為帛琉新首都的規劃城市，坐落於帛琉本島的山丘地帶。帛琉國會大廈外觀仿照美國國會大廈設計，相當氣派。帛琉以清澈湛藍的海水與豐富珊瑚礁生態聞名，是全球潛水愛好者嚮往的目的地之一。"
     },
     {
       "code": "FM",
@@ -2086,8 +1897,7 @@
       "difficulty": "hard",
       "numeric": "583",
       "capitalEn": "Palikir",
-      "capitalIntro": "密克羅尼西亞聯邦首都，太平洋島國的行政中心。",
-      "capitalAttraction": "南馬都爾遺址"
+      "capitalIntro": "帕利基爾坐落於波納佩島上，是密克羅尼西亞聯邦這個由六百多座島嶼組成的太平洋國家首都。南馬都爾遺址是太平洋地區重要的考古遺跡，由巨大玄武岩柱堆砌而成的人工島群，年代久遠且建造工法至今仍是謎團。這個國家海洋領域遼闊，漁業資源是重要的經濟來源。"
     },
     {
       "code": "MH",
@@ -2097,8 +1907,7 @@
       "difficulty": "hard",
       "numeric": "584",
       "capitalEn": "Majuro",
-      "capitalIntro": "馬紹爾群島首都，太平洋環礁上的首都。",
-      "capitalAttraction": "阿洛克環礁"
+      "capitalIntro": "馬久羅坐落於太平洋馬紹爾群島的狹長環礁上，島嶼最窄處僅有數十公尺寬，兩側分別面對潟湖與外海。阿洛克環礁是這個國家眾多環礁島嶼之一，展現典型的太平洋珊瑚礁地貌。馬紹爾群島曾是美國核武試驗場所在地，比基尼環礁的核試驗歷史至今仍影響當地居民生活。"
     }
   ]
 }

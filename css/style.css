@@ -175,8 +175,7 @@ h2 { text-align: center; margin-bottom: 8px; }
 }
 .fact-card .fact-head { font-weight: 700; margin-bottom: 4px; }
 .fact-card .fact-head .fact-capital { color: var(--accent-2); font-weight: 400; }
-.fact-card .fact-body { color: var(--text-dim); line-height: 1.4; }
-.fact-card .fact-attraction { color: var(--correct); }
+.fact-card .fact-body { color: var(--text-dim); line-height: 1.5; }
 
 .atlas-detail {
   text-align: center;
