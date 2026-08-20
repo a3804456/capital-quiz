@@ -244,6 +244,18 @@ h2 { text-align: center; margin-bottom: 8px; }
 .fact-card .fact-head .fact-capital { color: var(--accent-2); font-weight: 400; }
 .fact-card .fact-body { color: var(--text-dim); line-height: 1.5; }
 
+.fact-card-flag { display: flex; gap: 12px; align-items: flex-start; }
+.fact-flag-img {
+  flex-shrink: 0;
+  width: 64px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  margin-top: 2px;
+}
+.fact-flag-text { flex: 1; min-width: 0; }
+
 .atlas-detail {
   text-align: center;
   min-height: 24px;

@@ -228,9 +228,13 @@
       const div = document.createElement('div');
       div.className = 'fact-card';
       if (isFlagRound) {
+        div.className += ' fact-card-flag';
         div.innerHTML = `
-          <div class="fact-head">${c.name}</div>
-          <div class="fact-body">${c.flagMeaning}</div>
+          <img class="fact-flag-img" src="https://flagcdn.com/w160/${c.code.toLowerCase()}.png" alt="${c.name}國旗" onerror="this.style.display='none'">
+          <div class="fact-flag-text">
+            <div class="fact-head">${c.name}</div>
+            <div class="fact-body">${c.flagMeaning}</div>
+          </div>
         `;
       } else if (session.mode === 'country') {
         div.innerHTML = `
