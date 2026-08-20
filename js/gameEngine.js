@@ -41,6 +41,33 @@ const GameEngine = (() => {
     });
   }
 
+  // Pick distractors that are plausible mix-ups rather than random picks from
+  // the whole world, so answers can't be spotted by elimination alone: same
+  // continent + same difficulty tier first (most confusable), then same
+  // continent, then same difficulty tier, then anything as a last resort.
+  function pickDistractors(country, count, rng) {
+    const candidates = allCountries.filter(c => c.code !== country.code && c.capital !== country.capital);
+    const tiers = [
+      candidates.filter(c => c.continent === country.continent && c.difficulty === country.difficulty),
+      candidates.filter(c => c.continent === country.continent),
+      candidates.filter(c => c.difficulty === country.difficulty),
+      candidates
+    ];
+    const picked = [];
+    const usedCodes = new Set();
+    for (const tier of tiers) {
+      if (picked.length >= count) break;
+      const shuffled = shuffle(tier, rng);
+      for (const c of shuffled) {
+        if (picked.length >= count) break;
+        if (usedCodes.has(c.code)) continue;
+        picked.push(c);
+        usedCodes.add(c.code);
+      }
+    }
+    return picked;
+  }
+
   function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set(), mode = 'capital') {
     // avoid repeating recently-played countries first; only fall back to them
     // once the "fresh" pool has been exhausted, so practice rounds cycle
@@ -50,10 +77,7 @@ const GameEngine = (() => {
     const ordered = shuffle(fresh, rng).concat(shuffle(stale, rng));
     const picked = ordered.slice(0, Math.min(count, pool.length));
     return picked.map(country => {
-      const distractors = shuffle(
-        allCountries.filter(c => c.code !== country.code && c.capital !== country.capital),
-        rng
-      ).slice(0, 3);
+      const distractors = pickDistractors(country, 3, rng);
       const choices = shuffle([country, ...distractors], rng).map(c =>
         mode === 'country'
           ? { value: c.name, valueEn: null }
