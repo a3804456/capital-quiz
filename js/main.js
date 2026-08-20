@@ -208,10 +208,15 @@
       const c = q.country;
       const div = document.createElement('div');
       div.className = 'fact-card';
-      div.innerHTML = `
-        <div class="fact-head">${c.name} <span class="fact-capital">${c.capital} ${c.capitalEn}</span></div>
-        <div class="fact-body">${c.capitalIntro}</div>
-      `;
+      div.innerHTML = session.mode === 'country'
+        ? `
+          <div class="fact-head">${c.name}</div>
+          <div class="fact-body">${c.countryIntro}</div>
+        `
+        : `
+          <div class="fact-head">${c.name} <span class="fact-capital">${c.capital} ${c.capitalEn}</span></div>
+          <div class="fact-body">${c.capitalIntro}</div>
+        `;
       factsEl.appendChild(div);
     });
 
