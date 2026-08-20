@@ -1,7 +1,13 @@
 (() => {
-  let progress = Storage.load();
+  let currentMode = 'capital';
+  let progress = null;
   let gameMap = null;
   let atlasMap = null;
+
+  const MODE_LABELS = {
+    capital: { icon: '🏛️', title: '猜首都', subtitle: '點地圖、猜首都，練出你的世界地理感', atlasTitle: '首都地圖點亮進度', factsTitle: '本輪首都小知識' },
+    country: { icon: '🗺️', title: '猜國家', subtitle: '只看地圖形狀，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', factsTitle: '本輪國家小知識' }
+  };
 
   let session = {
     questions: [],
@@ -14,7 +20,8 @@
     shareEmojis: [],
     timerId: null,
     timeLeft: 15,
-    isDaily: false
+    isDaily: false,
+    mode: 'capital'
   };
 
   const TIME_PER_Q = 15;
@@ -24,7 +31,17 @@
     document.getElementById(id).classList.add('active');
   }
 
-  function refreshHomeStats() {
+  function selectMode(mode) {
+    currentMode = mode;
+    progress = Storage.load(mode);
+    const labels = MODE_LABELS[mode];
+    document.getElementById('hub-title').textContent = `${labels.icon} ${labels.title}`;
+    document.getElementById('hub-subtitle').textContent = labels.subtitle;
+    refreshHubStats();
+    showScreen('screen-hub');
+  }
+
+  function refreshHubStats() {
     document.getElementById('stat-best-score').textContent = progress.bestScore;
     document.getElementById('stat-best-streak').textContent = progress.bestStreak;
     document.getElementById('stat-total').textContent = progress.totalPlayed;
@@ -50,10 +67,11 @@
       shareEmojis: [],
       timerId: null,
       timeLeft: TIME_PER_Q,
-      isDaily
+      isDaily,
+      mode: currentMode
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
-    Storage.save(progress);
+    Storage.save(progress, currentMode);
 
     document.getElementById('q-total').textContent = questions.length;
     showScreen('screen-game');
@@ -74,20 +92,26 @@
     gameMap.clearFlash();
     gameMap.setTarget(q.country.numeric);
 
-    const showName = q.country.difficulty !== 'hard';
     const questionTextEl = document.querySelector('.question-text');
-    questionTextEl.textContent = showName
-      ? `這是「${q.country.name}」，首都是？`
-      : '這個國家的首都是？（地獄模式：地圖上自己找）';
+    if (session.mode === 'country') {
+      questionTextEl.textContent = '這是哪個國家？';
+    } else {
+      const showName = q.country.difficulty !== 'hard';
+      questionTextEl.textContent = showName
+        ? `這是「${q.country.name}」，首都是？`
+        : '這個國家的首都是？（地獄模式：地圖上自己找）';
+    }
 
     const choicesEl = document.getElementById('choices');
     choicesEl.innerHTML = '';
     q.choices.forEach(choice => {
       const btn = document.createElement('button');
       btn.className = 'choice-btn';
-      btn.innerHTML = `${choice.capital}<span class="capital-en">${choice.capitalEn}</span>`;
-      btn.dataset.capital = choice.capital;
-      btn.addEventListener('click', () => handleAnswer(choice.capital, btn));
+      btn.innerHTML = choice.valueEn
+        ? `${choice.value}<span class="capital-en">${choice.valueEn}</span>`
+        : choice.value;
+      btn.dataset.value = choice.value;
+      btn.addEventListener('click', () => handleAnswer(choice.value, btn));
       choicesEl.appendChild(btn);
     });
 
@@ -103,16 +127,17 @@
     }, 1000);
   }
 
-  function handleAnswer(chosenCapital, btnEl) {
+  function handleAnswer(chosenValue, btnEl) {
     if (session.answered) return;
     session.answered = true;
     clearInterval(session.timerId);
     const q = session.questions[session.index];
-    const isCorrect = chosenCapital === q.country.capital;
+    const correctValue = session.mode === 'country' ? q.country.name : q.country.capital;
+    const isCorrect = chosenValue === correctValue;
 
     document.querySelectorAll('.choice-btn').forEach(b => {
       b.disabled = true;
-      if (b.dataset.capital === q.country.capital) b.classList.add('correct');
+      if (b.dataset.value === correctValue) b.classList.add('correct');
       else if (b === btnEl) b.classList.add('wrong');
     });
 
@@ -128,12 +153,14 @@
       session.shareEmojis.push('🟩');
     } else {
       session.streak = 0;
-      const chosenChoice = q.choices.find(c => c.capital === chosenCapital);
-      session.wrongList.push({
-        name: q.country.name,
-        correct: `${q.country.capital} ${q.country.capitalEn}`,
-        chosen: chosenChoice ? `${chosenChoice.capital} ${chosenChoice.capitalEn}` : '（超時）'
-      });
+      const chosenChoice = q.choices.find(c => c.value === chosenValue);
+      const correctLabel = session.mode === 'country'
+        ? q.country.name
+        : `${q.country.capital} ${q.country.capitalEn}`;
+      const chosenLabel = chosenChoice
+        ? (chosenChoice.valueEn ? `${chosenChoice.value} ${chosenChoice.valueEn}` : chosenChoice.value)
+        : '（超時）';
+      session.wrongList.push({ name: q.country.name, correct: correctLabel, chosen: chosenLabel });
       session.shareEmojis.push('🟥');
     }
 
@@ -153,8 +180,8 @@
       progress.dailyChallenge.history.unshift(`${Storage.todayStr()}: ${session.correctCount}/${session.questions.length}`);
       progress.dailyChallenge.history = progress.dailyChallenge.history.slice(0, 30);
     }
-    Storage.save(progress);
-    refreshHomeStats();
+    Storage.save(progress, currentMode);
+    refreshHubStats();
 
     document.getElementById('result-title').textContent = session.isDaily ? '每日挑戰結束！' : '練習結束！';
     document.getElementById('result-score').textContent = session.score;
@@ -174,6 +201,7 @@
       });
     }
 
+    document.getElementById('facts-title').textContent = MODE_LABELS[session.mode].factsTitle;
     const factsEl = document.getElementById('result-facts');
     factsEl.innerHTML = '';
     session.questions.forEach(q => {
@@ -192,6 +220,8 @@
 
   async function openAtlas() {
     showScreen('screen-atlas');
+    document.getElementById('atlas-title').textContent = MODE_LABELS[currentMode].atlasTitle;
+    document.getElementById('atlas-detail').textContent = '';
     if (!atlasMap) {
       atlasMap = await MapRenderer.render('atlas-map-container', {
         onClick: (numericId) => {
@@ -237,12 +267,15 @@
   async function init() {
     await GameEngine.loadCountries();
     gameMap = await MapRenderer.render('map-container', {});
-    refreshHomeStats();
     setupChips('difficulty-chips');
     setupChips('continent-chips');
 
+    document.querySelectorAll('.mode-card').forEach(card => {
+      card.addEventListener('click', () => selectMode(card.dataset.mode));
+    });
+
     document.getElementById('btn-daily').addEventListener('click', () => {
-      const questions = GameEngine.buildDailyQuestions(10);
+      const questions = GameEngine.buildDailyQuestions(10, currentMode);
       startSession(questions, true);
     });
 
@@ -251,7 +284,7 @@
     document.getElementById('btn-start-practice').addEventListener('click', () => {
       const difficulty = getActiveChip('difficulty-chips');
       const continent = getActiveChip('continent-chips');
-      const questions = GameEngine.buildPracticeQuestions({ difficulty, continent }, 10, new Set(progress.recentlyPlayed));
+      const questions = GameEngine.buildPracticeQuestions({ difficulty, continent }, 10, new Set(progress.recentlyPlayed), currentMode);
       if (!questions.length) {
         alert('這個篩選條件下沒有題目，換個組合試試！');
         return;
@@ -262,18 +295,19 @@
     document.getElementById('btn-atlas').addEventListener('click', openAtlas);
     document.getElementById('btn-play-again').addEventListener('click', () => {
       if (session.isDaily) {
-        showScreen('screen-home');
+        showScreen('screen-hub');
       } else {
         const questions = GameEngine.buildPracticeQuestions(
           { difficulty: getActiveChip('difficulty-chips'), continent: getActiveChip('continent-chips') },
           10,
-          new Set(progress.recentlyPlayed)
+          new Set(progress.recentlyPlayed),
+          currentMode
         );
         startSession(questions, false);
       }
     });
 
-    document.querySelectorAll('.btn-back').forEach(btn => {
+    document.querySelectorAll('.btn-back, .btn-back-small').forEach(btn => {
       btn.addEventListener('click', () => showScreen(btn.dataset.target));
     });
   }

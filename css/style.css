@@ -60,6 +60,43 @@ h2 { text-align: center; margin-bottom: 8px; }
 
 .home-buttons { max-width: 360px; margin: 0 auto 24px; }
 
+.mode-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 380px;
+  margin: 0 auto;
+}
+.mode-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 0.1s ease, border-color 0.15s ease;
+}
+.mode-card:active { transform: scale(0.98); }
+.mode-card:hover { border-color: var(--accent); }
+.mode-card .mode-icon { font-size: 2rem; }
+.mode-card .mode-title { font-size: 1.15rem; font-weight: 700; }
+.mode-card .mode-desc { font-size: 0.85rem; color: var(--text-dim); text-align: center; }
+
+.btn-back-small {
+  display: block;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding: 4px 0;
+}
+
 .stats-row, .result-stats-row {
   display: flex;
   gap: 12px;

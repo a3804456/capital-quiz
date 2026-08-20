@@ -41,7 +41,7 @@ const GameEngine = (() => {
     });
   }
 
-  function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set()) {
+  function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set(), mode = 'capital') {
     // avoid repeating recently-played countries first; only fall back to them
     // once the "fresh" pool has been exhausted, so practice rounds cycle
     // through the roster instead of resurfacing the same handful every time.
@@ -54,21 +54,24 @@ const GameEngine = (() => {
         allCountries.filter(c => c.code !== country.code && c.capital !== country.capital),
         rng
       ).slice(0, 3);
-      const choices = shuffle([country, ...distractors], rng)
-        .map(c => ({ capital: c.capital, capitalEn: c.capitalEn }));
-      return { country, choices };
+      const choices = shuffle([country, ...distractors], rng).map(c =>
+        mode === 'country'
+          ? { value: c.name, valueEn: null }
+          : { value: c.capital, valueEn: c.capitalEn }
+      );
+      return { country, choices, mode };
     });
   }
 
-  function buildPracticeQuestions(options, count = 10, recentCodes = new Set()) {
+  function buildPracticeQuestions(options, count = 10, recentCodes = new Set(), mode = 'capital') {
     const pool = filterPool(options);
-    return buildQuestions(pool, count, Math.random, recentCodes);
+    return buildQuestions(pool, count, Math.random, recentCodes, mode);
   }
 
-  function buildDailyQuestions(count = 10) {
+  function buildDailyQuestions(count = 10, mode = 'capital') {
     const dateStr = Storage.todayStr();
     const rng = seededRng(dateStr);
-    return buildQuestions(allCountries, count, rng);
+    return buildQuestions(allCountries, count, rng, new Set(), mode);
   }
 
   return { loadCountries, buildPracticeQuestions, buildDailyQuestions, get countries() { return allCountries; } };

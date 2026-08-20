@@ -3,17 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>首都大挑戰</title>
+<title>地理大發現</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div id="app">
 
-  <!-- 首頁 -->
-  <section id="screen-home" class="screen active">
-    <h1>🌍 首都大挑戰</h1>
-    <p class="subtitle">點地圖、猜首都，練出你的世界地理感</p>
+  <!-- 模式選擇（真首頁） -->
+  <section id="screen-mode-select" class="screen active">
+    <h1>🌍 地理大發現</h1>
+    <p class="subtitle">選一種玩法，開始你的地理探索</p>
+
+    <div class="mode-cards">
+      <button class="mode-card" data-mode="capital">
+        <span class="mode-icon">🏛️</span>
+        <span class="mode-title">猜首都</span>
+        <span class="mode-desc">看地圖與國名，答出正確首都</span>
+      </button>
+      <button class="mode-card" data-mode="country">
+        <span class="mode-icon">🗺️</span>
+        <span class="mode-title">猜國家</span>
+        <span class="mode-desc">只看地圖形狀，猜出是哪個國家</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- 模式主頁（每日挑戰／自由練習／總覽） -->
+  <section id="screen-hub" class="screen">
+    <button class="btn-back-small" data-target="screen-mode-select">← 返回模式選擇</button>
+    <h1 id="hub-title">🏛️ 猜首都</h1>
+    <p id="hub-subtitle" class="subtitle">點地圖、猜首都，練出你的世界地理感</p>
 
     <div class="home-buttons">
       <button id="btn-daily" class="btn btn-primary">
@@ -56,7 +76,7 @@
     </div>
     <div class="setup-buttons">
       <button id="btn-start-practice" class="btn btn-primary">開始練習</button>
-      <button class="btn btn-ghost btn-back" data-target="screen-home">返回</button>
+      <button class="btn btn-ghost btn-back" data-target="screen-hub">返回</button>
     </div>
   </section>
 
@@ -91,22 +111,22 @@
     </div>
     <div id="result-share" class="share-grid"></div>
     <div id="result-review" class="review-list"></div>
-    <h3 class="facts-title">本輪首都小知識</h3>
+    <h3 id="facts-title" class="facts-title">本輪首都小知識</h3>
     <div id="result-facts" class="facts-list"></div>
     <div class="setup-buttons">
       <button id="btn-play-again" class="btn btn-primary">再玩一次</button>
-      <button class="btn btn-ghost btn-back" data-target="screen-home">回首頁</button>
+      <button class="btn btn-ghost btn-back" data-target="screen-hub">回首頁</button>
     </div>
   </section>
 
   <!-- 地圖總覽 -->
   <section id="screen-atlas" class="screen">
-    <h2>世界地圖點亮進度</h2>
+    <h2 id="atlas-title">世界地圖點亮進度</h2>
     <p id="atlas-progress-text" class="subtitle">已點亮 0 / 0 個國家</p>
     <div id="atlas-map-container"></div>
     <div id="atlas-detail" class="atlas-detail"></div>
     <div class="setup-buttons">
-      <button class="btn btn-ghost btn-back" data-target="screen-home">返回</button>
+      <button class="btn btn-ghost btn-back" data-target="screen-hub">返回</button>
     </div>
   </section>
 

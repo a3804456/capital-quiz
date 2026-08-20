@@ -1,5 +1,8 @@
 const Storage = (() => {
-  const KEY = 'capitalQuiz_progress';
+  const KEYS = {
+    capital: 'capitalQuiz_progress',
+    country: 'countryQuiz_progress'
+  };
 
   const RECENT_LIMIT = 40;
 
@@ -14,9 +17,9 @@ const Storage = (() => {
     };
   }
 
-  function load() {
+  function load(mode = 'capital') {
     try {
-      const raw = localStorage.getItem(KEY);
+      const raw = localStorage.getItem(KEYS[mode]);
       if (!raw) return defaultProgress();
       const parsed = JSON.parse(raw);
       return { ...defaultProgress(), ...parsed };
@@ -25,8 +28,8 @@ const Storage = (() => {
     }
   }
 
-  function save(progress) {
-    localStorage.setItem(KEY, JSON.stringify(progress));
+  function save(progress, mode = 'capital') {
+    localStorage.setItem(KEYS[mode], JSON.stringify(progress));
   }
 
   function recordAnswer(progress, countryCode, isCorrect) {
