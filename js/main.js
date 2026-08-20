@@ -6,7 +6,7 @@
 
   const MODE_LABELS = {
     capital: { icon: '🏛️', title: '猜首都', subtitle: '點地圖、猜首都，練出你的世界地理感', atlasTitle: '首都地圖點亮進度', factsTitle: '本輪首都小知識' },
-    country: { icon: '🗺️', title: '猜國家', subtitle: '只看地圖形狀，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', factsTitle: '本輪國家小知識' }
+    country: { icon: '🗺️', title: '猜國家', subtitle: '看地圖形狀或國旗，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', factsTitle: '本輪國家小知識' }
   };
 
   let session = {
@@ -37,6 +37,7 @@
     const labels = MODE_LABELS[mode];
     document.getElementById('hub-title').textContent = `${labels.icon} ${labels.title}`;
     document.getElementById('hub-subtitle').textContent = labels.subtitle;
+    document.getElementById('prompt-style-group').style.display = mode === 'country' ? 'block' : 'none';
     refreshHubStats();
     showScreen('screen-hub');
   }
@@ -68,7 +69,8 @@
       timerId: null,
       timeLeft: TIME_PER_Q,
       isDaily,
-      mode: currentMode
+      mode: currentMode,
+      promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map'
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
     Storage.save(progress, currentMode);
@@ -89,8 +91,20 @@
     session.answered = false;
 
     const q = session.questions[session.index];
-    gameMap.clearFlash();
-    gameMap.setTarget(q.country.numeric);
+    const mapContainer = document.getElementById('map-container');
+    const flagContainer = document.getElementById('flag-container');
+
+    if (session.promptStyle === 'flag') {
+      mapContainer.style.display = 'none';
+      flagContainer.style.display = 'flex';
+      const flagUrl = `https://flagcdn.com/w320/${q.country.code.toLowerCase()}.png`;
+      flagContainer.innerHTML = `<img src="${flagUrl}" alt="國旗" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'flag-missing', textContent: '這個國家的國旗圖片暫缺'}))">`;
+    } else {
+      mapContainer.style.display = 'block';
+      flagContainer.style.display = 'none';
+      gameMap.clearFlash();
+      gameMap.setTarget(q.country.numeric);
+    }
 
     const questionTextEl = document.querySelector('.question-text');
     if (session.mode === 'country') {
@@ -141,7 +155,9 @@
       else if (b === btnEl) b.classList.add('wrong');
     });
 
-    gameMap.flash(q.country.numeric, isCorrect ? 'correct' : 'wrong');
+    if (session.promptStyle !== 'flag') {
+      gameMap.flash(q.country.numeric, isCorrect ? 'correct' : 'wrong');
+    }
     Storage.recordAnswer(progress, q.country.code, isCorrect);
 
     if (isCorrect) {
@@ -274,6 +290,7 @@
     gameMap = await MapRenderer.render('map-container', {});
     setupChips('difficulty-chips');
     setupChips('continent-chips');
+    setupChips('promptstyle-chips');
 
     document.querySelectorAll('.mode-card').forEach(card => {
       card.addEventListener('click', () => selectMode(card.dataset.mode));

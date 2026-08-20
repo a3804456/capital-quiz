@@ -24,7 +24,7 @@
       <button class="mode-card" data-mode="country">
         <span class="mode-icon">🗺️</span>
         <span class="mode-title">猜國家</span>
-        <span class="mode-desc">只看地圖形狀，猜出是哪個國家</span>
+        <span class="mode-desc">看地圖形狀或國旗，猜出是哪個國家</span>
       </button>
     </div>
   </section>
@@ -34,6 +34,14 @@
     <button class="btn-back-small" data-target="screen-mode-select">← 返回模式選擇</button>
     <h1 id="hub-title">🏛️ 猜首都</h1>
     <p id="hub-subtitle" class="subtitle">點地圖、猜首都，練出你的世界地理感</p>
+
+    <div class="setup-group" id="prompt-style-group" style="display:none;">
+      <label>出題方式</label>
+      <div class="chip-row" id="promptstyle-chips">
+        <button class="chip active" data-value="map">地圖形狀</button>
+        <button class="chip" data-value="flag">國旗</button>
+      </div>
+    </div>
 
     <div class="home-buttons">
       <button id="btn-daily" class="btn btn-primary">
@@ -91,6 +99,7 @@
     </div>
 
     <div id="map-container"></div>
+    <div id="flag-container" class="flag-display" style="display:none;"></div>
 
     <div class="question-box">
       <p class="question-text">這個國家的首都是？</p>
