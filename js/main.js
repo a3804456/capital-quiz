@@ -217,22 +217,32 @@
       });
     }
 
-    document.getElementById('facts-title').textContent = MODE_LABELS[session.mode].factsTitle;
+    const isFlagRound = session.mode === 'country' && session.promptStyle === 'flag';
+    document.getElementById('facts-title').textContent = isFlagRound
+      ? '本輪國旗小知識'
+      : MODE_LABELS[session.mode].factsTitle;
     const factsEl = document.getElementById('result-facts');
     factsEl.innerHTML = '';
     session.questions.forEach(q => {
       const c = q.country;
       const div = document.createElement('div');
       div.className = 'fact-card';
-      div.innerHTML = session.mode === 'country'
-        ? `
+      if (isFlagRound) {
+        div.innerHTML = `
+          <div class="fact-head">${c.name}</div>
+          <div class="fact-body">${c.flagMeaning}</div>
+        `;
+      } else if (session.mode === 'country') {
+        div.innerHTML = `
           <div class="fact-head">${c.name}</div>
           <div class="fact-body">${c.countryIntro}</div>
-        `
-        : `
+        `;
+      } else {
+        div.innerHTML = `
           <div class="fact-head">${c.name} <span class="fact-capital">${c.capital} ${c.capitalEn}</span></div>
           <div class="fact-body">${c.capitalIntro}</div>
         `;
+      }
       factsEl.appendChild(div);
     });
 
