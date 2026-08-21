@@ -26,6 +26,11 @@
         <span class="mode-title">猜國家</span>
         <span class="mode-desc">看地圖形狀或國旗，猜出是哪個國家</span>
       </button>
+      <button class="mode-card" data-mode="taiwan">
+        <span class="mode-icon">🇹🇼</span>
+        <span class="mode-title">愛台灣</span>
+        <span class="mode-desc">在地小知識、鄰居關係、鄉鎮歸屬大考驗</span>
+      </button>
     </div>
   </section>
 
@@ -40,6 +45,16 @@
       <div class="chip-row" id="promptstyle-chips">
         <button class="chip active" data-value="map">地圖</button>
         <button class="chip" data-value="flag">國旗</button>
+      </div>
+    </div>
+
+    <div class="setup-group" id="taiwan-category-group" style="display:none;">
+      <label>題型</label>
+      <div class="chip-row" id="taiwan-category-chips">
+        <button class="chip active" data-value="mix">全部混合</button>
+        <button class="chip" data-value="clue">特色知識</button>
+        <button class="chip" data-value="neighbor">鄰居關係</button>
+        <button class="chip" data-value="township">鄉鎮歸屬</button>
       </div>
     </div>
 
@@ -133,6 +148,7 @@
     <h2 id="atlas-title">世界地圖點亮進度</h2>
     <p id="atlas-progress-text" class="subtitle">已點亮 0 / 0 個國家</p>
     <div id="atlas-map-container"></div>
+    <div id="atlas-taiwan-grid" class="taiwan-grid" style="display:none;"></div>
     <div id="atlas-detail" class="atlas-detail"></div>
     <div class="setup-buttons">
       <button class="btn btn-ghost btn-back" data-target="screen-hub">返回</button>
@@ -146,6 +162,7 @@
 <script src="js/storage.js"></script>
 <script src="js/mapRenderer.js"></script>
 <script src="js/gameEngine.js"></script>
+<script src="js/taiwanEngine.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

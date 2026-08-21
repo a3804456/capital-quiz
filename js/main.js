@@ -5,8 +5,9 @@
   let atlasMap = null;
 
   const MODE_LABELS = {
-    capital: { icon: '🏛️', title: '猜首都', subtitle: '點地圖、猜首都，練出你的世界地理感', atlasTitle: '首都地圖點亮進度', factsTitle: '本輪首都小知識' },
-    country: { icon: '🗺️', title: '猜國家', subtitle: '看地圖形狀或國旗，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', factsTitle: '本輪國家小知識' }
+    capital: { icon: '🏛️', title: '猜首都', subtitle: '點地圖、猜首都，練出你的世界地理感', atlasTitle: '首都地圖點亮進度', atlasBtn: '世界地圖總覽', factsTitle: '本輪首都小知識' },
+    country: { icon: '🗺️', title: '猜國家', subtitle: '看地圖形狀或國旗，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', atlasBtn: '世界地圖總覽', factsTitle: '本輪國家小知識' },
+    taiwan: { icon: '🇹🇼', title: '愛台灣', subtitle: '在地小知識、鄰居關係、鄉鎮歸屬大考驗', atlasTitle: '縣市熟悉度總覽', atlasBtn: '縣市熟悉度總覽', factsTitle: '本輪台灣小知識' }
   };
 
   let session = {
@@ -38,6 +39,8 @@
     document.getElementById('hub-title').textContent = `${labels.icon} ${labels.title}`;
     document.getElementById('hub-subtitle').textContent = labels.subtitle;
     document.getElementById('prompt-style-group').style.display = mode === 'country' ? 'block' : 'none';
+    document.getElementById('taiwan-category-group').style.display = mode === 'taiwan' ? 'block' : 'none';
+    document.getElementById('btn-atlas').textContent = labels.atlasBtn;
     refreshHubStats();
     showScreen('screen-hub');
   }
@@ -70,7 +73,8 @@
       timeLeft: TIME_PER_Q,
       isDaily,
       mode: currentMode,
-      promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map'
+      promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map',
+      taiwanCategory: currentMode === 'taiwan' ? getActiveChip('taiwan-category-chips') : null
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
     Storage.save(progress, currentMode);
@@ -93,27 +97,31 @@
     const q = session.questions[session.index];
     const mapContainer = document.getElementById('map-container');
     const flagContainer = document.getElementById('flag-container');
+    const questionTextEl = document.querySelector('.question-text');
 
-    if (session.promptStyle === 'flag') {
+    if (session.mode === 'taiwan') {
+      mapContainer.style.display = 'none';
+      flagContainer.style.display = 'none';
+      questionTextEl.textContent = q.promptText;
+    } else if (session.promptStyle === 'flag') {
       mapContainer.style.display = 'none';
       flagContainer.style.display = 'flex';
       const flagUrl = `https://flagcdn.com/w320/${q.country.code.toLowerCase()}.png`;
       flagContainer.innerHTML = `<img src="${flagUrl}" alt="國旗" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className: 'flag-missing', textContent: '這個國家的國旗圖片暫缺'}))">`;
+      questionTextEl.textContent = '這是哪個國家？';
     } else {
       mapContainer.style.display = 'block';
       flagContainer.style.display = 'none';
       gameMap.clearFlash();
       gameMap.setTarget(q.country.numeric);
-    }
-
-    const questionTextEl = document.querySelector('.question-text');
-    if (session.mode === 'country') {
-      questionTextEl.textContent = '這是哪個國家？';
-    } else {
-      const showName = q.country.difficulty !== 'hard';
-      questionTextEl.textContent = showName
-        ? `這是「${q.country.name}」，首都是？`
-        : '這個國家的首都是？（地獄模式：地圖上自己找）';
+      if (session.mode === 'country') {
+        questionTextEl.textContent = '這是哪個國家？';
+      } else {
+        const showName = q.country.difficulty !== 'hard';
+        questionTextEl.textContent = showName
+          ? `這是「${q.country.name}」，首都是？`
+          : '這個國家的首都是？（地獄模式：地圖上自己找）';
+      }
     }
 
     const choicesEl = document.getElementById('choices');
@@ -146,7 +154,7 @@
     session.answered = true;
     clearInterval(session.timerId);
     const q = session.questions[session.index];
-    const correctValue = session.mode === 'country' ? q.country.name : q.country.capital;
+    const correctValue = q.answer;
     const isCorrect = chosenValue === correctValue;
 
     document.querySelectorAll('.choice-btn').forEach(b => {
@@ -155,7 +163,7 @@
       else if (b === btnEl) b.classList.add('wrong');
     });
 
-    if (session.promptStyle !== 'flag') {
+    if (session.mode !== 'taiwan' && session.promptStyle !== 'flag') {
       gameMap.flash(q.country.numeric, isCorrect ? 'correct' : 'wrong');
     }
     Storage.recordAnswer(progress, q.country.code, isCorrect);
@@ -170,9 +178,9 @@
     } else {
       session.streak = 0;
       const chosenChoice = q.choices.find(c => c.value === chosenValue);
-      const correctLabel = session.mode === 'country'
-        ? q.country.name
-        : `${q.country.capital} ${q.country.capitalEn}`;
+      const correctLabel = session.mode === 'capital'
+        ? `${q.country.capital} ${q.country.capitalEn}`
+        : q.answer;
       const chosenLabel = chosenChoice
         ? (chosenChoice.valueEn ? `${chosenChoice.value} ${chosenChoice.valueEn}` : chosenChoice.value)
         : '（超時）';
@@ -223,8 +231,13 @@
       : MODE_LABELS[session.mode].factsTitle;
     const factsEl = document.getElementById('result-facts');
     factsEl.innerHTML = '';
+    const shownCodes = new Set();
     session.questions.forEach(q => {
       const c = q.country;
+      if (session.mode === 'taiwan') {
+        if (shownCodes.has(c.code)) return;
+        shownCodes.add(c.code);
+      }
       const div = document.createElement('div');
       div.className = 'fact-card';
       if (isFlagRound) {
@@ -235,6 +248,12 @@
             <div class="fact-head">${c.name}</div>
             <div class="fact-body">${c.flagMeaning}</div>
           </div>
+        `;
+      } else if (session.mode === 'taiwan') {
+        const clueList = (TaiwanEngine.clues[c.code] || []).map(text => `<li>${text}</li>`).join('');
+        div.innerHTML = `
+          <div class="fact-head">${c.code}</div>
+          <ul class="fact-body fact-clue-list">${clueList}</ul>
         `;
       } else if (session.mode === 'country') {
         div.innerHTML = `
@@ -253,10 +272,45 @@
     showScreen('screen-result');
   }
 
+  function renderTaiwanAtlas() {
+    document.getElementById('atlas-map-container').style.display = 'none';
+    const grid = document.getElementById('atlas-taiwan-grid');
+    grid.style.display = 'grid';
+    grid.innerHTML = '';
+    const detail = document.getElementById('atlas-detail');
+    let lit = 0;
+    TaiwanEngine.counties.forEach(county => {
+      const stat = progress.countryStats[county];
+      const tile = document.createElement('div');
+      tile.className = 'taiwan-tile';
+      if (stat && stat.attempts > 0) {
+        lit += 1;
+        const ratio = stat.correct / stat.attempts;
+        const green = Math.round(60 + ratio * 140);
+        tile.style.background = `rgb(${Math.round(61 - ratio * 20)}, ${green}, ${Math.round(132 - ratio * 40)})`;
+      }
+      tile.textContent = county;
+      tile.addEventListener('click', () => {
+        detail.textContent = stat
+          ? `${county}：答對 ${stat.correct} / ${stat.attempts} 次`
+          : `${county}：還沒練過`;
+      });
+      grid.appendChild(tile);
+    });
+    document.getElementById('atlas-progress-text').textContent = `已點亮 ${lit} / ${TaiwanEngine.counties.length} 個縣市`;
+  }
+
   async function openAtlas() {
     showScreen('screen-atlas');
     document.getElementById('atlas-title').textContent = MODE_LABELS[currentMode].atlasTitle;
     document.getElementById('atlas-detail').textContent = '';
+
+    if (currentMode === 'taiwan') {
+      renderTaiwanAtlas();
+      return;
+    }
+    document.getElementById('atlas-map-container').style.display = 'block';
+    document.getElementById('atlas-taiwan-grid').style.display = 'none';
     if (!atlasMap) {
       atlasMap = await MapRenderer.render('atlas-map-container', {
         onClick: (numericId) => {
@@ -299,28 +353,52 @@
     return document.querySelector(`#${containerId} .chip.active`).dataset.value;
   }
 
+  function buildDailyForCurrentMode() {
+    if (currentMode === 'taiwan') {
+      return TaiwanEngine.buildDailyQuestions(getActiveChip('taiwan-category-chips'), 10);
+    }
+    return GameEngine.buildDailyQuestions(10, currentMode);
+  }
+
+  function buildPracticeForCurrentMode() {
+    if (currentMode === 'taiwan') {
+      return TaiwanEngine.buildPracticeQuestions(getActiveChip('taiwan-category-chips'), 10, new Set(progress.recentlyPlayed));
+    }
+    return GameEngine.buildPracticeQuestions(
+      { difficulty: getActiveChip('difficulty-chips'), continent: getActiveChip('continent-chips') },
+      10,
+      new Set(progress.recentlyPlayed),
+      currentMode
+    );
+  }
+
   async function init() {
     await GameEngine.loadCountries();
+    await TaiwanEngine.loadData();
     gameMap = await MapRenderer.render('map-container', {});
     setupChips('difficulty-chips');
     setupChips('continent-chips');
     setupChips('promptstyle-chips');
+    setupChips('taiwan-category-chips');
 
     document.querySelectorAll('.mode-card').forEach(card => {
       card.addEventListener('click', () => selectMode(card.dataset.mode));
     });
 
     document.getElementById('btn-daily').addEventListener('click', () => {
-      const questions = GameEngine.buildDailyQuestions(10, currentMode);
-      startSession(questions, true);
+      startSession(buildDailyForCurrentMode(), true);
     });
 
-    document.getElementById('btn-practice').addEventListener('click', () => showScreen('screen-setup'));
+    document.getElementById('btn-practice').addEventListener('click', () => {
+      if (currentMode === 'taiwan') {
+        startSession(buildPracticeForCurrentMode(), false);
+      } else {
+        showScreen('screen-setup');
+      }
+    });
 
     document.getElementById('btn-start-practice').addEventListener('click', () => {
-      const difficulty = getActiveChip('difficulty-chips');
-      const continent = getActiveChip('continent-chips');
-      const questions = GameEngine.buildPracticeQuestions({ difficulty, continent }, 10, new Set(progress.recentlyPlayed), currentMode);
+      const questions = buildPracticeForCurrentMode();
       if (!questions.length) {
         alert('這個篩選條件下沒有題目，換個組合試試！');
         return;
@@ -333,13 +411,7 @@
       if (session.isDaily) {
         showScreen('screen-hub');
       } else {
-        const questions = GameEngine.buildPracticeQuestions(
-          { difficulty: getActiveChip('difficulty-chips'), continent: getActiveChip('continent-chips') },
-          10,
-          new Set(progress.recentlyPlayed),
-          currentMode
-        );
-        startSession(questions, false);
+        startSession(buildPracticeForCurrentMode(), false);
       }
     });
 

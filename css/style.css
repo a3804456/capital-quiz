@@ -121,6 +121,8 @@ h2 { text-align: center; margin-bottom: 8px; }
 
 #prompt-style-group { text-align: center; }
 #prompt-style-group .chip-row { justify-content: center; }
+#taiwan-category-group { text-align: center; }
+#taiwan-category-group .chip-row { justify-content: center; }
 .chip {
   padding: 8px 16px;
   border-radius: 999px;
@@ -243,6 +245,8 @@ h2 { text-align: center; margin-bottom: 8px; }
 .fact-card .fact-head { font-weight: 700; margin-bottom: 4px; }
 .fact-card .fact-head .fact-capital { color: var(--accent-2); font-weight: 400; }
 .fact-card .fact-body { color: var(--text-dim); line-height: 1.5; }
+.fact-clue-list { margin: 0; padding-left: 18px; }
+.fact-clue-list li { margin-bottom: 2px; }
 
 .fact-card-flag { display: flex; gap: 12px; align-items: flex-start; }
 .fact-flag-img {
@@ -262,3 +266,21 @@ h2 { text-align: center; margin-bottom: 8px; }
   color: var(--text-dim);
   margin-bottom: 8px;
 }
+
+.taiwan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.taiwan-tile {
+  background: #2a3348;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 6px;
+  text-align: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.taiwan-tile:active { transform: scale(0.96); }

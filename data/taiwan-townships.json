@@ -1,0 +1,1849 @@
+{
+  "townships": [
+    {
+      "county": "台北市",
+      "name": "北投區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "中山區",
+      "ambiguous": true
+    },
+    {
+      "county": "台北市",
+      "name": "文山區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "中正區",
+      "ambiguous": true
+    },
+    {
+      "county": "台北市",
+      "name": "松山區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "大安區",
+      "ambiguous": true
+    },
+    {
+      "county": "台北市",
+      "name": "南港區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "士林區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "萬華區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "內湖區",
+      "ambiguous": false
+    },
+    {
+      "county": "台北市",
+      "name": "信義區",
+      "ambiguous": true
+    },
+    {
+      "county": "台北市",
+      "name": "大同區",
+      "ambiguous": false
+    },
+    {
+      "county": "基隆市",
+      "name": "中正區",
+      "ambiguous": true
+    },
+    {
+      "county": "基隆市",
+      "name": "暖暖區",
+      "ambiguous": false
+    },
+    {
+      "county": "基隆市",
+      "name": "七堵區",
+      "ambiguous": false
+    },
+    {
+      "county": "基隆市",
+      "name": "安樂區",
+      "ambiguous": false
+    },
+    {
+      "county": "基隆市",
+      "name": "中山區",
+      "ambiguous": true
+    },
+    {
+      "county": "基隆市",
+      "name": "信義區",
+      "ambiguous": true
+    },
+    {
+      "county": "基隆市",
+      "name": "仁愛區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "萬里區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "金山區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "板橋區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "汐止區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "深坑區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "石碇區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "瑞芳區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "平溪區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "雙溪區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "貢寮區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "新店區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "坪林區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "烏來區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "永和區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "中和區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "土城區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "三峽區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "樹林區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "鶯歌區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "三重區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "新莊區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "泰山區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "林口區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "蘆洲區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "五股區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "八里區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "淡水區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "三芝區",
+      "ambiguous": false
+    },
+    {
+      "county": "新北市",
+      "name": "石門區",
+      "ambiguous": false
+    },
+    {
+      "county": "連江縣",
+      "name": "南竿鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "連江縣",
+      "name": "北竿鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "連江縣",
+      "name": "莒光鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "連江縣",
+      "name": "東引鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "宜蘭市",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "頭城鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "礁溪鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "壯圍鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "員山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "羅東鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "三星鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "大同鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "五結鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "冬山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "蘇澳鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "南澳鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "宜蘭縣",
+      "name": "釣魚台列",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹市",
+      "name": "東區",
+      "ambiguous": true
+    },
+    {
+      "county": "新竹市",
+      "name": "香山區",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹市",
+      "name": "北區",
+      "ambiguous": true
+    },
+    {
+      "county": "新竹縣",
+      "name": "竹北市",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "湖口鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "新豐鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "新埔鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "關西鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "芎林鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "寶山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "竹東鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "五峰鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "橫山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "尖石鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "北埔鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "新竹縣",
+      "name": "峨眉鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "中壢區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "平鎮區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "龍潭區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "楊梅區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "新屋區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "觀音區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "桃園區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "龜山區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "八德區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "大溪區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "復興區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "大園區",
+      "ambiguous": false
+    },
+    {
+      "county": "桃園市",
+      "name": "蘆竹區",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "竹南鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "頭份市",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "三灣鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "南庄鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "獅潭鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "後龍鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "通霄鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "苑裡鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "苗栗市",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "造橋鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "頭屋鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "公館鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "大湖鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "泰安鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "銅鑼鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "三義鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "西湖鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "苗栗縣",
+      "name": "卓蘭鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "北區",
+      "ambiguous": true
+    },
+    {
+      "county": "台中市",
+      "name": "東區",
+      "ambiguous": true
+    },
+    {
+      "county": "台中市",
+      "name": "北屯區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "西區",
+      "ambiguous": true
+    },
+    {
+      "county": "台中市",
+      "name": "南區",
+      "ambiguous": true
+    },
+    {
+      "county": "台中市",
+      "name": "南屯區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "中區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "西屯區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "太平區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "大里區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "霧峰區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "烏日區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "豐原區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "后里區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "石岡區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "東勢區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "和平區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "新社區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "潭子區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "大雅區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "神岡區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "大肚區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "沙鹿區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "龍井區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "梧棲區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "清水區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "大甲區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "外埔區",
+      "ambiguous": false
+    },
+    {
+      "county": "台中市",
+      "name": "大安區",
+      "ambiguous": true
+    },
+    {
+      "county": "彰化縣",
+      "name": "彰化市",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "芬園鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "花壇鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "秀水鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "鹿港鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "福興鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "線西鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "和美鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "伸港鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "員林市",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "社頭鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "永靖鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "埔心鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "溪湖鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "大村鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "埔鹽鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "田中鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "北斗鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "田尾鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "埤頭鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "溪州鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "竹塘鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "二林鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "大城鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "芳苑鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "彰化縣",
+      "name": "二水鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "南投市",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "中寮鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "草屯鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "國姓鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "埔里鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "仁愛鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "名間鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "集集鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "水里鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "魚池鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "信義鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "竹山鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "南投縣",
+      "name": "鹿谷鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義市",
+      "name": "西區",
+      "ambiguous": true
+    },
+    {
+      "county": "嘉義市",
+      "name": "東區",
+      "ambiguous": true
+    },
+    {
+      "county": "嘉義縣",
+      "name": "番路鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "梅山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "竹崎鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "阿里山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "中埔鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "大埔鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "水上鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "鹿草鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "太保市",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "朴子市",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "東石鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "六腳鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "新港鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "民雄鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "大林鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "溪口鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "義竹鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "嘉義縣",
+      "name": "布袋鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "斗南鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "大埤鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "虎尾鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "土庫鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "褒忠鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "東勢鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "台西鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "崙背鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "麥寮鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "斗六市",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "林內鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "古坑鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "莿桐鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "西螺鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "二崙鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "北港鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "水林鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "口湖鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "四湖鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "雲林縣",
+      "name": "元長鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "安南區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "北區",
+      "ambiguous": true
+    },
+    {
+      "county": "台南市",
+      "name": "南區",
+      "ambiguous": true
+    },
+    {
+      "county": "台南市",
+      "name": "中西區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "安平區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "東區",
+      "ambiguous": true
+    },
+    {
+      "county": "台南市",
+      "name": "永康區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "歸仁區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "新化區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "左鎮區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "玉井區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "楠西區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "南化區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "仁德區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "關廟區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "龍崎區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "官田區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "麻豆區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "佳里區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "西港區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "七股區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "將軍區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "學甲區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "北門區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "新營區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "後壁區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "白河區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "東山區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "六甲區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "下營區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "柳營區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "鹽水區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "善化區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "大內區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "山上區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "新市區",
+      "ambiguous": false
+    },
+    {
+      "county": "台南市",
+      "name": "安定區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "前鎮區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "新興區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "前金區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "鹽埕區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "三民區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "鼓山區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "小港區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "苓雅區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "楠梓區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "旗津區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "左營區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "仁武區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "大社區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "岡山區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "路竹區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "阿蓮區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "田寮區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "燕巢區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "橋頭區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "梓官區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "彌陀區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "永安區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "湖內區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "鳳山區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "大寮區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "林園區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "鳥松區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "大樹區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "旗山區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "美濃區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "六龜區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "內門區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "杉林區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "甲仙區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "桃源區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "那瑪夏區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "茂林區",
+      "ambiguous": false
+    },
+    {
+      "county": "高雄市",
+      "name": "茄萣區",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "馬公市",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "西嶼鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "望安鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "七美鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "白沙鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "澎湖縣",
+      "name": "湖西鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "金沙鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "金湖鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "金寧鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "金城鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "烈嶼鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "金門縣",
+      "name": "烏坵鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "屏東市",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "三地門鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "霧台鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "瑪家鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "九如鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "里港鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "高樹鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "鹽埔鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "長治鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "麟洛鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "竹田鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "內埔鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "萬丹鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "潮州鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "泰武鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "來義鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "萬巒鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "崁頂鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "新埤鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "南州鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "林邊鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "東港鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "琉球鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "佳冬鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "新園鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "枋寮鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "枋山鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "春日鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "獅子鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "車城鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "牡丹鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "恆春鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "屏東縣",
+      "name": "滿州鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "台東市",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "綠島鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "蘭嶼鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "延平鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "卑南鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "鹿野鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "關山鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "海端鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "池上鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "東河鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "成功鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "長濱鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "太麻里鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "金峰鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "大武鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "台東縣",
+      "name": "達仁鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "花蓮市",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "新城鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "秀林鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "吉安鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "壽豐鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "鳳林鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "光復鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "豐濱鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "瑞穗鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "萬榮鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "玉里鎮",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "卓溪鄉",
+      "ambiguous": false
+    },
+    {
+      "county": "花蓮縣",
+      "name": "富里鄉",
+      "ambiguous": false
+    }
+  ]
+}

@@ -83,7 +83,8 @@ const GameEngine = (() => {
           ? { value: c.name, valueEn: null }
           : { value: c.capital, valueEn: c.capitalEn }
       );
-      return { country, choices, mode };
+      const answer = mode === 'country' ? country.name : country.capital;
+      return { country, choices, mode, answer };
     });
   }
 
