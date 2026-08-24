@@ -57,6 +57,7 @@ const TaiwanEngine = (() => {
       answer: county,
       answerLabel: county,
       promptText: `這個縣市的特徵是：「${clueText}」，是哪裡？`,
+      explanation: `「${clueText}」說的正是${county}。`,
       taiwanType: 'clue'
     };
   }
@@ -76,6 +77,7 @@ const TaiwanEngine = (() => {
       answer,
       answerLabel: answer,
       promptText: `以下哪一個「不是」${subject}的鄰近縣市？`,
+      explanation: `${subject}真正相鄰的縣市是：${realNeighbors.join('、')}。${answer}並不與${subject}相鄰，所以是正確答案。`,
       taiwanType: 'neighbor'
     };
   }
@@ -94,6 +96,7 @@ const TaiwanEngine = (() => {
       answer: correctCounty,
       answerLabel: correctCounty,
       promptText: `「${picked.name}」是台灣哪個縣市的行政區？`,
+      explanation: `「${picked.name}」屬於${correctCounty}。`,
       taiwanType: 'township'
     };
   }

@@ -7,7 +7,7 @@
   const MODE_LABELS = {
     capital: { icon: '🏛️', title: '猜首都', subtitle: '點地圖、猜首都，練出你的世界地理感', atlasTitle: '首都地圖點亮進度', atlasBtn: '世界地圖總覽', factsTitle: '本輪首都小知識' },
     country: { icon: '🗺️', title: '猜國家', subtitle: '看地圖形狀或國旗，猜出是哪個國家', atlasTitle: '國家地圖點亮進度', atlasBtn: '世界地圖總覽', factsTitle: '本輪國家小知識' },
-    taiwan: { icon: '🇹🇼', title: '愛台灣', subtitle: '在地小知識、鄰居關係、鄉鎮歸屬大考驗', atlasTitle: '縣市熟悉度總覽', atlasBtn: '縣市熟悉度總覽', factsTitle: '本輪台灣小知識' }
+    taiwan: { icon: '🇹🇼', title: '愛台灣', subtitle: '在地小知識、鄰居關係、鄉鎮歸屬大考驗', atlasTitle: '縣市熟悉度總覽', atlasBtn: '縣市熟悉度總覽', factsTitle: '本輪題目解析' }
   };
 
   let session = {
@@ -267,13 +267,8 @@
       : MODE_LABELS[session.mode].factsTitle;
     const factsEl = document.getElementById('result-facts');
     factsEl.innerHTML = '';
-    const shownCodes = new Set();
     session.questions.forEach(q => {
       const c = q.country;
-      if (session.mode === 'taiwan') {
-        if (shownCodes.has(c.code)) return;
-        shownCodes.add(c.code);
-      }
       const div = document.createElement('div');
       div.className = 'fact-card';
       if (isFlagRound) {
@@ -286,10 +281,9 @@
           </div>
         `;
       } else if (session.mode === 'taiwan') {
-        const clueList = (TaiwanEngine.clues[c.code] || []).map(text => `<li>${text}</li>`).join('');
         div.innerHTML = `
-          <div class="fact-head">${c.code}</div>
-          <ul class="fact-body fact-clue-list">${clueList}</ul>
+          <div class="fact-head">${q.promptText}</div>
+          <div class="fact-body">${q.explanation}</div>
         `;
       } else if (session.mode === 'country') {
         div.innerHTML = `
