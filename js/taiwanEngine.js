@@ -48,7 +48,7 @@ const TaiwanEngine = (() => {
     const fresh = counties.filter(c => !recentCodes.has(c));
     const pool = fresh.length ? fresh : counties;
     const county = shuffle(pool, rng)[0];
-    const clueText = shuffle(clues[county], rng)[0];
+    const clue = shuffle(clues[county], rng)[0];
     const distractors = shuffle(counties.filter(c => c !== county), rng).slice(0, 3);
     return {
       country: { code: county, name: county, numeric: null },
@@ -56,8 +56,8 @@ const TaiwanEngine = (() => {
       mode: 'taiwan',
       answer: county,
       answerLabel: county,
-      promptText: `這個縣市的特徵是：「${clueText}」，是哪裡？`,
-      explanation: `「${clueText}」說的正是${county}。`,
+      promptText: `這個縣市的特徵是：「${clue.text}」，是哪裡？`,
+      explanation: clue.detail,
       taiwanType: 'clue'
     };
   }
@@ -77,7 +77,7 @@ const TaiwanEngine = (() => {
       answer,
       answerLabel: answer,
       promptText: `以下哪一個「不是」${subject}的鄰近縣市？`,
-      explanation: `${subject}真正相鄰的縣市是：${realNeighbors.join('、')}。${answer}並不與${subject}相鄰，所以是正確答案。`,
+      explanation: `${subject}實際相鄰的縣市有：${neighbors[subject].join('、')}。`,
       taiwanType: 'neighbor'
     };
   }
@@ -89,6 +89,7 @@ const TaiwanEngine = (() => {
     const neighborDistractors = shuffle((neighbors[correctCounty] || []), rng);
     const fallback = shuffle(counties.filter(c => c !== correctCounty && !neighborDistractors.includes(c)), rng);
     const distractors = neighborDistractors.concat(fallback).slice(0, 3);
+    const bonusFact = shuffle(clues[correctCounty], rng)[0];
     return {
       country: { code: correctCounty, name: picked.name, numeric: null },
       choices: toChoices([correctCounty, ...distractors], rng),
@@ -96,7 +97,7 @@ const TaiwanEngine = (() => {
       answer: correctCounty,
       answerLabel: correctCounty,
       promptText: `「${picked.name}」是台灣哪個縣市的行政區？`,
-      explanation: `「${picked.name}」屬於${correctCounty}。`,
+      explanation: `「${picked.name}」位於${correctCounty}。${bonusFact.detail}`,
       taiwanType: 'township'
     };
   }
