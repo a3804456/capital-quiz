@@ -55,6 +55,7 @@ const TaiwanEngine = (() => {
       choices: toChoices([county, ...distractors], rng),
       mode: 'taiwan',
       answer: county,
+      answerLabel: county,
       promptText: `這個縣市的特徵是：「${clueText}」，是哪裡？`,
       taiwanType: 'clue'
     };
@@ -73,6 +74,7 @@ const TaiwanEngine = (() => {
       choices: toChoices([...realNeighbors, answer], rng),
       mode: 'taiwan',
       answer,
+      answerLabel: answer,
       promptText: `以下哪一個「不是」${subject}的鄰近縣市？`,
       taiwanType: 'neighbor'
     };
@@ -90,6 +92,7 @@ const TaiwanEngine = (() => {
       choices: toChoices([correctCounty, ...distractors], rng),
       mode: 'taiwan',
       answer: correctCounty,
+      answerLabel: correctCounty,
       promptText: `「${picked.name}」是台灣哪個縣市的行政區？`,
       taiwanType: 'township'
     };

@@ -123,6 +123,8 @@ h2 { text-align: center; margin-bottom: 8px; }
 #prompt-style-group .chip-row { justify-content: center; }
 #taiwan-category-group { text-align: center; }
 #taiwan-category-group .chip-row { justify-content: center; }
+#direction-group { text-align: center; }
+#direction-group .chip-row { justify-content: center; }
 .chip {
   padding: 8px 16px;
   border-radius: 999px;
@@ -152,12 +154,35 @@ h2 { text-align: center; margin-bottom: 8px; }
   overflow: hidden;
   margin-bottom: 16px;
 }
-#map-container svg, #atlas-map-container svg { display: block; width: 100%; height: auto; }
+#map-container svg, #atlas-map-container svg { display: block; width: 100%; height: auto; touch-action: none; }
+
+#map-wrap { position: relative; }
+.map-zoom-controls {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 5;
+}
+.map-zoom-controls button {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(23, 29, 46, 0.9);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.map-zoom-controls button:active { transform: scale(0.94); }
 
 .map-country { fill: #2a3348; stroke: #0f1420; stroke-width: 0.5; transition: fill 0.25s ease; }
 .map-country.target { fill: var(--accent); }
 .map-country.correct-flash { fill: var(--correct) !important; }
 .map-country.wrong-flash { fill: var(--wrong) !important; }
+.map-country.reveal-flash { fill: var(--accent-2) !important; }
 .map-country:hover { fill: #3a4562; cursor: pointer; }
 
 .flag-display {
@@ -207,6 +232,9 @@ h2 { text-align: center; margin-bottom: 8px; }
 .choice-btn.wrong { background: var(--wrong); color: #2b0006; border-color: var(--wrong); }
 .choice-btn:disabled { opacity: 0.7; }
 .capital-en { display: block; font-size: 0.75rem; opacity: 0.65; margin-top: 2px; font-weight: 400; }
+
+.choice-btn.choice-flag-btn { padding: 8px; display: flex; align-items: center; justify-content: center; }
+.choice-flag-img { width: 100%; max-width: 140px; height: 60px; object-fit: contain; border-radius: 4px; }
 
 .result-score { text-align: center; margin: 16px 0; }
 .result-big-number { font-size: 2.4rem; font-weight: 800; color: var(--accent-2); }

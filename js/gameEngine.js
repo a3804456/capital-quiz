@@ -68,7 +68,7 @@ const GameEngine = (() => {
     return picked;
   }
 
-  function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set(), mode = 'capital') {
+  function buildQuestions(pool, count, rng = Math.random, recentCodes = new Set(), mode = 'capital', direction = 'forward', promptStyle = 'map') {
     // avoid repeating recently-played countries first; only fall back to them
     // once the "fresh" pool has been exhausted, so practice rounds cycle
     // through the roster instead of resurfacing the same handful every time.
@@ -78,25 +78,35 @@ const GameEngine = (() => {
     const picked = ordered.slice(0, Math.min(count, pool.length));
     return picked.map(country => {
       const distractors = pickDistractors(country, 3, rng);
-      const choices = shuffle([country, ...distractors], rng).map(c =>
-        mode === 'country'
-          ? { value: c.name, valueEn: null }
-          : { value: c.capital, valueEn: c.capitalEn }
-      );
-      const answer = mode === 'country' ? country.name : country.capital;
-      return { country, choices, mode, answer };
+      const candidates = [country, ...distractors];
+
+      if (mode === 'capital') {
+        const choices = shuffle(candidates, rng).map(c => ({ value: c.capital, valueEn: c.capitalEn }));
+        return { country, choices, mode, answer: country.capital, answerLabel: `${country.capital} ${country.capitalEn}`, interaction: 'choice' };
+      }
+
+      // country mode
+      if (direction === 'reverse' && promptStyle === 'flag') {
+        const choices = shuffle(candidates, rng).map(c => ({ value: c.code, valueEn: null, isFlag: true }));
+        return { country, choices, mode, answer: country.code, answerLabel: country.name, interaction: 'choice' };
+      }
+      if (direction === 'reverse' && promptStyle === 'map') {
+        return { country, choices: [], mode, answer: String(country.numeric), answerLabel: country.name, interaction: 'map-click' };
+      }
+      const choices = shuffle(candidates, rng).map(c => ({ value: c.name, valueEn: null }));
+      return { country, choices, mode, answer: country.name, answerLabel: country.name, interaction: 'choice' };
     });
   }
 
-  function buildPracticeQuestions(options, count = 10, recentCodes = new Set(), mode = 'capital') {
+  function buildPracticeQuestions(options, count = 10, recentCodes = new Set(), mode = 'capital', direction = 'forward', promptStyle = 'map') {
     const pool = filterPool(options);
-    return buildQuestions(pool, count, Math.random, recentCodes, mode);
+    return buildQuestions(pool, count, Math.random, recentCodes, mode, direction, promptStyle);
   }
 
-  function buildDailyQuestions(count = 10, mode = 'capital') {
+  function buildDailyQuestions(count = 10, mode = 'capital', direction = 'forward', promptStyle = 'map') {
     const dateStr = Storage.todayStr();
     const rng = seededRng(dateStr);
-    return buildQuestions(allCountries, count, rng, new Set(), mode);
+    return buildQuestions(allCountries, count, rng, new Set(), mode, direction, promptStyle);
   }
 
   return { loadCountries, buildPracticeQuestions, buildDailyQuestions, get countries() { return allCountries; } };

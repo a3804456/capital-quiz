@@ -50,6 +50,14 @@
       </div>
     </div>
 
+    <div class="setup-group" id="direction-group" style="display:none;">
+      <label>方向</label>
+      <div class="chip-row" id="direction-chips">
+        <button class="chip active" data-value="forward">正向（看圖選名字）</button>
+        <button class="chip" data-value="reverse">反向（看名字選圖）</button>
+      </div>
+    </div>
+
     <div class="setup-group" id="taiwan-category-group" style="display:none;">
       <label>題型</label>
       <div class="chip-row" id="taiwan-category-chips">
@@ -115,7 +123,14 @@
       <div class="timer-info"><span id="timer-count">15</span>s</div>
     </div>
 
-    <div id="map-container"></div>
+    <div id="map-wrap">
+      <div id="map-container"></div>
+      <div id="map-zoom-controls" class="map-zoom-controls" style="display:none;">
+        <button id="btn-zoom-in" type="button">＋</button>
+        <button id="btn-zoom-out" type="button">－</button>
+        <button id="btn-zoom-reset" type="button">⟲</button>
+      </div>
+    </div>
     <div id="flag-container" class="flag-display" style="display:none;"></div>
 
     <div class="question-box">

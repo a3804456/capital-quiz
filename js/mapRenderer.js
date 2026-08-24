@@ -24,7 +24,9 @@ const MapRenderer = (() => {
       .append('svg')
       .attr('viewBox', `0 0 ${width} ${height}`);
 
-    const paths = svg.selectAll('path')
+    const zoomLayer = svg.append('g');
+
+    const paths = zoomLayer.selectAll('path')
       .data(world.features)
       .join('path')
       .attr('d', path)
@@ -33,6 +35,13 @@ const MapRenderer = (() => {
       .on('click', (event, d) => {
         if (onClick) onClick(d.id, d);
       });
+
+    const zoom = d3.zoom()
+      .scaleExtent([1, 8])
+      .on('zoom', (event) => {
+        zoomLayer.attr('transform', event.transform);
+      });
+    svg.call(zoom);
 
     return {
       svg,
@@ -44,11 +53,11 @@ const MapRenderer = (() => {
         paths.classed('target', false);
       },
       flash(numericId, type) {
-        paths.filter(d => String(d.id) === String(numericId))
-          .classed(type === 'correct' ? 'correct-flash' : 'wrong-flash', true);
+        const cls = type === 'correct' ? 'correct-flash' : type === 'reveal' ? 'reveal-flash' : 'wrong-flash';
+        paths.filter(d => String(d.id) === String(numericId)).classed(cls, true);
       },
       clearFlash() {
-        paths.classed('correct-flash', false).classed('wrong-flash', false);
+        paths.classed('correct-flash', false).classed('wrong-flash', false).classed('reveal-flash', false);
       },
       colorByStats(statsLookup) {
         paths.style('fill', d => {
@@ -58,6 +67,12 @@ const MapRenderer = (() => {
           const green = Math.round(60 + ratio * 140);
           return `rgb(${Math.round(61 - ratio * 20)}, ${green}, ${Math.round(132 - ratio * 40)})`;
         });
+      },
+      zoomBy(factor) {
+        svg.transition().duration(200).call(zoom.scaleBy, factor);
+      },
+      resetZoom() {
+        svg.transition().duration(200).call(zoom.transform, d3.zoomIdentity);
       }
     };
   }
