@@ -75,6 +75,7 @@
       isDaily,
       mode: currentMode,
       promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map',
+      direction: currentMode === 'country' && document.getElementById('reverse-toggle').classList.contains('active') ? 'reverse' : 'forward',
       taiwanCategory: currentMode === 'taiwan' ? getActiveChip('taiwan-category-chips') : null
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
@@ -390,12 +391,13 @@
     return document.querySelector(`#${containerId} .chip.active`).dataset.value;
   }
 
-  // "反向" is exposed as a single chip alongside 地圖/國旗; internally it's
-  // just direction=reverse on top of the map prompt style.
+  // "反向" is an independent toggle layered on top of the 地圖/國旗 choice,
+  // not a third exclusive option.
   function resolveEngineParams() {
     if (currentMode !== 'country') return { direction: 'forward', promptStyle: 'map' };
-    const chip = getActiveChip('promptstyle-chips');
-    return chip === 'reverse' ? { direction: 'reverse', promptStyle: 'map' } : { direction: 'forward', promptStyle: chip };
+    const promptStyle = getActiveChip('promptstyle-chips');
+    const direction = document.getElementById('reverse-toggle').classList.contains('active') ? 'reverse' : 'forward';
+    return { direction, promptStyle };
   }
 
   function buildDailyForCurrentMode() {
@@ -436,6 +438,9 @@
     setupChips('continent-chips');
     setupChips('promptstyle-chips');
     setupChips('taiwan-category-chips');
+    document.getElementById('reverse-toggle').addEventListener('click', (e) => {
+      e.currentTarget.classList.toggle('active');
+    });
 
     document.getElementById('btn-zoom-in').addEventListener('click', () => gameMap.zoomBy(1.5));
     document.getElementById('btn-zoom-out').addEventListener('click', () => gameMap.zoomBy(1 / 1.5));

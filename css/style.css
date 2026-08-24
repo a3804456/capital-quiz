@@ -121,6 +121,7 @@ h2 { text-align: center; margin-bottom: 8px; }
 
 #prompt-style-group { text-align: center; }
 #prompt-style-group .chip-row { justify-content: center; }
+.prompt-style-row { align-items: center; }
 #taiwan-category-group { text-align: center; }
 #taiwan-category-group .chip-row { justify-content: center; }
 .chip {
@@ -133,6 +134,20 @@ h2 { text-align: center; margin-bottom: 8px; }
   font-size: 0.9rem;
 }
 .chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.reverse-toggle {
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 1px dashed var(--border);
+  border-radius: 999px;
+  border-top: 1px dashed var(--accent-2);
+  border-right: 1px dashed var(--accent-2);
+  border-bottom: 1px dashed var(--accent-2);
+  color: var(--accent-2);
+  background: transparent;
+}
+.reverse-toggle.active { background: var(--accent-2); color: #2b1a00; border-style: solid; border-color: var(--accent-2); }
+
 .setup-buttons { max-width: 360px; margin: 24px auto 0; }
 
 .game-topbar {
