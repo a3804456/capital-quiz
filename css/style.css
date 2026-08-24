@@ -122,8 +122,6 @@ h2 { text-align: center; margin-bottom: 8px; }
 #prompt-style-group { text-align: center; }
 #prompt-style-group .chip-row { justify-content: center; }
 .prompt-style-row { align-items: center; }
-#taiwan-category-group { text-align: center; }
-#taiwan-category-group .chip-row { justify-content: center; }
 .chip {
   padding: 8px 16px;
   border-radius: 999px;

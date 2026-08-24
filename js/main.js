@@ -39,7 +39,6 @@
     document.getElementById('hub-title').textContent = `${labels.icon} ${labels.title}`;
     document.getElementById('hub-subtitle').textContent = labels.subtitle;
     document.getElementById('prompt-style-group').style.display = mode === 'country' ? 'block' : 'none';
-    document.getElementById('taiwan-category-group').style.display = mode === 'taiwan' ? 'block' : 'none';
     document.getElementById('btn-atlas').textContent = labels.atlasBtn;
     refreshHubStats();
     showScreen('screen-hub');
@@ -75,8 +74,7 @@
       isDaily,
       mode: currentMode,
       promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map',
-      direction: currentMode === 'country' && document.getElementById('reverse-toggle').classList.contains('active') ? 'reverse' : 'forward',
-      taiwanCategory: currentMode === 'taiwan' ? getActiveChip('taiwan-category-chips') : null
+      direction: currentMode === 'country' && document.getElementById('reverse-toggle').classList.contains('active') ? 'reverse' : 'forward'
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
     Storage.save(progress, currentMode);
@@ -402,7 +400,7 @@
 
   function buildDailyForCurrentMode() {
     if (currentMode === 'taiwan') {
-      return TaiwanEngine.buildDailyQuestions(getActiveChip('taiwan-category-chips'), 10);
+      return TaiwanEngine.buildDailyQuestions('mix', 10);
     }
     const { direction, promptStyle } = resolveEngineParams();
     return GameEngine.buildDailyQuestions(10, currentMode, direction, promptStyle);
@@ -410,7 +408,7 @@
 
   function buildPracticeForCurrentMode() {
     if (currentMode === 'taiwan') {
-      return TaiwanEngine.buildPracticeQuestions(getActiveChip('taiwan-category-chips'), 10, new Set(progress.recentlyPlayed));
+      return TaiwanEngine.buildPracticeQuestions('mix', 10, new Set(progress.recentlyPlayed));
     }
     const { direction, promptStyle } = resolveEngineParams();
     return GameEngine.buildPracticeQuestions(
@@ -437,7 +435,6 @@
     setupChips('difficulty-chips');
     setupChips('continent-chips');
     setupChips('promptstyle-chips');
-    setupChips('taiwan-category-chips');
     document.getElementById('reverse-toggle').addEventListener('click', (e) => {
       e.currentTarget.classList.toggle('active');
     });
