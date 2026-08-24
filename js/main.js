@@ -39,7 +39,6 @@
     document.getElementById('hub-title').textContent = `${labels.icon} ${labels.title}`;
     document.getElementById('hub-subtitle').textContent = labels.subtitle;
     document.getElementById('prompt-style-group').style.display = mode === 'country' ? 'block' : 'none';
-    document.getElementById('direction-group').style.display = mode === 'country' ? 'block' : 'none';
     document.getElementById('taiwan-category-group').style.display = mode === 'taiwan' ? 'block' : 'none';
     document.getElementById('btn-atlas').textContent = labels.atlasBtn;
     refreshHubStats();
@@ -76,7 +75,6 @@
       isDaily,
       mode: currentMode,
       promptStyle: currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map',
-      direction: currentMode === 'country' ? getActiveChip('direction-chips') : 'forward',
       taiwanCategory: currentMode === 'taiwan' ? getActiveChip('taiwan-category-chips') : null
     };
     Storage.markRecentlyPlayed(progress, questions.map(q => q.country.code));
@@ -392,12 +390,19 @@
     return document.querySelector(`#${containerId} .chip.active`).dataset.value;
   }
 
+  // "反向" is exposed as a single chip alongside 地圖/國旗; internally it's
+  // just direction=reverse on top of the map prompt style.
+  function resolveEngineParams() {
+    if (currentMode !== 'country') return { direction: 'forward', promptStyle: 'map' };
+    const chip = getActiveChip('promptstyle-chips');
+    return chip === 'reverse' ? { direction: 'reverse', promptStyle: 'map' } : { direction: 'forward', promptStyle: chip };
+  }
+
   function buildDailyForCurrentMode() {
     if (currentMode === 'taiwan') {
       return TaiwanEngine.buildDailyQuestions(getActiveChip('taiwan-category-chips'), 10);
     }
-    const direction = currentMode === 'country' ? getActiveChip('direction-chips') : 'forward';
-    const promptStyle = currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map';
+    const { direction, promptStyle } = resolveEngineParams();
     return GameEngine.buildDailyQuestions(10, currentMode, direction, promptStyle);
   }
 
@@ -405,8 +410,7 @@
     if (currentMode === 'taiwan') {
       return TaiwanEngine.buildPracticeQuestions(getActiveChip('taiwan-category-chips'), 10, new Set(progress.recentlyPlayed));
     }
-    const direction = currentMode === 'country' ? getActiveChip('direction-chips') : 'forward';
-    const promptStyle = currentMode === 'country' ? getActiveChip('promptstyle-chips') : 'map';
+    const { direction, promptStyle } = resolveEngineParams();
     return GameEngine.buildPracticeQuestions(
       { difficulty: getActiveChip('difficulty-chips'), continent: getActiveChip('continent-chips') },
       10,
@@ -431,7 +435,6 @@
     setupChips('difficulty-chips');
     setupChips('continent-chips');
     setupChips('promptstyle-chips');
-    setupChips('direction-chips');
     setupChips('taiwan-category-chips');
 
     document.getElementById('btn-zoom-in').addEventListener('click', () => gameMap.zoomBy(1.5));
